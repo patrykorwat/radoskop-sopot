@@ -1019,7 +1019,9 @@ def build_councilors(all_votes: list[dict], sessions: list[dict], profiles: dict
                     if cat in ("za", "przeciw", "wstrzymal_sie"):
                         _check_rebellion(councilors[name], cat, club_majority, v)
 
-    total_sessions = len(sessions)
+    # Only count sessions that have vote data for frekwencja calculation
+    sessions_with_votes = set(v["session_date"] for v in all_votes if v.get("session_date"))
+    total_sessions = len(sessions_with_votes)
     total_votes = len(all_votes)
 
     result = []
