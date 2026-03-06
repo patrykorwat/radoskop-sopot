@@ -1,5 +1,5 @@
 {
-  "generated": "2026-03-06T15:45:59.900936",
+  "generated": "2026-03-06T20:14:42.820725",
   "default_kadencja": "2024-2029",
   "kadencje": [
     {
@@ -2740,7 +2740,7 @@
           "counts": {
             "za": 14,
             "przeciw": 4,
-            "wstrzymal_sie": 4,
+            "wstrzymal_sie": 1,
             "brak_glosu": 1,
             "nieobecni": 1
           },
@@ -2787,7 +2787,7 @@
           "druk": "1",
           "resolution": "przyjęta",
           "counts": {
-            "za": 19,
+            "za": 17,
             "przeciw": 0,
             "wstrzymal_sie": 1,
             "brak_glosu": 0,
@@ -2832,9 +2832,9 @@
           "druk": "2",
           "resolution": "przyjęta",
           "counts": {
-            "za": 0,
-            "przeciw": 0,
-            "wstrzymal_sie": 0,
+            "za": 16,
+            "przeciw": 1,
+            "wstrzymal_sie": 2,
             "brak_glosu": 0,
             "nieobecni": 1
           },
@@ -2879,7 +2879,7 @@
           "druk": null,
           "resolution": "przyjęta",
           "counts": {
-            "za": 17,
+            "za": 16,
             "przeciw": 0,
             "wstrzymal_sie": 3,
             "brak_glosu": 0,
@@ -2926,7 +2926,7 @@
           "resolution": "przyjęta",
           "counts": {
             "za": 19,
-            "przeciw": 0,
+            "przeciw": 1,
             "wstrzymal_sie": 0,
             "brak_glosu": 0,
             "nieobecni": 1
@@ -2972,7 +2972,7 @@
           "druk": null,
           "resolution": "przyjęta",
           "counts": {
-            "za": 19,
+            "za": 17,
             "przeciw": 0,
             "wstrzymal_sie": 0,
             "brak_glosu": 0,
@@ -3061,7 +3061,7 @@
           "druk": null,
           "resolution": "przyjęta",
           "counts": {
-            "za": 18,
+            "za": 17,
             "przeciw": 0,
             "wstrzymal_sie": 2,
             "brak_glosu": 0,
@@ -3107,7 +3107,7 @@
           "druk": null,
           "resolution": "przyjęta",
           "counts": {
-            "za": 20,
+            "za": 19,
             "przeciw": 0,
             "wstrzymal_sie": 0,
             "brak_glosu": 0,
@@ -3152,9 +3152,9 @@
           "druk": null,
           "resolution": "przyjęta",
           "counts": {
-            "za": 0,
+            "za": 13,
             "przeciw": 1,
-            "wstrzymal_sie": 0,
+            "wstrzymal_sie": 4,
             "brak_glosu": 0,
             "nieobecni": 1
           },
@@ -3198,9 +3198,9 @@
           "druk": null,
           "resolution": "odrzucona",
           "counts": {
-            "za": 0,
+            "za": 4,
             "przeciw": 13,
-            "wstrzymal_sie": 0,
+            "wstrzymal_sie": 2,
             "brak_glosu": 1,
             "nieobecni": 1
           },
@@ -3247,7 +3247,7 @@
           "druk": null,
           "resolution": "przyjęta",
           "counts": {
-            "za": 0,
+            "za": 19,
             "przeciw": 0,
             "wstrzymal_sie": 0,
             "brak_glosu": 0,
@@ -3292,7 +3292,7 @@
           "druk": null,
           "resolution": "przyjęta",
           "counts": {
-            "za": 0,
+            "za": 17,
             "przeciw": 0,
             "wstrzymal_sie": 1,
             "brak_glosu": 0,
@@ -3337,8 +3337,8 @@
           "druk": null,
           "resolution": "przyjęta",
           "counts": {
-            "za": 19,
-            "przeciw": 0,
+            "za": 18,
+            "przeciw": 1,
             "wstrzymal_sie": 0,
             "brak_glosu": 0,
             "nieobecni": 1
@@ -3476,9 +3476,9 @@
           "druk": null,
           "resolution": "przyjęta",
           "counts": {
-            "za": 17,
+            "za": 16,
             "przeciw": 0,
-            "wstrzymal_sie": 0,
+            "wstrzymal_sie": 2,
             "brak_glosu": 1,
             "nieobecni": 1
           },
@@ -3523,7 +3523,7 @@
           "druk": null,
           "resolution": "przyjęta",
           "counts": {
-            "za": 20,
+            "za": 18,
             "przeciw": 0,
             "wstrzymal_sie": 0,
             "brak_glosu": 0,
@@ -3569,7 +3569,7 @@
           "counts": {
             "za": 18,
             "przeciw": 0,
-            "wstrzymal_sie": 0,
+            "wstrzymal_sie": 2,
             "brak_glosu": 0,
             "nieobecni": 1
           },
@@ -3614,7 +3614,7 @@
           "druk": null,
           "resolution": "przyjęta",
           "counts": {
-            "za": 0,
+            "za": 20,
             "przeciw": 0,
             "wstrzymal_sie": 0,
             "brak_glosu": 0,
@@ -3660,9 +3660,9 @@
           "druk": null,
           "resolution": "przyjęta",
           "counts": {
-            "za": 18,
+            "za": 17,
             "przeciw": 0,
-            "wstrzymal_sie": 0,
+            "wstrzymal_sie": 1,
             "brak_glosu": 1,
             "nieobecni": 1
           },
@@ -3707,7 +3707,7 @@
           "druk": null,
           "resolution": "przyjęta",
           "counts": {
-            "za": 20,
+            "za": 19,
             "przeciw": 0,
             "wstrzymal_sie": 0,
             "brak_glosu": 0,
@@ -3753,8 +3753,8 @@
           "resolution": "przyjęta",
           "counts": {
             "za": 16,
-            "przeciw": 0,
-            "wstrzymal_sie": 0,
+            "przeciw": 2,
+            "wstrzymal_sie": 2,
             "brak_glosu": 0,
             "nieobecni": 1
           },
@@ -3800,8 +3800,8 @@
           "druk": null,
           "resolution": "odrzucona",
           "counts": {
-            "za": 0,
-            "przeciw": 0,
+            "za": 6,
+            "przeciw": 13,
             "wstrzymal_sie": 0,
             "brak_glosu": 0,
             "nieobecni": 0
@@ -3844,7 +3844,7 @@
           "druk": null,
           "resolution": "przyjęta",
           "counts": {
-            "za": 0,
+            "za": 20,
             "przeciw": 0,
             "wstrzymal_sie": 0,
             "brak_glosu": 0,
@@ -3983,9 +3983,9 @@
           "druk": null,
           "resolution": "przyjęta",
           "counts": {
-            "za": 18,
-            "przeciw": 0,
-            "wstrzymal_sie": 1,
+            "za": 17,
+            "przeciw": 1,
+            "wstrzymal_sie": 0,
             "brak_glosu": 0,
             "nieobecni": 1
           },
@@ -4028,7 +4028,7 @@
           "druk": null,
           "resolution": "przyjęta",
           "counts": {
-            "za": 18,
+            "za": 17,
             "przeciw": 0,
             "wstrzymal_sie": 0,
             "brak_glosu": 2,
@@ -4074,7 +4074,7 @@
           "druk": null,
           "resolution": "przyjęta",
           "counts": {
-            "za": 20,
+            "za": 19,
             "przeciw": 0,
             "wstrzymal_sie": 0,
             "brak_glosu": 0,
@@ -4119,7 +4119,7 @@
           "druk": null,
           "resolution": "przyjęta",
           "counts": {
-            "za": 20,
+            "za": 19,
             "przeciw": 0,
             "wstrzymal_sie": 0,
             "brak_glosu": 0,
@@ -4256,7 +4256,7 @@
           "druk": null,
           "resolution": "przyjęta",
           "counts": {
-            "za": 0,
+            "za": 20,
             "przeciw": 0,
             "wstrzymal_sie": 0,
             "brak_glosu": 0,
@@ -4302,9 +4302,9 @@
           "druk": null,
           "resolution": "przyjęta",
           "counts": {
-            "za": 0,
-            "przeciw": 0,
-            "wstrzymal_sie": 2,
+            "za": 17,
+            "przeciw": 1,
+            "wstrzymal_sie": 1,
             "brak_glosu": 0,
             "nieobecni": 1
           },
@@ -4349,7 +4349,7 @@
           "druk": null,
           "resolution": "przyjęta",
           "counts": {
-            "za": 0,
+            "za": 17,
             "przeciw": 0,
             "wstrzymal_sie": 0,
             "brak_glosu": 0,
@@ -4393,8 +4393,8 @@
           "resolution": "przyjęta",
           "counts": {
             "za": 17,
-            "przeciw": 0,
-            "wstrzymal_sie": 0,
+            "przeciw": 2,
+            "wstrzymal_sie": 1,
             "brak_glosu": 0,
             "nieobecni": 1
           },
@@ -4440,8 +4440,8 @@
           "druk": "2",
           "resolution": "przyjęta",
           "counts": {
-            "za": 17,
-            "przeciw": 0,
+            "za": 15,
+            "przeciw": 1,
             "wstrzymal_sie": 2,
             "brak_glosu": 0,
             "nieobecni": 1
@@ -4532,7 +4532,7 @@
           "druk": null,
           "resolution": "przyjęta",
           "counts": {
-            "za": 0,
+            "za": 18,
             "przeciw": 0,
             "wstrzymal_sie": 0,
             "brak_glosu": 0,
@@ -4576,7 +4576,7 @@
           "druk": null,
           "resolution": "przyjęta",
           "counts": {
-            "za": 20,
+            "za": 19,
             "przeciw": 0,
             "wstrzymal_sie": 0,
             "brak_glosu": 0,
@@ -4621,9 +4621,9 @@
           "druk": null,
           "resolution": "odrzucona",
           "counts": {
-            "za": 0,
-            "przeciw": 14,
-            "wstrzymal_sie": 0,
+            "za": 4,
+            "przeciw": 13,
+            "wstrzymal_sie": 2,
             "brak_glosu": 0,
             "nieobecni": 1
           },
@@ -4668,8 +4668,8 @@
           "druk": "3",
           "resolution": "przyjęta",
           "counts": {
-            "za": 0,
-            "przeciw": 0,
+            "za": 16,
+            "przeciw": 4,
             "wstrzymal_sie": 0,
             "brak_glosu": 0,
             "nieobecni": 1
@@ -4715,9 +4715,9 @@
           "druk": "4",
           "resolution": "przyjęta",
           "counts": {
-            "za": 0,
-            "przeciw": 0,
-            "wstrzymal_sie": 0,
+            "za": 13,
+            "przeciw": 5,
+            "wstrzymal_sie": 1,
             "brak_glosu": 0,
             "nieobecni": 1
           },
@@ -4762,7 +4762,7 @@
           "druk": "5",
           "resolution": "przyjęta",
           "counts": {
-            "za": 20,
+            "za": 19,
             "przeciw": 0,
             "wstrzymal_sie": 0,
             "brak_glosu": 0,
@@ -4853,9 +4853,9 @@
           "druk": "32",
           "resolution": "przyjęta",
           "counts": {
-            "za": 0,
+            "za": 17,
             "przeciw": 0,
-            "wstrzymal_sie": 2,
+            "wstrzymal_sie": 1,
             "brak_glosu": 1,
             "nieobecni": 0
           },
@@ -4899,7 +4899,7 @@
           "resolution": "przyjęta",
           "counts": {
             "za": 18,
-            "przeciw": 0,
+            "przeciw": 1,
             "wstrzymal_sie": 2,
             "brak_glosu": 0,
             "nieobecni": 0
@@ -4945,9 +4945,9 @@
           "druk": "28",
           "resolution": "przyjęta",
           "counts": {
-            "za": 18,
+            "za": 17,
             "przeciw": 0,
-            "wstrzymal_sie": 0,
+            "wstrzymal_sie": 2,
             "brak_glosu": 0,
             "nieobecni": 0
           },
@@ -4989,7 +4989,7 @@
           "druk": "29",
           "resolution": "przyjęta",
           "counts": {
-            "za": 0,
+            "za": 21,
             "przeciw": 0,
             "wstrzymal_sie": 0,
             "brak_glosu": 0,
@@ -5126,7 +5126,7 @@
           "counts": {
             "za": 18,
             "przeciw": 0,
-            "wstrzymal_sie": 0,
+            "wstrzymal_sie": 1,
             "brak_glosu": 0,
             "nieobecni": 0
           },
@@ -5168,8 +5168,8 @@
           "druk": null,
           "resolution": "odrzucona",
           "counts": {
-            "za": 0,
-            "przeciw": 0,
+            "za": 7,
+            "przeciw": 13,
             "wstrzymal_sie": 0,
             "brak_glosu": 0,
             "nieobecni": 0
@@ -5213,7 +5213,7 @@
           "druk": null,
           "resolution": "odrzucona",
           "counts": {
-            "za": 0,
+            "za": 6,
             "przeciw": 15,
             "wstrzymal_sie": 0,
             "brak_glosu": 0,
@@ -5257,9 +5257,9 @@
           "session_number": "IV",
           "topic": "przeniesienie temat6w wymienionych w_ projekcie rezolucji na posiedzenie Komisji Kultury",
           "druk": null,
-          "resolution": null,
+          "resolution": "przyjęta",
           "counts": {
-            "za": 21,
+            "za": 20,
             "przeciw": 0,
             "wstrzymal_sie": 0,
             "brak_glosu": 0,
@@ -5303,8 +5303,8 @@
           "druk": null,
           "resolution": "odrzucona",
           "counts": {
-            "za": 0,
-            "przeciw": 0,
+            "za": 6,
+            "przeciw": 14,
             "wstrzymal_sie": 0,
             "brak_glosu": 0,
             "nieobecni": 0
@@ -5349,7 +5349,7 @@
           "resolution": "przyjęta",
           "counts": {
             "za": 17,
-            "przeciw": 0,
+            "przeciw": 4,
             "wstrzymal_sie": 0,
             "brak_glosu": 0,
             "nieobecni": 0
@@ -5394,7 +5394,7 @@
           "druk": null,
           "resolution": "przyjęta",
           "counts": {
-            "za": 0,
+            "za": 21,
             "przeciw": 0,
             "wstrzymal_sie": 0,
             "brak_glosu": 0,
@@ -5437,11 +5437,11 @@
           "session_number": "IV",
           "topic": "Głosowanie 14",
           "druk": null,
-          "resolution": null,
+          "resolution": "przyjęta",
           "counts": {
-            "za": 0,
+            "za": 11,
             "przeciw": 7,
-            "wstrzymal_sie": 0,
+            "wstrzymal_sie": 1,
             "brak_glosu": 0,
             "nieobecni": 0
           },
@@ -5485,7 +5485,7 @@
           "resolution": "przyjęta",
           "counts": {
             "za": 16,
-            "przeciw": 0,
+            "przeciw": 4,
             "wstrzymal_sie": 0,
             "brak_glosu": 1,
             "nieobecni": 0
@@ -5532,7 +5532,7 @@
           "resolution": "przyjęta",
           "counts": {
             "za": 18,
-            "przeciw": 0,
+            "przeciw": 1,
             "wstrzymal_sie": 1,
             "brak_glosu": 1,
             "nieobecni": 0
@@ -5579,9 +5579,9 @@
           "druk": null,
           "resolution": "przyjęta",
           "counts": {
-            "za": 0,
-            "przeciw": 0,
-            "wstrzymal_sie": 0,
+            "za": 15,
+            "przeciw": 4,
+            "wstrzymal_sie": 1,
             "brak_glosu": 0,
             "nieobecni": 0
           },
@@ -5627,7 +5627,7 @@
           "counts": {
             "za": 17,
             "przeciw": 1,
-            "wstrzymal_sie": 0,
+            "wstrzymal_sie": 2,
             "brak_glosu": 0,
             "nieobecni": 0
           },
@@ -5671,9 +5671,9 @@
           "druk": "16",
           "resolution": "przyjęta",
           "counts": {
-            "za": 0,
+            "za": 16,
             "przeciw": 2,
-            "wstrzymal_sie": 0,
+            "wstrzymal_sie": 2,
             "brak_glosu": 0,
             "nieobecni": 0
           },
@@ -5761,9 +5761,9 @@
           "druk": "32",
           "resolution": "przyjęta",
           "counts": {
-            "za": 17,
-            "przeciw": 0,
-            "wstrzymal_sie": 3,
+            "za": 16,
+            "przeciw": 1,
+            "wstrzymal_sie": 2,
             "brak_glosu": 0,
             "nieobecni": 0
           },
@@ -5808,7 +5808,7 @@
           "counts": {
             "za": 18,
             "przeciw": 0,
-            "wstrzymal_sie": 0,
+            "wstrzymal_sie": 1,
             "brak_glosu": 1,
             "nieobecni": 1
           },
@@ -5902,7 +5902,7 @@
           "counts": {
             "za": 18,
             "przeciw": 0,
-            "wstrzymal_sie": 0,
+            "wstrzymal_sie": 1,
             "brak_glosu": 1,
             "nieobecni": 1
           },
@@ -5948,9 +5948,9 @@
           "druk": "14",
           "resolution": "przyjęta",
           "counts": {
-            "za": 0,
+            "za": 16,
             "przeciw": 0,
-            "wstrzymal_sie": 0,
+            "wstrzymal_sie": 3,
             "brak_glosu": 0,
             "nieobecni": 1
           },
@@ -5994,7 +5994,7 @@
           "druk": "12",
           "resolution": "przyjęta",
           "counts": {
-            "za": 0,
+            "za": 17,
             "przeciw": 0,
             "wstrzymal_sie": 0,
             "brak_glosu": 1,
@@ -6039,9 +6039,9 @@
           "druk": "8",
           "resolution": "przyjęta",
           "counts": {
-            "za": 19,
+            "za": 18,
             "przeciw": 0,
-            "wstrzymal_sie": 0,
+            "wstrzymal_sie": 1,
             "brak_glosu": 0,
             "nieobecni": 1
           },
@@ -6085,9 +6085,9 @@
           "druk": null,
           "resolution": "odrzucona",
           "counts": {
-            "za": 0,
-            "przeciw": 0,
-            "wstrzymal_sie": 0,
+            "za": 5,
+            "przeciw": 13,
+            "wstrzymal_sie": 3,
             "brak_glosu": 0,
             "nieobecni": 0
           },
@@ -6133,7 +6133,7 @@
           "resolution": "przyjęta",
           "counts": {
             "za": 16,
-            "przeciw": 0,
+            "przeciw": 4,
             "wstrzymal_sie": 1,
             "brak_glosu": 0,
             "nieobecni": 0
@@ -6181,7 +6181,7 @@
           "counts": {
             "za": 15,
             "przeciw": 0,
-            "wstrzymal_sie": 0,
+            "wstrzymal_sie": 4,
             "brak_glosu": 0,
             "nieobecni": 0
           },
@@ -6225,7 +6225,7 @@
           "counts": {
             "za": 14,
             "przeciw": 0,
-            "wstrzymal_sie": 0,
+            "wstrzymal_sie": 4,
             "brak_glosu": 1,
             "nieobecni": 0
           },
@@ -6268,7 +6268,7 @@
           "druk": "17",
           "resolution": "przyjęta",
           "counts": {
-            "za": 19,
+            "za": 18,
             "przeciw": 0,
             "wstrzymal_sie": 0,
             "brak_glosu": 2,
@@ -6313,7 +6313,7 @@
           "druk": "10",
           "resolution": "przyjęta",
           "counts": {
-            "za": 0,
+            "za": 19,
             "przeciw": 0,
             "wstrzymal_sie": 0,
             "brak_glosu": 2,
@@ -6359,7 +6359,7 @@
           "druk": "11",
           "resolution": "przyjęta",
           "counts": {
-            "za": 0,
+            "za": 19,
             "przeciw": 0,
             "wstrzymal_sie": 0,
             "brak_glosu": 1,
@@ -6404,9 +6404,9 @@
           "druk": "33",
           "resolution": "przyjęta",
           "counts": {
-            "za": 0,
+            "za": 15,
             "przeciw": 0,
-            "wstrzymal_sie": 0,
+            "wstrzymal_sie": 4,
             "brak_glosu": 1,
             "nieobecni": 0
           },
@@ -6498,7 +6498,7 @@
           "counts": {
             "za": 15,
             "przeciw": 0,
-            "wstrzymal_sie": 0,
+            "wstrzymal_sie": 2,
             "brak_glosu": 4,
             "nieobecni": 0
           },
@@ -6589,7 +6589,7 @@
           "druk": "30",
           "resolution": "przyjęta",
           "counts": {
-            "za": 20,
+            "za": 19,
             "przeciw": 0,
             "wstrzymal_sie": 0,
             "brak_glosu": 1,
@@ -6634,9 +6634,9 @@
           "druk": "31",
           "resolution": "przyjęta",
           "counts": {
-            "za": 0,
+            "za": 19,
             "przeciw": 0,
-            "wstrzymal_sie": 0,
+            "wstrzymal_sie": 1,
             "brak_glosu": 1,
             "nieobecni": 0
           },
@@ -7619,9 +7619,9 @@
           "druk": "39",
           "resolution": "przyjęta",
           "counts": {
-            "za": 0,
-            "przeciw": 16,
-            "wstrzymal_sie": 0,
+            "za": 16,
+            "przeciw": 0,
+            "wstrzymal_sie": 3,
             "brak_glosu": 1,
             "nieobecni": 1
           },
@@ -8184,8 +8184,8 @@
           "druk": "49",
           "resolution": "odrzucona",
           "counts": {
-            "za": 0,
-            "przeciw": 7,
+            "za": 7,
+            "przeciw": 13,
             "wstrzymal_sie": 0,
             "brak_glosu": 0,
             "nieobecni": 1
@@ -8231,8 +8231,8 @@
           "druk": null,
           "resolution": "odrzucona",
           "counts": {
-            "za": 0,
-            "przeciw": 7,
+            "za": 7,
+            "przeciw": 13,
             "wstrzymal_sie": 0,
             "brak_glosu": 0,
             "nieobecni": 1
@@ -9399,9 +9399,9 @@
           "session_number": "VII",
           "topic": "dodanie do porządku obrad projektu uchwały zmieniającej Uchwałę Nr LII/897/2024 z dnia 27 lutego 2024 r. w sprawie ustalenia zryczałtowanych diet dla Radnych Miasta Sopotu (Druk Nr 71) ZA; 20, PRZECIW: 0, WSTRZYMUJĘ SIĘ: 0, BRAK GŁOSU: 1, NIEOBECNI; 0",
           "druk": "71",
-          "resolution": null,
+          "resolution": "przyjęta",
           "counts": {
-            "za": 0,
+            "za": 20,
             "przeciw": 0,
             "wstrzymal_sie": 0,
             "brak_glosu": 1,
@@ -9493,7 +9493,7 @@
           "druk": null,
           "resolution": "przyjęta",
           "counts": {
-            "za": 21,
+            "za": 19,
             "przeciw": 0,
             "wstrzymal_sie": 0,
             "brak_glosu": 0,
@@ -9538,7 +9538,7 @@
           "counts": {
             "za": 16,
             "przeciw": 0,
-            "wstrzymal_sie": 0,
+            "wstrzymal_sie": 4,
             "brak_glosu": 1,
             "nieobecni": 0
           },
@@ -9586,7 +9586,7 @@
             "za": 16,
             "przeciw": 4,
             "wstrzymal_sie": 0,
-            "brak_glosu": 1,
+            "brak_glosu": 0,
             "nieobecni": 0
           },
           "named_votes": {
@@ -9675,7 +9675,7 @@
           "counts": {
             "za": 20,
             "przeciw": 0,
-            "wstrzymal_sie": 0,
+            "wstrzymal_sie": 1,
             "brak_glosu": 0,
             "nieobecni": 0
           },
@@ -9717,9 +9717,9 @@
           "session_number": "VII",
           "topic": "ustalenia wysokości rocznych stawek podatku od nieruchomości oraz zwolnień w tym podatku obowiązujących na obszarze miasta Sopotu w 2025 roku (Druk Nr 66 z autopoprawką) ZA; 16, PRZECIW: 4, WSTRZYMUJĘ SIĘ; 0, BRAK GŁOSU; 1, NIEOBECNI: 0",
           "druk": "66",
-          "resolution": "odrzucona",
+          "resolution": "przyjęta",
           "counts": {
-            "za": 0,
+            "za": 14,
             "przeciw": 4,
             "wstrzymal_sie": 0,
             "brak_glosu": 0,
@@ -9760,11 +9760,11 @@
           "session_number": "VII",
           "topic": "ustalenia wysokości rocznych stawek podatku od środków transportowych obowiązujących na obszarze miasta Sopotu w 2025 roku (Druk Nr 67) ZA; 17, PRZECIW; 2, WSTRZYMUJĘ SIĘ; 2, BRAK GŁOSU: 0, NIEOBECNI: 0",
           "druk": "67",
-          "resolution": null,
+          "resolution": "przyjęta",
           "counts": {
-            "za": 0,
-            "przeciw": 0,
-            "wstrzymal_sie": 0,
+            "za": 15,
+            "przeciw": 2,
+            "wstrzymal_sie": 2,
             "brak_glosu": 0,
             "nieobecni": 0
           },
@@ -9807,8 +9807,8 @@
           "druk": "68",
           "resolution": "przyjęta",
           "counts": {
-            "za": 20,
-            "przeciw": 0,
+            "za": 17,
+            "przeciw": 1,
             "wstrzymal_sie": 0,
             "brak_glosu": 0,
             "nieobecni": 0
@@ -9894,10 +9894,10 @@
           "session_number": "VII",
           "topic": "uchylenia Uchwały Nr XLII/728/2023 Rady Miasta Sopotu z dnia 6 kwietnia 2023 r. (Druk Nr 70)",
           "druk": "70",
-          "resolution": "przyjęta",
+          "resolution": "odrzucona",
           "counts": {
             "za": 6,
-            "przeciw": 0,
+            "przeciw": 15,
             "wstrzymal_sie": 0,
             "brak_glosu": 0,
             "nieobecni": 0
@@ -9943,8 +9943,8 @@
           "resolution": "odrzucona",
           "counts": {
             "za": 5,
-            "przeciw": 14,
-            "wstrzymal_sie": 0,
+            "przeciw": 12,
+            "wstrzymal_sie": 1,
             "brak_glosu": 1,
             "nieobecni": 0
           },
@@ -10034,7 +10034,7 @@
           "druk": "71",
           "resolution": "przyjęta",
           "counts": {
-            "za": 19,
+            "za": 17,
             "przeciw": 0,
             "wstrzymal_sie": 1,
             "brak_glosu": 1,
@@ -10129,7 +10129,7 @@
             "przeciw": 0,
             "wstrzymal_sie": 0,
             "brak_glosu": 0,
-            "nieobecni": 1
+            "nieobecni": 0
           },
           "named_votes": {
             "za": [
@@ -10219,7 +10219,7 @@
             "przeciw": 0,
             "wstrzymal_sie": 1,
             "brak_glosu": 0,
-            "nieobecni": 0
+            "nieobecni": 1
           },
           "named_votes": {
             "za": [
@@ -10266,7 +10266,7 @@
             "przeciw": 0,
             "wstrzymal_sie": 0,
             "brak_glosu": 0,
-            "nieobecni": 0
+            "nieobecni": 1
           },
           "named_votes": {
             "za": [
@@ -10306,9 +10306,9 @@
           "session_number": "VIII",
           "topic": "dodanie do porządku obrad projektu uchwały w sprawie: rozpatrzenia skargi na działalność Prezydenta Miasta Sopotu (Druk Nr 88) ZA; 20, PRZECIW' 0, WSTRZYMUJĘ SIĘ: 0, BRAK GŁOSU' 0, NIEOBECNI. 1",
           "druk": "88",
-          "resolution": null,
+          "resolution": "przyjęta",
           "counts": {
-            "za": 0,
+            "za": 20,
             "przeciw": 0,
             "wstrzymal_sie": 0,
             "brak_glosu": 0,
@@ -10358,7 +10358,7 @@
             "przeciw": 2,
             "wstrzymal_sie": 2,
             "brak_glosu": 0,
-            "nieobecni": 1
+            "nieobecni": 16
           },
           "named_votes": {
             "za": [
@@ -10463,12 +10463,12 @@
           "session_number": "VIII",
           "topic": "wniosek formalny o obowiązku zabierania głosu przez co najmniej 1 minutę ZA; 3, PRZECIW' 15, WSTRZYMUJĘ SIĘ; 1, BRAK GŁOSU; 1, NIEOBECNI; 1",
           "druk": null,
-          "resolution": "odrzucona",
+          "resolution": "przyjęta",
           "counts": {
-            "za": 0,
-            "przeciw": 15,
-            "wstrzymal_sie": 0,
-            "brak_glosu": 0,
+            "za": 16,
+            "przeciw": 0,
+            "wstrzymal_sie": 1,
+            "brak_glosu": 1,
             "nieobecni": 0
           },
           "named_votes": {
@@ -10507,12 +10507,12 @@
           "session_number": "VIII",
           "topic": "uchylenia uchwały Nr XXXV/586/2022 z dnia 19 maja 2022 roku w sprawie: wyrażenia zgody na sprzedaż w drodze przetargu nieograniczonego nieruchomości gruntowej zabudowanej, położonej w Sopocie przy ulicy Fryderyka Chopina 8, stanowiącej własność Gminy Miasta Sopotu (Druk Nr 78)",
           "druk": "78",
-          "resolution": "przyjęta",
+          "resolution": "odrzucona",
           "counts": {
             "za": 4,
-            "przeciw": 0,
-            "wstrzymal_sie": 0,
-            "brak_glosu": 0,
+            "przeciw": 13,
+            "wstrzymal_sie": 2,
+            "brak_glosu": 1,
             "nieobecni": 1
           },
           "named_votes": {
@@ -10608,7 +10608,7 @@
           "counts": {
             "za": 2,
             "przeciw": 15,
-            "wstrzymal_sie": 0,
+            "wstrzymal_sie": 1,
             "brak_glosu": 2,
             "nieobecni": 1
           },
@@ -10653,13 +10653,13 @@
           "session_number": "VIII",
           "topic": "wyrażenia zgody na sprzedaż nieruchomości położonej w Sopocie przy ul. Fryderyka Chopina 8 (Druk Nr 83) ZA; 13, PRZECIW: 5, WSTRZYMUJĘ SIĘ; 1, BRAK GŁOSU. 1, NIEOBECNI; 1",
           "druk": "83",
-          "resolution": "odrzucona",
+          "resolution": "przyjęta",
           "counts": {
-            "za": 0,
+            "za": 13,
             "przeciw": 5,
-            "wstrzymal_sie": 0,
+            "wstrzymal_sie": 1,
             "brak_glosu": 1,
-            "nieobecni": 0
+            "nieobecni": 1
           },
           "named_votes": {
             "za": [
@@ -10702,12 +10702,12 @@
           "session_number": "VIII",
           "topic": "poprawka 1 Klubu Radnych PiS do projektu uchwały Druk Nr 84",
           "druk": "84",
-          "resolution": "przyjęta",
+          "resolution": "odrzucona",
           "counts": {
             "za": 3,
-            "przeciw": 0,
-            "wstrzymal_sie": 0,
-            "brak_glosu": 0,
+            "przeciw": 13,
+            "wstrzymal_sie": 2,
+            "brak_glosu": 2,
             "nieobecni": 1
           },
           "named_votes": {
@@ -10751,10 +10751,10 @@
           "session_number": "VIII",
           "topic": "Głosowanie 16",
           "druk": "84",
-          "resolution": "przyjęta",
+          "resolution": "odrzucona",
           "counts": {
             "za": 4,
-            "przeciw": 0,
+            "przeciw": 13,
             "wstrzymal_sie": 1,
             "brak_glosu": 2,
             "nieobecni": 1
@@ -10904,7 +10904,7 @@
             "przeciw": 5,
             "wstrzymal_sie": 0,
             "brak_glosu": 2,
-            "nieobecni": 0
+            "nieobecni": 1
           },
           "named_votes": {
             "za": [
@@ -10952,7 +10952,7 @@
             "przeciw": 13,
             "wstrzymal_sie": 1,
             "brak_glosu": 1,
-            "nieobecni": 0
+            "nieobecni": 1
           },
           "named_votes": {
             "za": [
@@ -10995,9 +10995,9 @@
           "session_number": "VIII",
           "topic": "zasad i trybu przeprowadzania konsultacji społecznych z mieszkańcami Sopotu (Druk Nr 84) ZA’ 16, PRZECIW: 0, WSTRZYMUJĘ SIĘ 3, BRAK GŁOSU: 1, NIEOBECNI; 1",
           "druk": "84",
-          "resolution": "odrzucona",
+          "resolution": "przyjęta",
           "counts": {
-            "za": 0,
+            "za": 16,
             "przeciw": 0,
             "wstrzymal_sie": 3,
             "brak_glosu": 1,
@@ -11089,9 +11089,9 @@
           "session_number": "VIII",
           "topic": "przyjęcia planu potrzeb w zakresie wykonywania prac społecznie użytecznych na terenie Gminy Miasta Sopotu w roku 2025 (II wersja Druku Nr 82) ZA; 17, PRZECIW; 0, WSTRZYMUJĘ SIĘ: 1, BRAK GŁOSU: 2, NIEOBECNI: 1",
           "druk": null,
-          "resolution": "odrzucona",
+          "resolution": "przyjęta",
           "counts": {
-            "za": 0,
+            "za": 17,
             "przeciw": 0,
             "wstrzymal_sie": 1,
             "brak_glosu": 2,
@@ -11239,7 +11239,7 @@
             "przeciw": 3,
             "wstrzymal_sie": 0,
             "brak_glosu": 1,
-            "nieobecni": 1
+            "nieobecni": 0
           },
           "named_votes": {
             "za": [
@@ -11284,7 +11284,7 @@
             "za": 17,
             "przeciw": 0,
             "wstrzymal_sie": 0,
-            "brak_glosu": 0,
+            "brak_glosu": 3,
             "nieobecni": 1
           },
           "named_votes": {
@@ -11381,7 +11381,7 @@
             "przeciw": 14,
             "wstrzymal_sie": 1,
             "brak_glosu": 2,
-            "nieobecni": 1
+            "nieobecni": 0
           },
           "named_votes": {
             "za": [
@@ -11473,7 +11473,7 @@
           "counts": {
             "za": 17,
             "przeciw": 0,
-            "wstrzymal_sie": 0,
+            "wstrzymal_sie": 1,
             "brak_glosu": 2,
             "nieobecni": 1
           },
@@ -11523,7 +11523,7 @@
             "przeciw": 16,
             "wstrzymal_sie": 0,
             "brak_glosu": 1,
-            "nieobecni": 0
+            "nieobecni": 1
           },
           "named_votes": {
             "za": [
@@ -12822,7 +12822,7 @@
           "druk": null,
           "resolution": "odrzucona",
           "counts": {
-            "za": 0,
+            "za": 6,
             "przeciw": 15,
             "wstrzymal_sie": 0,
             "brak_glosu": 0,
@@ -14449,7 +14449,7 @@
           "druk": null,
           "resolution": "przyjęta",
           "counts": {
-            "za": 20,
+            "za": 14,
             "przeciw": 0,
             "wstrzymal_sie": 0,
             "brak_glosu": 0,
@@ -14489,7 +14489,7 @@
           "druk": null,
           "resolution": "przyjęta",
           "counts": {
-            "za": 21,
+            "za": 15,
             "przeciw": 0,
             "wstrzymal_sie": 0,
             "brak_glosu": 0,
@@ -14717,7 +14717,7 @@
           "resolution": "odrzucona",
           "counts": {
             "za": 3,
-            "przeciw": 16,
+            "przeciw": 11,
             "wstrzymal_sie": 2,
             "brak_glosu": 0,
             "nieobecni": 0
@@ -14760,7 +14760,7 @@
           "counts": {
             "za": 14,
             "przeciw": 4,
-            "wstrzymal_sie": 3,
+            "wstrzymal_sie": 2,
             "brak_glosu": 0,
             "nieobecni": 0
           },
@@ -14804,7 +14804,7 @@
           "druk": "134",
           "resolution": "przyjęta",
           "counts": {
-            "za": 15,
+            "za": 14,
             "przeciw": 0,
             "wstrzymal_sie": 4,
             "brak_glosu": 2,
@@ -14895,7 +14895,7 @@
           "druk": "126",
           "resolution": "przyjęta",
           "counts": {
-            "za": 21,
+            "za": 19,
             "przeciw": 0,
             "wstrzymal_sie": 0,
             "brak_glosu": 0,
@@ -14936,9 +14936,9 @@
           "session_number": "XII",
           "topic": "udzielenia w 2025 r. dotacji na prace konserwatorskie, restauratorskie lub roboty budowlane przy zabytkach wpisanych do rejestru zabytków lub znajdujących się w gminnej ewidencji zabytków, położonych na terenie miasta Sopotu (Druk Nr 129)",
           "druk": "129",
-          "resolution": "odrzucona",
+          "resolution": "przyjęta",
           "counts": {
-            "za": 1,
+            "za": 19,
             "przeciw": 0,
             "wstrzymal_sie": 1,
             "brak_glosu": 1,
@@ -15031,8 +15031,8 @@
           "druk": "127",
           "resolution": "przyjęta",
           "counts": {
-            "za": 15,
-            "przeciw": 4,
+            "za": 17,
+            "przeciw": 0,
             "wstrzymal_sie": 0,
             "brak_glosu": 2,
             "nieobecni": 0
@@ -15121,8 +15121,8 @@
           "druk": null,
           "resolution": "przyjęta",
           "counts": {
-            "za": 14,
-            "przeciw": 1,
+            "za": 13,
+            "przeciw": 0,
             "wstrzymal_sie": 4,
             "brak_glosu": 2,
             "nieobecni": 0
@@ -15166,7 +15166,7 @@
           "druk": "131",
           "resolution": "przyjęta",
           "counts": {
-            "za": 15,
+            "za": 14,
             "przeciw": 0,
             "wstrzymal_sie": 5,
             "brak_glosu": 1,
@@ -15212,7 +15212,7 @@
           "druk": null,
           "resolution": "przyjęta",
           "counts": {
-            "za": 15,
+            "za": 12,
             "przeciw": 3,
             "wstrzymal_sie": 2,
             "brak_glosu": 1,
@@ -15257,8 +15257,8 @@
           "druk": null,
           "resolution": "przyjęta",
           "counts": {
-            "za": 14,
-            "przeciw": 1,
+            "za": 13,
+            "przeciw": 0,
             "wstrzymal_sie": 3,
             "brak_glosu": 3,
             "nieobecni": 0
@@ -15302,8 +15302,8 @@
           "druk": null,
           "resolution": "przyjęta",
           "counts": {
-            "za": 14,
-            "przeciw": 1,
+            "za": 13,
+            "przeciw": 0,
             "wstrzymal_sie": 1,
             "brak_glosu": 5,
             "nieobecni": 0
@@ -17299,7 +17299,7 @@
           "resolution": "przyjęta",
           "counts": {
             "za": 15,
-            "przeciw": 4,
+            "przeciw": 3,
             "wstrzymal_sie": 1,
             "brak_glosu": 1,
             "nieobecni": 0
@@ -17349,7 +17349,7 @@
             "przeciw": 2,
             "wstrzymal_sie": 0,
             "brak_glosu": 0,
-            "nieobecni": 1
+            "nieobecni": 0
           },
           "named_votes": {
             "za": [
@@ -17392,9 +17392,9 @@
           "counts": {
             "za": 19,
             "przeciw": 0,
-            "wstrzymal_sie": 1,
+            "wstrzymal_sie": 0,
             "brak_glosu": 0,
-            "nieobecni": 1
+            "nieobecni": 0
           },
           "named_votes": {
             "za": [
@@ -17437,7 +17437,7 @@
             "przeciw": 0,
             "wstrzymal_sie": 1,
             "brak_glosu": 0,
-            "nieobecni": 1
+            "nieobecni": 0
           },
           "named_votes": {
             "za": [
@@ -17530,7 +17530,7 @@
             "przeciw": 0,
             "wstrzymal_sie": 1,
             "brak_glosu": 4,
-            "nieobecni": 1
+            "nieobecni": 0
           },
           "named_votes": {
             "za": [
@@ -17576,7 +17576,7 @@
             "przeciw": 4,
             "wstrzymal_sie": 1,
             "brak_glosu": 0,
-            "nieobecni": 1
+            "nieobecni": 0
           },
           "named_votes": {
             "za": [
@@ -17622,7 +17622,7 @@
             "przeciw": 4,
             "wstrzymal_sie": 0,
             "brak_glosu": 0,
-            "nieobecni": 1
+            "nieobecni": 0
           },
           "named_votes": {
             "za": [
@@ -17667,7 +17667,7 @@
             "przeciw": 4,
             "wstrzymal_sie": 0,
             "brak_glosu": 0,
-            "nieobecni": 1
+            "nieobecni": 0
           },
           "named_votes": {
             "za": [
@@ -17708,11 +17708,11 @@
           "druk": "175",
           "resolution": "przyjęta",
           "counts": {
-            "za": 15,
+            "za": 14,
             "przeciw": 4,
             "wstrzymal_sie": 1,
             "brak_glosu": 0,
-            "nieobecni": 1
+            "nieobecni": 0
           },
           "named_votes": {
             "za": [
@@ -17757,7 +17757,7 @@
             "przeciw": 0,
             "wstrzymal_sie": 3,
             "brak_glosu": 4,
-            "nieobecni": 1
+            "nieobecni": 0
           },
           "named_votes": {
             "za": [
@@ -17801,9 +17801,9 @@
           "counts": {
             "za": 13,
             "przeciw": 0,
-            "wstrzymal_sie": 3,
+            "wstrzymal_sie": 2,
             "brak_glosu": 4,
-            "nieobecni": 1
+            "nieobecni": 0
           },
           "named_votes": {
             "za": [
@@ -17848,7 +17848,7 @@
             "przeciw": 1,
             "wstrzymal_sie": 0,
             "brak_glosu": 2,
-            "nieobecni": 1
+            "nieobecni": 0
           },
           "named_votes": {
             "za": [
@@ -17894,7 +17894,7 @@
             "przeciw": 0,
             "wstrzymal_sie": 1,
             "brak_glosu": 2,
-            "nieobecni": 1
+            "nieobecni": 0
           },
           "named_votes": {
             "za": [
@@ -17940,7 +17940,7 @@
             "przeciw": 0,
             "wstrzymal_sie": 1,
             "brak_glosu": 1,
-            "nieobecni": 1
+            "nieobecni": 0
           },
           "named_votes": {
             "za": [
@@ -17986,7 +17986,7 @@
             "przeciw": 0,
             "wstrzymal_sie": 0,
             "brak_glosu": 1,
-            "nieobecni": 1
+            "nieobecni": 0
           },
           "named_votes": {
             "za": [
@@ -18031,7 +18031,7 @@
             "przeciw": 0,
             "wstrzymal_sie": 0,
             "brak_glosu": 1,
-            "nieobecni": 1
+            "nieobecni": 0
           },
           "named_votes": {
             "za": [
@@ -18076,7 +18076,7 @@
             "przeciw": 1,
             "wstrzymal_sie": 2,
             "brak_glosu": 1,
-            "nieobecni": 1
+            "nieobecni": 0
           },
           "named_votes": {
             "za": [
@@ -18123,7 +18123,7 @@
             "przeciw": 0,
             "wstrzymal_sie": 1,
             "brak_glosu": 2,
-            "nieobecni": 1
+            "nieobecni": 0
           },
           "named_votes": {
             "za": [
@@ -18169,7 +18169,7 @@
             "przeciw": 3,
             "wstrzymal_sie": 2,
             "brak_glosu": 0,
-            "nieobecni": 1
+            "nieobecni": 0
           },
           "named_votes": {
             "za": [
@@ -18211,11 +18211,11 @@
           "druk": "180",
           "resolution": "przyjęta",
           "counts": {
-            "za": 15,
+            "za": 14,
             "przeciw": 3,
             "wstrzymal_sie": 1,
             "brak_glosu": 1,
-            "nieobecni": 1
+            "nieobecni": 0
           },
           "named_votes": {
             "za": [
@@ -18261,7 +18261,7 @@
             "przeciw": 0,
             "wstrzymal_sie": 0,
             "brak_glosu": 0,
-            "nieobecni": 1
+            "nieobecni": 0
           },
           "named_votes": {
             "za": [
@@ -18301,11 +18301,11 @@
           "druk": "168",
           "resolution": "odrzucona",
           "counts": {
-            "za": 4,
+            "za": 3,
             "przeciw": 15,
             "wstrzymal_sie": 1,
             "brak_glosu": 0,
-            "nieobecni": 1
+            "nieobecni": 0
           },
           "named_votes": {
             "za": [
@@ -18350,7 +18350,7 @@
             "przeciw": 0,
             "wstrzymal_sie": 0,
             "brak_glosu": 1,
-            "nieobecni": 1
+            "nieobecni": 0
           },
           "named_votes": {
             "za": [
@@ -18391,11 +18391,11 @@
           "druk": "161",
           "resolution": "przyjęta",
           "counts": {
-            "za": 16,
+            "za": 15,
             "przeciw": 1,
             "wstrzymal_sie": 2,
             "brak_glosu": 1,
-            "nieobecni": 1
+            "nieobecni": 0
           },
           "named_votes": {
             "za": [
@@ -18441,7 +18441,7 @@
             "przeciw": 0,
             "wstrzymal_sie": 0,
             "brak_glosu": 2,
-            "nieobecni": 1
+            "nieobecni": 0
           },
           "named_votes": {
             "za": [
@@ -18484,9 +18484,9 @@
           "counts": {
             "za": 16,
             "przeciw": 0,
-            "wstrzymal_sie": 4,
+            "wstrzymal_sie": 3,
             "brak_glosu": 0,
-            "nieobecni": 1
+            "nieobecni": 0
           },
           "named_votes": {
             "za": [
@@ -18530,7 +18530,7 @@
             "przeciw": 1,
             "wstrzymal_sie": 1,
             "brak_glosu": 0,
-            "nieobecni": 1
+            "nieobecni": 0
           },
           "named_votes": {
             "za": [
@@ -18576,7 +18576,7 @@
             "przeciw": 0,
             "wstrzymal_sie": 0,
             "brak_glosu": 0,
-            "nieobecni": 1
+            "nieobecni": 0
           },
           "named_votes": {
             "za": [
@@ -18620,7 +18620,7 @@
             "przeciw": 0,
             "wstrzymal_sie": 1,
             "brak_glosu": 0,
-            "nieobecni": 1
+            "nieobecni": 0
           },
           "named_votes": {
             "za": [
@@ -18665,7 +18665,7 @@
             "przeciw": 1,
             "wstrzymal_sie": 4,
             "brak_glosu": 0,
-            "nieobecni": 1
+            "nieobecni": 0
           },
           "named_votes": {
             "za": [
@@ -18711,7 +18711,7 @@
             "przeciw": 0,
             "wstrzymal_sie": 4,
             "brak_glosu": 1,
-            "nieobecni": 1
+            "nieobecni": 0
           },
           "named_votes": {
             "za": [
@@ -18757,7 +18757,7 @@
             "przeciw": 0,
             "wstrzymal_sie": 4,
             "brak_glosu": 0,
-            "nieobecni": 1
+            "nieobecni": 0
           },
           "named_votes": {
             "za": [
@@ -18802,7 +18802,7 @@
             "przeciw": 0,
             "wstrzymal_sie": 4,
             "brak_glosu": 0,
-            "nieobecni": 1
+            "nieobecni": 0
           },
           "named_votes": {
             "za": [
@@ -18847,7 +18847,7 @@
             "przeciw": 0,
             "wstrzymal_sie": 2,
             "brak_glosu": 1,
-            "nieobecni": 1
+            "nieobecni": 0
           },
           "named_votes": {
             "za": [
@@ -18889,11 +18889,11 @@
           "druk": "165",
           "resolution": "przyjęta",
           "counts": {
-            "za": 17,
+            "za": 16,
             "przeciw": 0,
             "wstrzymal_sie": 1,
             "brak_glosu": 2,
-            "nieobecni": 1
+            "nieobecni": 0
           },
           "named_votes": {
             "za": [
@@ -18938,7 +18938,7 @@
             "przeciw": 0,
             "wstrzymal_sie": 2,
             "brak_glosu": 1,
-            "nieobecni": 1
+            "nieobecni": 0
           },
           "named_votes": {
             "za": [
@@ -18980,11 +18980,11 @@
           "druk": "165",
           "resolution": "przyjęta",
           "counts": {
-            "za": 14,
+            "za": 13,
             "przeciw": 3,
             "wstrzymal_sie": 2,
             "brak_glosu": 1,
-            "nieobecni": 1
+            "nieobecni": 0
           },
           "named_votes": {
             "za": [
@@ -19030,7 +19030,7 @@
             "przeciw": 4,
             "wstrzymal_sie": 3,
             "brak_glosu": 1,
-            "nieobecni": 1
+            "nieobecni": 0
           },
           "named_votes": {
             "za": [
@@ -19073,11 +19073,11 @@
           "druk": "165",
           "resolution": "przyjęta",
           "counts": {
-            "za": 12,
+            "za": 11,
             "przeciw": 1,
             "wstrzymal_sie": 6,
             "brak_glosu": 1,
-            "nieobecni": 1
+            "nieobecni": 0
           },
           "named_votes": {
             "za": [
@@ -19123,7 +19123,7 @@
             "przeciw": 2,
             "wstrzymal_sie": 3,
             "brak_glosu": 1,
-            "nieobecni": 1
+            "nieobecni": 0
           },
           "named_votes": {
             "za": [
@@ -19166,11 +19166,11 @@
           "druk": "165",
           "resolution": "przyjęta",
           "counts": {
-            "za": 17,
+            "za": 16,
             "przeciw": 0,
             "wstrzymal_sie": 2,
             "brak_glosu": 1,
-            "nieobecni": 1
+            "nieobecni": 0
           },
           "named_votes": {
             "za": [
@@ -19215,7 +19215,7 @@
             "przeciw": 3,
             "wstrzymal_sie": 2,
             "brak_glosu": 1,
-            "nieobecni": 1
+            "nieobecni": 0
           },
           "named_votes": {
             "za": [
@@ -19258,11 +19258,11 @@
           "druk": "165",
           "resolution": "przyjęta",
           "counts": {
-            "za": 15,
+            "za": 14,
             "przeciw": 1,
             "wstrzymal_sie": 2,
             "brak_glosu": 2,
-            "nieobecni": 1
+            "nieobecni": 0
           },
           "named_votes": {
             "za": [
@@ -19308,7 +19308,7 @@
             "przeciw": 0,
             "wstrzymal_sie": 4,
             "brak_glosu": 1,
-            "nieobecni": 1
+            "nieobecni": 0
           },
           "named_votes": {
             "za": [
@@ -19350,11 +19350,11 @@
           "druk": "165",
           "resolution": "przyjęta",
           "counts": {
-            "za": 15,
+            "za": 14,
             "przeciw": 1,
             "wstrzymal_sie": 4,
             "brak_glosu": 0,
-            "nieobecni": 1
+            "nieobecni": 0
           },
           "named_votes": {
             "za": [
@@ -19399,7 +19399,7 @@
             "przeciw": 2,
             "wstrzymal_sie": 3,
             "brak_glosu": 0,
-            "nieobecni": 1
+            "nieobecni": 0
           },
           "named_votes": {
             "za": [
@@ -19441,11 +19441,11 @@
           "druk": "165",
           "resolution": "przyjęta",
           "counts": {
-            "za": 13,
+            "za": 12,
             "przeciw": 1,
             "wstrzymal_sie": 5,
             "brak_glosu": 1,
-            "nieobecni": 1
+            "nieobecni": 0
           },
           "named_votes": {
             "za": [
@@ -19491,7 +19491,7 @@
             "przeciw": 0,
             "wstrzymal_sie": 4,
             "brak_glosu": 0,
-            "nieobecni": 1
+            "nieobecni": 0
           },
           "named_votes": {
             "za": [
@@ -19532,11 +19532,11 @@
           "druk": "165",
           "resolution": "przyjęta",
           "counts": {
-            "za": 15,
+            "za": 14,
             "przeciw": 1,
             "wstrzymal_sie": 2,
             "brak_glosu": 2,
-            "nieobecni": 1
+            "nieobecni": 0
           },
           "named_votes": {
             "za": [
@@ -19582,7 +19582,7 @@
             "przeciw": 2,
             "wstrzymal_sie": 5,
             "brak_glosu": 0,
-            "nieobecni": 1
+            "nieobecni": 0
           },
           "named_votes": {
             "za": [
@@ -19626,9 +19626,9 @@
           "counts": {
             "za": 17,
             "przeciw": 1,
-            "wstrzymal_sie": 2,
+            "wstrzymal_sie": 1,
             "brak_glosu": 0,
-            "nieobecni": 1
+            "nieobecni": 0
           },
           "named_votes": {
             "za": [
@@ -19673,7 +19673,7 @@
             "przeciw": 2,
             "wstrzymal_sie": 4,
             "brak_glosu": 0,
-            "nieobecni": 1
+            "nieobecni": 0
           },
           "named_votes": {
             "za": [
@@ -19719,7 +19719,7 @@
             "przeciw": 1,
             "wstrzymal_sie": 1,
             "brak_glosu": 0,
-            "nieobecni": 1
+            "nieobecni": 0
           },
           "named_votes": {
             "za": [
@@ -19765,7 +19765,7 @@
             "przeciw": 4,
             "wstrzymal_sie": 1,
             "brak_glosu": 0,
-            "nieobecni": 1
+            "nieobecni": 0
           },
           "named_votes": {
             "za": [
@@ -19811,7 +19811,7 @@
             "przeciw": 8,
             "wstrzymal_sie": 1,
             "brak_glosu": 2,
-            "nieobecni": 1
+            "nieobecni": 0
           },
           "named_votes": {
             "za": [
@@ -19858,7 +19858,7 @@
             "przeciw": 14,
             "wstrzymal_sie": 1,
             "brak_glosu": 1,
-            "nieobecni": 1
+            "nieobecni": 0
           },
           "named_votes": {
             "za": [
@@ -19905,7 +19905,7 @@
             "przeciw": 3,
             "wstrzymal_sie": 2,
             "brak_glosu": 1,
-            "nieobecni": 1
+            "nieobecni": 0
           },
           "named_votes": {
             "za": [
@@ -19952,7 +19952,7 @@
             "przeciw": 6,
             "wstrzymal_sie": 0,
             "brak_glosu": 1,
-            "nieobecni": 1
+            "nieobecni": 0
           },
           "named_votes": {
             "za": [
@@ -19998,7 +19998,7 @@
             "przeciw": 6,
             "wstrzymal_sie": 0,
             "brak_glosu": 0,
-            "nieobecni": 1
+            "nieobecni": 0
           },
           "named_votes": {
             "za": [
@@ -20040,10 +20040,10 @@
           "resolution": "przyjęta",
           "counts": {
             "za": 19,
-            "przeciw": 1,
+            "przeciw": 0,
             "wstrzymal_sie": 0,
             "brak_glosu": 0,
-            "nieobecni": 1
+            "nieobecni": 0
           },
           "named_votes": {
             "za": [
@@ -20086,7 +20086,7 @@
             "przeciw": 2,
             "wstrzymal_sie": 3,
             "brak_glosu": 5,
-            "nieobecni": 1
+            "nieobecni": 0
           },
           "named_votes": {
             "za": [
@@ -20133,7 +20133,7 @@
             "przeciw": 0,
             "wstrzymal_sie": 0,
             "brak_glosu": 0,
-            "nieobecni": 1
+            "nieobecni": 0
           },
           "named_votes": {
             "za": [
@@ -20177,7 +20177,7 @@
             "przeciw": 1,
             "wstrzymal_sie": 3,
             "brak_glosu": 2,
-            "nieobecni": 1
+            "nieobecni": 0
           },
           "named_votes": {
             "za": [
@@ -20223,8 +20223,8 @@
             "za": 5,
             "przeciw": 11,
             "wstrzymal_sie": 3,
-            "brak_glosu": 1,
-            "nieobecni": 1
+            "brak_glosu": 0,
+            "nieobecni": 0
           },
           "named_votes": {
             "za": [
@@ -20269,7 +20269,7 @@
             "przeciw": 14,
             "wstrzymal_sie": 0,
             "brak_glosu": 3,
-            "nieobecni": 1
+            "nieobecni": 0
           },
           "named_votes": {
             "za": [

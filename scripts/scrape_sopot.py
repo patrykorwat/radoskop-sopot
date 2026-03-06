@@ -337,15 +337,46 @@ def download_attachment(att: dict) -> Path | None:
 # Step 3: Parse voting data from files
 # ---------------------------------------------------------------------------
 
+def _reconcile_counts(votes: list[dict]) -> list[dict]:
+    """Ensure vote counts match named_votes. OCR often garbles count text,
+    but named_votes (parsed from individual rows) are reliable."""
+    for v in votes:
+        nv = v.get("named_votes", {})
+        c = v.get("counts", {})
+
+        named_za = len(nv.get("za", []))
+        named_przeciw = len(nv.get("przeciw", []))
+        named_wstrz = len(nv.get("wstrzymal_sie", []))
+        named_brak = len(nv.get("brak_glosu", []))
+        named_nieob = len(nv.get("nieobecni", []))
+
+        # Always prefer named_votes counts — they come from actual name lists
+        if named_za + named_przeciw + named_wstrz + named_brak + named_nieob > 0:
+            c["za"] = named_za
+            c["przeciw"] = named_przeciw
+            c["wstrzymal_sie"] = named_wstrz
+            c["brak_glosu"] = named_brak
+            c["nieobecni"] = named_nieob
+
+        # Recalculate resolution from corrected counts
+        total_active = c["za"] + c["przeciw"] + c["wstrzymal_sie"]
+        if total_active > 0:
+            v["resolution"] = "przyjęta" if c["za"] > total_active / 2 else "odrzucona"
+
+    return votes
+
+
 def parse_votes_from_file(filepath: Path, att: dict) -> list[dict]:
     """Parse voting data from a PDF or DOCX file."""
     if att["format"] == "docx":
-        return _parse_votes_docx(filepath, att)
+        votes = _parse_votes_docx(filepath, att)
     elif att["format"] == "pdf":
-        return _parse_votes_pdf(filepath, att)
+        votes = _parse_votes_pdf(filepath, att)
     else:
         print(f"    UWAGA: Nieznany format: {att['format']}")
         return []
+
+    return _reconcile_counts(votes)
 
 
 def _extract_text_docx(filepath: Path) -> str:
