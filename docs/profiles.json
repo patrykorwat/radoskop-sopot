@@ -1,0 +1,2206 @@
+{
+  "profiles": [
+    {
+      "name": "Piotr Bagiński",
+      "slug": "piotr-baginski",
+      "kadencje": {
+        "2024-2029": {
+          "club": "Koalicja Dla Sopotu",
+          "okręg": "III",
+          "has_voting_data": true,
+          "frekwencja": 100.0,
+          "aktywnosc": 97.2,
+          "zgodnosc_z_klubem": 95.1,
+          "votes_total": 529,
+          "votes_za": 400,
+          "votes_przeciw": 91,
+          "votes_wstrzymal": 17,
+          "votes_brak": 6,
+          "votes_nieobecny": 0,
+          "rebellion_count": 25,
+          "rebellions": [
+            {
+              "vote_id": "2024-06-27_014",
+              "session": "2024-06-27",
+              "topic": "Głosowanie 14",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2024-06-27_016",
+              "session": "2024-06-27",
+              "topic": "Przerwa",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2024-09-26_017",
+              "session": "2024-09-26",
+              "topic": "wniosek formalny o zakończenie dyskusji",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2024-11-21_019",
+              "session": "2024-11-21",
+              "topic": "wniosek formalny o zamknięcie dyskusji",
+              "their_vote": "przeciw",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2024-11-21_031",
+              "session": "2024-11-21",
+              "topic": "zmiany uchwały Nr 11/3/2024 z dnia 16 maja 2024 r. w sprawie powołania komisji Rady Miasta Sopotu, ustalenia składów oso",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2025-01-30_006",
+              "session": "2025-01-30",
+              "topic": "Zatwierdzenie protokołu obrad IX sesji, uzupełnionego pismem Pani Prezydent - Z c\\ęsLjtsy^e Ob ' .S /rn < -2 ^S. A2.' ot",
+              "their_vote": "przeciw",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2025-03-06_014",
+              "session": "2025-03-06",
+              "topic": "wniosek formalny o zakończenie dyskusji po wyczerpaniu listy mówców",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2025-04-10_007",
+              "session": "2025-04-10",
+              "topic": "wniosek formalny o zamknięcie dyskusji po wyczerpaniu listy mówców",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2025-04-10_017",
+              "session": "2025-04-10",
+              "topic": "wniosek formalny o zakończenie dyskusji po wykorzystaniu listy mówców",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2025-04-10_020",
+              "session": "2025-04-10",
+              "topic": "Głosowanie 20",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2025-05-20_004",
+              "session": "2025-05-20",
+              "topic": "wniosek formalny o ograniczenie czasu wypowiedzi do 3 minut",
+              "their_vote": "przeciw",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2025-05-20_012",
+              "session": "2025-05-20",
+              "topic": "wyrażenia zgody na odstąpienie od zbycia w drodze przetargu nieruchomości położonej w Sopocie przy Alei Niepodległości 7",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2025-05-20_032",
+              "session": "2025-05-20",
+              "topic": "Wiceprzewodnicząca Rady Miasta Pani Grażyna Czajkowska z Klubu Radnych Kocham Sopot - Poprawka do projektu Statutu Miast",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2025-06-26_023",
+              "session": "2025-06-26",
+              "topic": "Głosowanie 23",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2025-06-26_058",
+              "session": "2025-06-26",
+              "topic": "Głosowanie 58",
+              "their_vote": "za",
+              "club_majority": "przeciw"
+            },
+            {
+              "vote_id": "2025-06-26_066",
+              "session": "2025-06-26",
+              "topic": "Głosowanie 66",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2025-06-26_069",
+              "session": "2025-06-26",
+              "topic": "Głosowanie 69",
+              "their_vote": "przeciw",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2025-10-23_033",
+              "session": "2025-10-23",
+              "topic": "wniosek formalny Pana Radnego Zbigniewa Duzinkiewicza o zakończenie dyskusji po wyczerpaniu listy mówców",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2025-11-27_010",
+              "session": "2025-11-27",
+              "topic": "wniosek formalny Pana Radnego Jakuba Świderskiego o zakończenie dyskusji",
+              "their_vote": "przeciw",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2025-11-27_021",
+              "session": "2025-11-27",
+              "topic": "zerwania umowy o współpracy z miastem Aszkelon w Izraelu (Druk Nr 235)",
+              "their_vote": "przeciw",
+              "club_majority": "za"
+            }
+          ],
+          "has_activity_data": false,
+          "activity": null
+        }
+      }
+    },
+    {
+      "name": "Barbara Brzezicka",
+      "slug": "barbara-brzezicka",
+      "kadencje": {
+        "2024-2029": {
+          "club": "Koalicja Dla Sopotu",
+          "okręg": "III",
+          "has_voting_data": true,
+          "frekwencja": 100.0,
+          "aktywnosc": 99.1,
+          "zgodnosc_z_klubem": 92.8,
+          "votes_total": 529,
+          "votes_za": 405,
+          "votes_przeciw": 75,
+          "votes_wstrzymal": 31,
+          "votes_brak": 13,
+          "votes_nieobecny": 1,
+          "rebellion_count": 37,
+          "rebellions": [
+            {
+              "vote_id": "2024-06-27_028",
+              "session": "2024-06-27",
+              "topic": "_wniosek o skrdcenie czasu dzierzawy",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "przeciw"
+            },
+            {
+              "vote_id": "2024-09-05_015",
+              "session": "2024-09-05",
+              "topic": "uchwalenia miejscowego planu zagospodarowania przestrzennego obszaru ograniczonego ulicami Wimeckiego, Haffnera, Kubacza",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2024-09-05_019",
+              "session": "2024-09-05",
+              "topic": "2 wyłożenie - za rozstrzygnięciem o sposobie rozpatrzenia Uwagi nr 1, zgodnie z treścią załącznika nr 2 do projektu uchw",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2024-09-05_021",
+              "session": "2024-09-05",
+              "topic": "2 wyłożenie - za rozstrzygnięciem o sposobie rozpatrzenia Uwagi nr 3, zgodnie z treścią załącznika nr 2 do projektu uchw",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2024-09-05_022",
+              "session": "2024-09-05",
+              "topic": "3 wyłożenie - za rozstrzygnięciem o sposobie rozpatrzenia Uwagi, zgodnie z treścią załącznika nr 2 do projektu uchwały (",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2024-09-05_023",
+              "session": "2024-09-05",
+              "topic": "4 wyłożenie - za rozstrzygnięciem o sposobie rozpatrzenia Uwagi, zgodnie z treścią załącznika nr 2 do projektu uchwały (",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2024-09-05_024",
+              "session": "2024-09-05",
+              "topic": "za podjęciem uchwały w sprawie uchwalenia miejscowego planu zagospodarowania przestrzennego dla obszaru ograniczonego ul",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2024-11-21_011",
+              "session": "2024-11-21",
+              "topic": "uchylenia uchwały Nr XXXV/586/2022 z dnia 19 maja 2022 roku w sprawie: wyrażenia zgody na sprzedaż w drodze przetargu ni",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "przeciw"
+            },
+            {
+              "vote_id": "2024-11-21_014",
+              "session": "2024-11-21",
+              "topic": "wyrażenia zgody na sprzedaż nieruchomości położonej w Sopocie przy ul. Fryderyka Chopina 8 (Druk Nr 83) ZA; 13, PRZECIW:",
+              "their_vote": "przeciw",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2024-11-21_023",
+              "session": "2024-11-21",
+              "topic": "przyjęcia planu potrzeb w zakresie wykonywania prac społecznie użytecznych na terenie Gminy Miasta Sopotu w roku 2025 (I",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2024-12-19_018",
+              "session": "2024-12-19",
+              "topic": "uchwalenia miejscowego planu zagospodarowania przestrzennego dla jednostek strukturalnych „M” w mieście Sopocie, Etap I ",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2025-01-30_019",
+              "session": "2025-01-30",
+              "topic": "rozpatrzenia skargi na działalność Prezydenta Miasta Sopotu (Druk Nr 112)",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2025-03-06_012",
+              "session": "2025-03-06",
+              "topic": "wniosek formalny pana Radnego Jana Karasowskiego",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "przeciw"
+            },
+            {
+              "vote_id": "2025-04-10_006",
+              "session": "2025-04-10",
+              "topic": "wniosek formalny Pana Radnego Jana Karasowskiego o zdjęcie projektu uchwały z porządku obrad i dodanie go do porządku ob",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "przeciw"
+            },
+            {
+              "vote_id": "2025-04-10_009",
+              "session": "2025-04-10",
+              "topic": "zaciągnięcia długoterminowego zobowiązania, które będzie wynikać z pożyczki udzielanej przez Bank Gospodarstwa Krajowego",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2025-05-20_012",
+              "session": "2025-05-20",
+              "topic": "wyrażenia zgody na odstąpienie od zbycia w drodze przetargu nieruchomości położonej w Sopocie przy Alei Niepodległości 7",
+              "their_vote": "przeciw",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2025-05-20_023",
+              "session": "2025-05-20",
+              "topic": "rozpatrzenia petycji z dnia 27 stycznia 2025 r. w sprawie przyznania uprawnień do ulgowych przejazdów środkami komunikac",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2025-06-26_033",
+              "session": "2025-06-26",
+              "topic": "Głosowanie 33",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2025-06-26_040",
+              "session": "2025-06-26",
+              "topic": "Głosowanie 40",
+              "their_vote": "przeciw",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2025-06-26_041",
+              "session": "2025-06-26",
+              "topic": "Głosowanie 41",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
+            }
+          ],
+          "has_activity_data": false,
+          "activity": null
+        }
+      }
+    },
+    {
+      "name": "Grażyna Czajkowska",
+      "slug": "grazyna-czajkowska",
+      "kadencje": {
+        "2024-2029": {
+          "club": "Kocham Sopot",
+          "okręg": "I",
+          "rola": "Wiceprzewodnicząca Rady Miasta",
+          "has_voting_data": true,
+          "frekwencja": 95.0,
+          "aktywnosc": 98.3,
+          "zgodnosc_z_klubem": 87.8,
+          "votes_total": 529,
+          "votes_za": 378,
+          "votes_przeciw": 62,
+          "votes_wstrzymal": 44,
+          "votes_brak": 36,
+          "votes_nieobecny": 9,
+          "rebellion_count": 59,
+          "rebellions": [
+            {
+              "vote_id": "2024-05-16_009",
+              "session": "2024-05-16",
+              "topic": "wybor przewodniczacej/ego komisji Strategii i Budzetu — ~ far Martin Stefan nck,",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2024-05-16_011",
+              "session": "2024-05-16",
+              "topic": "Temat gfosowania: wybdr przewodniczacej/ego Komisji Architektury i tadu Przestrzennego ~ —~ Paw Nalalia PobTetea",
+              "their_vote": "za",
+              "club_majority": "wstrzymal_sie"
+            },
+            {
+              "vote_id": "2024-05-16_025",
+              "session": "2024-05-16",
+              "topic": "fan Jak Swidewk:",
+              "their_vote": "przeciw",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2024-06-27_009",
+              "session": "2024-06-27",
+              "topic": "Głosowanie 9",
+              "their_vote": "przeciw",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2024-06-27_029",
+              "session": "2024-06-27",
+              "topic": "Data giosowania: wyrazenia zgody na wydzierzawienie i na oddanie w najem nieruchomosci bedacej wiasnosciq Gminy Miasta S",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2024-06-27_031",
+              "session": "2024-06-27",
+              "topic": "wyrazenia zgody na odstapienie od zbycia w drodze przetargu nieruchomosci potozonej w Sopocie przy ulicy Obodrzycow 15 (",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2024-06-27_041",
+              "session": "2024-06-27",
+              "topic": "Data giosowania: —ogtoszenia tekstu jednolitego Statutu Miasta Sopotu (Druk Nr 24)",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2024-09-05_015",
+              "session": "2024-09-05",
+              "topic": "uchwalenia miejscowego planu zagospodarowania przestrzennego obszaru ograniczonego ulicami Wimeckiego, Haffnera, Kubacza",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2024-09-05_023",
+              "session": "2024-09-05",
+              "topic": "4 wyłożenie - za rozstrzygnięciem o sposobie rozpatrzenia Uwagi, zgodnie z treścią załącznika nr 2 do projektu uchwały (",
+              "their_vote": "przeciw",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2024-09-26_008",
+              "session": "2024-09-26",
+              "topic": "dodanie do porządku obrad projektu uchwały w sprawie powołania doraźnej Komisji ds. Konsultacji z mieszkańcami",
+              "their_vote": "przeciw",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2024-09-26_022",
+              "session": "2024-09-26",
+              "topic": "rozpatrzenia skargi na działania czterech członków Rady Dialogu Społecznego ds. Schroniska dla Bezdomnych Zwierząt „Sopo",
+              "their_vote": "przeciw",
+              "club_majority": "wstrzymal_sie"
+            },
+            {
+              "vote_id": "2024-10-29_015",
+              "session": "2024-10-29",
+              "topic": "powołania doraźnej Komisji ds. Konsultacji z mieszkańcami (Druk Nr 72)",
+              "their_vote": "przeciw",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2024-10-29_016",
+              "session": "2024-10-29",
+              "topic": "rozpatrzenia skargi na działalność Prezydenta Miasta Sopotu (Druk Nr 75)",
+              "their_vote": "przeciw",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2024-11-21_009",
+              "session": "2024-11-21",
+              "topic": "ograniczenie czasu wypowiedzi do 3 minut",
+              "their_vote": "przeciw",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2024-11-21_011",
+              "session": "2024-11-21",
+              "topic": "uchylenia uchwały Nr XXXV/586/2022 z dnia 19 maja 2022 roku w sprawie: wyrażenia zgody na sprzedaż w drodze przetargu ni",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2024-11-21_014",
+              "session": "2024-11-21",
+              "topic": "wyrażenia zgody na sprzedaż nieruchomości położonej w Sopocie przy ul. Fryderyka Chopina 8 (Druk Nr 83) ZA; 13, PRZECIW:",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2024-11-21_015",
+              "session": "2024-11-21",
+              "topic": "poprawka 1 Klubu Radnych PiS do projektu uchwały Druk Nr 84",
+              "their_vote": "przeciw",
+              "club_majority": "wstrzymal_sie"
+            },
+            {
+              "vote_id": "2024-11-21_017",
+              "session": "2024-11-21",
+              "topic": "poprawka 3 Klubu Radnych PiS do projektu uchwały Druk Nr 84",
+              "their_vote": "za",
+              "club_majority": "wstrzymal_sie"
+            },
+            {
+              "vote_id": "2024-11-21_018",
+              "session": "2024-11-21",
+              "topic": "Głosowanie 18",
+              "their_vote": "przeciw",
+              "club_majority": "wstrzymal_sie"
+            },
+            {
+              "vote_id": "2024-11-21_020",
+              "session": "2024-11-21",
+              "topic": "poprawka 5 Klubu Radnych PiS do projektu uchwały Druk Nr 84",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
+            }
+          ],
+          "has_activity_data": false,
+          "activity": null
+        }
+      }
+    },
+    {
+      "name": "Zbigniew Duzinkiewicz",
+      "slug": "zbigniew-duzinkiewicz",
+      "kadencje": {
+        "2024-2029": {
+          "club": "Koalicja Dla Sopotu",
+          "okręg": "I",
+          "has_voting_data": true,
+          "frekwencja": 95.0,
+          "aktywnosc": 91.5,
+          "zgodnosc_z_klubem": 98.9,
+          "votes_total": 529,
+          "votes_za": 370,
+          "votes_przeciw": 69,
+          "votes_wstrzymal": 2,
+          "votes_brak": 43,
+          "votes_nieobecny": 42,
+          "rebellion_count": 5,
+          "rebellions": [
+            {
+              "vote_id": "2024-06-27_035",
+              "session": "2024-06-27",
+              "topic": "Głosowanie 35",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2024-06-27_037",
+              "session": "2024-06-27",
+              "topic": "_rozpatrzenia skargi na dziatalnos¢ Prezydenta Miasta Sopotu z 23 stycznia 2024r. (Druk Nr 28)",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2025-04-10_019",
+              "session": "2025-04-10",
+              "topic": "wniosek o zmianę porządku obrad",
+              "their_vote": "przeciw",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2025-06-26_069",
+              "session": "2025-06-26",
+              "topic": "Głosowanie 69",
+              "their_vote": "przeciw",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2025-11-27_010",
+              "session": "2025-11-27",
+              "topic": "wniosek formalny Pana Radnego Jakuba Świderskiego o zakończenie dyskusji",
+              "their_vote": "przeciw",
+              "club_majority": "za"
+            }
+          ],
+          "has_activity_data": false,
+          "activity": null
+        }
+      }
+    },
+    {
+      "name": "Wojciech Fułek",
+      "slug": "wojciech-fulek",
+      "kadencje": {
+        "2024-2029": {
+          "club": "Kocham Sopot",
+          "okręg": "III",
+          "has_voting_data": true,
+          "frekwencja": 100.0,
+          "aktywnosc": 98.5,
+          "zgodnosc_z_klubem": 83.1,
+          "votes_total": 529,
+          "votes_za": 347,
+          "votes_przeciw": 41,
+          "votes_wstrzymal": 90,
+          "votes_brak": 43,
+          "votes_nieobecny": 1,
+          "rebellion_count": 81,
+          "rebellions": [
+            {
+              "vote_id": "2024-05-07_003",
+              "session": "2024-05-07",
+              "topic": "wniosek o zmiane porzadku obrad dot. pkt 5: »Wybér Zastepcy/Zastepcow Przewodniczacego” - zdjecie z porzadku obrad pkt 5",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2024-05-16_018",
+              "session": "2024-05-16",
+              "topic": "wybor przewodniczaca/ego komisji Komisji Turystyki, Uzdrowiska i Ochrony Srodowiska ~ ~ Pan Jareslac Jawada",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2024-05-16_020",
+              "session": "2024-05-16",
+              "topic": "wybor ee komisji Sportu ~ = Pan Adam ‘",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2024-06-27_015",
+              "session": "2024-06-27",
+              "topic": "Temat giosowania: _podjecie uchwaty w sprawie udzielenia Prezydentowi Miasta Sopotu wotum zaufania (Druk Nr 15)",
+              "their_vote": "przeciw",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2024-06-27_019",
+              "session": "2024-06-27",
+              "topic": "podjecie uchwaly w sprawie udzielenia absolutorium Prezydentowi Miasta Sopotu za rok 2023 (Druk Nr 16)",
+              "their_vote": "przeciw",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2024-06-27_028",
+              "session": "2024-06-27",
+              "topic": "_wniosek o skrdcenie czasu dzierzawy",
+              "their_vote": "przeciw",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2024-09-05_014",
+              "session": "2024-09-05",
+              "topic": "udzielenia dotacji na prace konserwatorskie, restauratorskie lub roboty budowlane przy zabytkach wpisanych do rejestru z",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2024-09-05_020",
+              "session": "2024-09-05",
+              "topic": "2 wyłożenie - za rozstrzygnięciem o sposobie rozpatrzenia Uwagi nr 2, zgodnie z treścią załącznika nr 2 do projektu uchw",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2024-09-05_021",
+              "session": "2024-09-05",
+              "topic": "2 wyłożenie - za rozstrzygnięciem o sposobie rozpatrzenia Uwagi nr 3, zgodnie z treścią załącznika nr 2 do projektu uchw",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2024-09-05_022",
+              "session": "2024-09-05",
+              "topic": "3 wyłożenie - za rozstrzygnięciem o sposobie rozpatrzenia Uwagi, zgodnie z treścią załącznika nr 2 do projektu uchwały (",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2024-09-05_023",
+              "session": "2024-09-05",
+              "topic": "4 wyłożenie - za rozstrzygnięciem o sposobie rozpatrzenia Uwagi, zgodnie z treścią załącznika nr 2 do projektu uchwały (",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2024-09-05_024",
+              "session": "2024-09-05",
+              "topic": "za podjęciem uchwały w sprawie uchwalenia miejscowego planu zagospodarowania przestrzennego dla obszaru ograniczonego ul",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2024-09-26_009",
+              "session": "2024-09-26",
+              "topic": "wniosek o wykreślenie z porządku obrad projektu uchwały Druk Nr 55 z autopoprawką",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "przeciw"
+            },
+            {
+              "vote_id": "2024-11-21_008",
+              "session": "2024-11-21",
+              "topic": "Głosowanie 8",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2024-11-21_009",
+              "session": "2024-11-21",
+              "topic": "ograniczenie czasu wypowiedzi do 3 minut",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2024-11-21_010",
+              "session": "2024-11-21",
+              "topic": "wniosek formalny o obowiązku zabierania głosu przez co najmniej 1 minutę ZA; 3, PRZECIW' 15, WSTRZYMUJĘ SIĘ; 1, BRAK GŁO",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2024-11-21_013",
+              "session": "2024-11-21",
+              "topic": "poprawka do projektu uchwały Druk Nr 83",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "przeciw"
+            },
+            {
+              "vote_id": "2024-11-21_014",
+              "session": "2024-11-21",
+              "topic": "wyrażenia zgody na sprzedaż nieruchomości położonej w Sopocie przy ul. Fryderyka Chopina 8 (Druk Nr 83) ZA; 13, PRZECIW:",
+              "their_vote": "przeciw",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2024-11-21_028",
+              "session": "2024-11-21",
+              "topic": "wniosek formalny o zakończenie dyskusji",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2024-11-21_029",
+              "session": "2024-11-21",
+              "topic": "Głosowanie 29",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
+            }
+          ],
+          "has_activity_data": false,
+          "activity": null
+        }
+      }
+    },
+    {
+      "name": "Adam Gil",
+      "slug": "adam-gil",
+      "kadencje": {
+        "2024-2029": {
+          "club": "Koalicja Dla Sopotu",
+          "okręg": "IV",
+          "has_voting_data": true,
+          "frekwencja": 100.0,
+          "aktywnosc": 98.9,
+          "zgodnosc_z_klubem": 99.2,
+          "votes_total": 529,
+          "votes_za": 405,
+          "votes_przeciw": 83,
+          "votes_wstrzymal": 3,
+          "votes_brak": 32,
+          "votes_nieobecny": 1,
+          "rebellion_count": 4,
+          "rebellions": [
+            {
+              "vote_id": "2025-05-20_012",
+              "session": "2025-05-20",
+              "topic": "wyrażenia zgody na odstąpienie od zbycia w drodze przetargu nieruchomości położonej w Sopocie przy Alei Niepodległości 7",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2025-06-26_066",
+              "session": "2025-06-26",
+              "topic": "Głosowanie 66",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2025-11-27_010",
+              "session": "2025-11-27",
+              "topic": "wniosek formalny Pana Radnego Jakuba Świderskiego o zakończenie dyskusji",
+              "their_vote": "przeciw",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2026-02-19_020",
+              "session": "2026-02-19",
+              "topic": "wniosek formalny Pana Radnego Jakuba Świderskiego w sprawie zgłaszania wniosków formalnych",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "przeciw"
+            }
+          ],
+          "has_activity_data": false,
+          "activity": null
+        }
+      }
+    },
+    {
+      "name": "Aleksandra Gosk",
+      "slug": "aleksandra-gosk",
+      "kadencje": {
+        "2024-2029": {
+          "club": "Koalicja Dla Sopotu",
+          "okręg": "II",
+          "rola": "Przewodnicząca Rady Miasta",
+          "has_voting_data": true,
+          "frekwencja": 100.0,
+          "aktywnosc": 97.0,
+          "zgodnosc_z_klubem": 98.6,
+          "votes_total": 529,
+          "votes_za": 427,
+          "votes_przeciw": 82,
+          "votes_wstrzymal": 2,
+          "votes_brak": 2,
+          "votes_nieobecny": 7,
+          "rebellion_count": 7,
+          "rebellions": [
+            {
+              "vote_id": "2024-06-27_008",
+              "session": "2024-06-27",
+              "topic": "_przerwa",
+              "their_vote": "za",
+              "club_majority": "przeciw"
+            },
+            {
+              "vote_id": "2024-09-26_022",
+              "session": "2024-09-26",
+              "topic": "rozpatrzenia skargi na działania czterech członków Rady Dialogu Społecznego ds. Schroniska dla Bezdomnych Zwierząt „Sopo",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2025-06-26_058",
+              "session": "2025-06-26",
+              "topic": "Głosowanie 58",
+              "their_vote": "za",
+              "club_majority": "przeciw"
+            },
+            {
+              "vote_id": "2025-06-26_059",
+              "session": "2025-06-26",
+              "topic": "Głosowanie 59",
+              "their_vote": "za",
+              "club_majority": "przeciw"
+            },
+            {
+              "vote_id": "2025-06-26_067",
+              "session": "2025-06-26",
+              "topic": "Głosowanie 67",
+              "their_vote": "za",
+              "club_majority": "przeciw"
+            },
+            {
+              "vote_id": "2025-10-23_034",
+              "session": "2025-10-23",
+              "topic": "przeprowadzenia konsultacji społecznych dotyczących funkcjonowania komunikacji miejskiej w Sopocie (Druk Nr 223 z autopo",
+              "their_vote": "za",
+              "club_majority": "przeciw"
+            },
+            {
+              "vote_id": "2026-02-19_017",
+              "session": "2026-02-19",
+              "topic": "wniosek formalny Pana Radnego Jakuba Świderskiego, aby osobie referującej projekt nie ograniczać czasu wypowiedzi",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
+            }
+          ],
+          "has_activity_data": false,
+          "activity": null
+        }
+      }
+    },
+    {
+      "name": "Piotr Harhaj",
+      "slug": "piotr-harhaj",
+      "kadencje": {
+        "2024-2029": {
+          "club": "Koalicja Dla Sopotu",
+          "okręg": "IV",
+          "has_voting_data": true,
+          "frekwencja": 100.0,
+          "aktywnosc": 98.9,
+          "zgodnosc_z_klubem": 99.0,
+          "votes_total": 529,
+          "votes_za": 417,
+          "votes_przeciw": 78,
+          "votes_wstrzymal": 2,
+          "votes_brak": 26,
+          "votes_nieobecny": 1,
+          "rebellion_count": 5,
+          "rebellions": [
+            {
+              "vote_id": "2024-06-27_040",
+              "session": "2024-06-27",
+              "topic": "_rozpatrzenia skargi na dzialalnos¢ Prezydenta Miasta Sopotu z 5 lutego uzupeinionej pismami z 16 i 20 lutego 2024 r. (D",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2025-06-26_058",
+              "session": "2025-06-26",
+              "topic": "Głosowanie 58",
+              "their_vote": "za",
+              "club_majority": "przeciw"
+            },
+            {
+              "vote_id": "2025-09-04_024",
+              "session": "2025-09-04",
+              "topic": "zmieniająca uchwałę w sprawie zasad i trybu przeprowadzania konsultacji społecznych z mieszkańcami Sopotu (Druk Nr 193) ",
+              "their_vote": "przeciw",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2025-11-27_010",
+              "session": "2025-11-27",
+              "topic": "wniosek formalny Pana Radnego Jakuba Świderskiego o zakończenie dyskusji",
+              "their_vote": "przeciw",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2026-02-19_024",
+              "session": "2026-02-19",
+              "topic": "powołania komisji skrutacyjnej",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
+            }
+          ],
+          "has_activity_data": false,
+          "activity": null
+        }
+      }
+    },
+    {
+      "name": "Jan Karasowski",
+      "slug": "jan-karasowski",
+      "kadencje": {
+        "2024-2029": {
+          "club": "Prawo i Sprawiedliwość",
+          "okręg": "IV",
+          "has_voting_data": true,
+          "frekwencja": 95.0,
+          "aktywnosc": 92.1,
+          "zgodnosc_z_klubem": 93.5,
+          "votes_total": 529,
+          "votes_za": 292,
+          "votes_przeciw": 90,
+          "votes_wstrzymal": 95,
+          "votes_brak": 10,
+          "votes_nieobecny": 28,
+          "rebellion_count": 31,
+          "rebellions": [
+            {
+              "vote_id": "2024-05-16_003",
+              "session": "2024-05-16",
+              "topic": "zatwierdzenie zmienionego porzadku obrad",
+              "their_vote": "za",
+              "club_majority": "wstrzymal_sie"
+            },
+            {
+              "vote_id": "2024-05-16_024",
+              "session": "2024-05-16",
+              "topic": "= wybor przewodniczacej/ego Komisji Bezpieczenstwa i Dialogu z Mieszkancami ~ - Pan Jeny Smela yee",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "przeciw"
+            },
+            {
+              "vote_id": "2024-05-16_038",
+              "session": "2024-05-16",
+              "topic": "Data giosowania: — Projekt uchwaly w sprawie delegowania przedstawiciela do reprezentowania Miasta Sopotu w Zgromadzeniu",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "przeciw"
+            },
+            {
+              "vote_id": "2024-06-27_007",
+              "session": "2024-06-27",
+              "topic": "dodanie do porzadku obrad sesji projektu uchwaly w sprawie ogloszenia tekstu jednolitego Statutu Miasta Sopotu (Druk Nr ",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2024-06-27_017",
+              "session": "2024-06-27",
+              "topic": "Data giosowania: wniosek o ograniczenie czasu wypowiedzi do 3 minut",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "przeciw"
+            },
+            {
+              "vote_id": "2024-09-26_004",
+              "session": "2024-09-26",
+              "topic": "dodanie do porządku obrad projektu uchwały w sprawie: zmiany wieloletniej prognozy finansowej Miasta Sopotu na lata 2024",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2024-09-26_015",
+              "session": "2024-09-26",
+              "topic": "zmiany wieloletniej prognozy finansowej Miasta Sopotu na lata 2024-2036 (Druk Nr 63)",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2024-10-29_011",
+              "session": "2024-10-29",
+              "topic": "ustalenia wysokości rocznych stawek podatku od środków transportowych obowiązujących na obszarze miasta Sopotu w 2025 ro",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "przeciw"
+            },
+            {
+              "vote_id": "2024-12-19_007",
+              "session": "2024-12-19",
+              "topic": "zmiany wieloletniej prognozy finansowej Miasta Sopotu na lata 2025-2042 (Druk Nr 87 z autopoprawką)",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "przeciw"
+            },
+            {
+              "vote_id": "2025-01-30_006",
+              "session": "2025-01-30",
+              "topic": "Zatwierdzenie protokołu obrad IX sesji, uzupełnionego pismem Pani Prezydent - Z c\\ęsLjtsy^e Ob ' .S /rn < -2 ^S. A2.' ot",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2025-01-30_007",
+              "session": "2025-01-30",
+              "topic": "Zatwierdzenie protokołu obrad IX sesji, uzupełnionego pismem Pani Prezydent",
+              "their_vote": "za",
+              "club_majority": "wstrzymal_sie"
+            },
+            {
+              "vote_id": "2025-04-10_019",
+              "session": "2025-04-10",
+              "topic": "wniosek o zmianę porządku obrad",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "przeciw"
+            },
+            {
+              "vote_id": "2025-05-20_008",
+              "session": "2025-05-20",
+              "topic": "zmiany wieloletniej prognozy finansowej Miasta Sopotu na lata 2025-2042 (Druk Nr 152)",
+              "their_vote": "za",
+              "club_majority": "wstrzymal_sie"
+            },
+            {
+              "vote_id": "2025-06-26_004",
+              "session": "2025-06-26",
+              "topic": "Głosowanie 4",
+              "their_vote": "przeciw",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2025-06-26_006",
+              "session": "2025-06-26",
+              "topic": "Głosowanie 6",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2025-06-26_022",
+              "session": "2025-06-26",
+              "topic": "Głosowanie 22",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "przeciw"
+            },
+            {
+              "vote_id": "2025-06-26_025",
+              "session": "2025-06-26",
+              "topic": "Głosowanie 25",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2025-06-26_032",
+              "session": "2025-06-26",
+              "topic": "Głosowanie 32",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2025-06-26_033",
+              "session": "2025-06-26",
+              "topic": "Głosowanie 33",
+              "their_vote": "przeciw",
+              "club_majority": "wstrzymal_sie"
+            },
+            {
+              "vote_id": "2025-06-26_043",
+              "session": "2025-06-26",
+              "topic": "Głosowanie 43",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "przeciw"
+            }
+          ],
+          "has_activity_data": false,
+          "activity": null
+        }
+      }
+    },
+    {
+      "name": "Jarosław Kempa",
+      "slug": "jaroslaw-kempa",
+      "kadencje": {
+        "2024-2029": {
+          "club": "Kocham Sopot",
+          "okręg": "IV",
+          "has_voting_data": true,
+          "frekwencja": 100.0,
+          "aktywnosc": 92.1,
+          "zgodnosc_z_klubem": 93.2,
+          "votes_total": 529,
+          "votes_za": 349,
+          "votes_przeciw": 43,
+          "votes_wstrzymal": 51,
+          "votes_brak": 44,
+          "votes_nieobecny": 37,
+          "rebellion_count": 30,
+          "rebellions": [
+            {
+              "vote_id": "2024-05-16_036",
+              "session": "2024-05-16",
+              "topic": "wybor przewodniczacej/ego Komisji Skarg, Wnioskow i Petycji — — Pan Piok-r Kurd a",
+              "their_vote": "przeciw",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2024-05-28_006",
+              "session": "2024-05-28",
+              "topic": "okreslenia wysokosci optat za korzystanie z wychowania przedszkolnego dzieci w wieku do lat 6 w publicznych przedszkolac",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "przeciw"
+            },
+            {
+              "vote_id": "2024-06-27_017",
+              "session": "2024-06-27",
+              "topic": "Data giosowania: wniosek o ograniczenie czasu wypowiedzi do 3 minut",
+              "their_vote": "za",
+              "club_majority": "przeciw"
+            },
+            {
+              "vote_id": "2024-06-27_028",
+              "session": "2024-06-27",
+              "topic": "_wniosek o skrdcenie czasu dzierzawy",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2024-09-26_021",
+              "session": "2024-09-26",
+              "topic": "rozpatrzenia skargi na działania Prezydenta Miasta Sopotu Pani Magdaleny Czarzyńskiej-Jachim z 19 sierpnia 2024 r. (Druk",
+              "their_vote": "za",
+              "club_majority": "wstrzymal_sie"
+            },
+            {
+              "vote_id": "2024-10-29_014",
+              "session": "2024-10-29",
+              "topic": "uchylenia Uchwały Nr XLII/728/2023 Rady Miasta Sopotu z dnia 6 kwietnia 2023 r. (Druk Nr 70)",
+              "their_vote": "przeciw",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2024-10-29_015",
+              "session": "2024-10-29",
+              "topic": "powołania doraźnej Komisji ds. Konsultacji z mieszkańcami (Druk Nr 72)",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2024-11-21_011",
+              "session": "2024-11-21",
+              "topic": "uchylenia uchwały Nr XXXV/586/2022 z dnia 19 maja 2022 roku w sprawie: wyrażenia zgody na sprzedaż w drodze przetargu ni",
+              "their_vote": "przeciw",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2024-11-21_016",
+              "session": "2024-11-21",
+              "topic": "Głosowanie 16",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2025-03-06_012",
+              "session": "2025-03-06",
+              "topic": "wniosek formalny pana Radnego Jana Karasowskiego",
+              "their_vote": "przeciw",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2025-04-10_006",
+              "session": "2025-04-10",
+              "topic": "wniosek formalny Pana Radnego Jana Karasowskiego o zdjęcie projektu uchwały z porządku obrad i dodanie go do porządku ob",
+              "their_vote": "przeciw",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2025-05-20_022",
+              "session": "2025-05-20",
+              "topic": "rozpatrzenia skargi na działania Sopockiej Straży Miejskiej (Druk Nr 140)",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2025-05-20_025",
+              "session": "2025-05-20",
+              "topic": "wniosek formalny o zakończenie dyskusji po wyczerpaniu listy mówców",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2025-05-20_035",
+              "session": "2025-05-20",
+              "topic": "Stowarzyszenie Ruch Obywatelski w Imieniu Sopocian - Postulat Nr 2 do projektu Statutu Miasta Sopotu: Zachowanie prawa m",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "przeciw"
+            },
+            {
+              "vote_id": "2025-05-20_038",
+              "session": "2025-05-20",
+              "topic": "Stowarzyszenie Ruch Obywatelski w Imieniu Sopocian - Postulat Nr 5 do projektu Statutu Miasta Sopotu: Wzmocnienie i prom",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2025-06-26_002",
+              "session": "2025-06-26",
+              "topic": "Głosowanie 2",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2025-06-26_003",
+              "session": "2025-06-26",
+              "topic": "Głosowanie 3",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2025-06-26_007",
+              "session": "2025-06-26",
+              "topic": "Głosowanie 7",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2025-06-26_042",
+              "session": "2025-06-26",
+              "topic": "Głosowanie 42",
+              "their_vote": "za",
+              "club_majority": "wstrzymal_sie"
+            },
+            {
+              "vote_id": "2025-06-26_056",
+              "session": "2025-06-26",
+              "topic": "Głosowanie 56",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
+            }
+          ],
+          "has_activity_data": false,
+          "activity": null
+        }
+      }
+    },
+    {
+      "name": "Piotr Kurdziel",
+      "slug": "piotr-kurdziel",
+      "kadencje": {
+        "2024-2029": {
+          "club": "Koalicja Dla Sopotu",
+          "okręg": "III",
+          "has_voting_data": true,
+          "frekwencja": 95.0,
+          "aktywnosc": 75.4,
+          "zgodnosc_z_klubem": 99.7,
+          "votes_total": 529,
+          "votes_za": 319,
+          "votes_przeciw": 63,
+          "votes_wstrzymal": 1,
+          "votes_brak": 16,
+          "votes_nieobecny": 63,
+          "rebellion_count": 1,
+          "rebellions": [
+            {
+              "vote_id": "2025-11-27_021",
+              "session": "2025-11-27",
+              "topic": "zerwania umowy o współpracy z miastem Aszkelon w Izraelu (Druk Nr 235)",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
+            }
+          ],
+          "has_activity_data": false,
+          "activity": null
+        }
+      }
+    },
+    {
+      "name": "Justyna Lewandowska",
+      "slug": "justyna-lewandowska",
+      "kadencje": {
+        "2024-2029": {
+          "club": "Koalicja Dla Sopotu",
+          "okręg": "III",
+          "has_voting_data": true,
+          "frekwencja": 100.0,
+          "aktywnosc": 99.6,
+          "zgodnosc_z_klubem": 99.4,
+          "votes_total": 529,
+          "votes_za": 429,
+          "votes_przeciw": 84,
+          "votes_wstrzymal": 2,
+          "votes_brak": 12,
+          "votes_nieobecny": 1,
+          "rebellion_count": 3,
+          "rebellions": [
+            {
+              "vote_id": "2024-11-21_019",
+              "session": "2024-11-21",
+              "topic": "wniosek formalny o zamknięcie dyskusji",
+              "their_vote": "przeciw",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2026-02-19_017",
+              "session": "2026-02-19",
+              "topic": "wniosek formalny Pana Radnego Jakuba Świderskiego, aby osobie referującej projekt nie ograniczać czasu wypowiedzi",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2026-02-19_021",
+              "session": "2026-02-19",
+              "topic": "wniosku formalnego Pana Radnego Jakuba Świderskiego o ograniczenie czasu wypowiedzi do 9 minut",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "przeciw"
+            }
+          ],
+          "has_activity_data": false,
+          "activity": null
+        }
+      }
+    },
+    {
+      "name": "Piotr Meler",
+      "slug": "piotr-meler",
+      "kadencje": {
+        "2024-2029": {
+          "club": "Prawo i Sprawiedliwość",
+          "okręg": "III",
+          "has_voting_data": true,
+          "frekwencja": 100.0,
+          "aktywnosc": 99.2,
+          "zgodnosc_z_klubem": 97.0,
+          "votes_total": 529,
+          "votes_za": 323,
+          "votes_przeciw": 88,
+          "votes_wstrzymal": 87,
+          "votes_brak": 27,
+          "votes_nieobecny": 0,
+          "rebellion_count": 15,
+          "rebellions": [
+            {
+              "vote_id": "2024-10-29_011",
+              "session": "2024-10-29",
+              "topic": "ustalenia wysokości rocznych stawek podatku od środków transportowych obowiązujących na obszarze miasta Sopotu w 2025 ro",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "przeciw"
+            },
+            {
+              "vote_id": "2024-10-29_013",
+              "session": "2024-10-29",
+              "topic": "wprowadzenia na terenie miasta Sopotu opłaty od posiadania psów oraz ustalenia wysokości rocznej stawki opłaty od posiad",
+              "their_vote": "za",
+              "club_majority": "przeciw"
+            },
+            {
+              "vote_id": "2024-12-19_003",
+              "session": "2024-12-19",
+              "topic": "wniosek formalny o ograniczenie czasu wypowiedzi do 3 minut",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "przeciw"
+            },
+            {
+              "vote_id": "2025-01-30_006",
+              "session": "2025-01-30",
+              "topic": "Zatwierdzenie protokołu obrad IX sesji, uzupełnionego pismem Pani Prezydent - Z c\\ęsLjtsy^e Ob ' .S /rn < -2 ^S. A2.' ot",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2025-04-10_008",
+              "session": "2025-04-10",
+              "topic": "poprawka zgłoszona przez Pana Radnego Jakuba Świderskiego",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2025-04-10_019",
+              "session": "2025-04-10",
+              "topic": "wniosek o zmianę porządku obrad",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "przeciw"
+            },
+            {
+              "vote_id": "2025-05-20_038",
+              "session": "2025-05-20",
+              "topic": "Stowarzyszenie Ruch Obywatelski w Imieniu Sopocian - Postulat Nr 5 do projektu Statutu Miasta Sopotu: Wzmocnienie i prom",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2025-05-20_039",
+              "session": "2025-05-20",
+              "topic": "wniosek formalny o zakończenie dyskusji",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "przeciw"
+            },
+            {
+              "vote_id": "2025-06-26_052",
+              "session": "2025-06-26",
+              "topic": "Głosowanie 52",
+              "their_vote": "za",
+              "club_majority": "wstrzymal_sie"
+            },
+            {
+              "vote_id": "2025-06-26_060",
+              "session": "2025-06-26",
+              "topic": "Głosowanie 60",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "przeciw"
+            },
+            {
+              "vote_id": "2025-10-23_024",
+              "session": "2025-10-23",
+              "topic": "wprowadzenia na terenie miasta Sopotu opłaty od posiadania psów oraz ustalenia wysokości rocznej stawki opłaty od posiad",
+              "their_vote": "za",
+              "club_majority": "przeciw"
+            },
+            {
+              "vote_id": "2025-10-23_030",
+              "session": "2025-10-23",
+              "topic": "wniosek formalny Pana Radnego Jarosława Zawady o zakończenie dyskusji po wyczerpaniu listy mówców",
+              "their_vote": "za",
+              "club_majority": "wstrzymal_sie"
+            },
+            {
+              "vote_id": "2025-11-27_021",
+              "session": "2025-11-27",
+              "topic": "zerwania umowy o współpracy z miastem Aszkelon w Izraelu (Druk Nr 235)",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2026-01-15_019",
+              "session": "2026-01-15",
+              "topic": "przyjęcia sprawozdania z realizacji rocznego planu kontroli Komisji Rewizyjnej na rok 2025 (Druk Nr 252)",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2026-02-19_026",
+              "session": "2026-02-19",
+              "topic": "rezolucji w sprawie bezpieczeństwa ekologicznego mieszkańców wspólnoty samorządowej oraz ochrony unikalnych walorów przy",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "przeciw"
+            }
+          ],
+          "has_activity_data": false,
+          "activity": null
+        }
+      }
+    },
+    {
+      "name": "Karolina Niemczyk-Bałtowska",
+      "slug": "karolina-niemczyk-baltowska",
+      "kadencje": {
+        "2024-2029": {
+          "club": "Koalicja Dla Sopotu",
+          "okręg": "I",
+          "has_voting_data": true,
+          "frekwencja": 95.0,
+          "aktywnosc": 93.6,
+          "zgodnosc_z_klubem": 99.2,
+          "votes_total": 529,
+          "votes_za": 403,
+          "votes_przeciw": 84,
+          "votes_wstrzymal": 2,
+          "votes_brak": 6,
+          "votes_nieobecny": 32,
+          "rebellion_count": 4,
+          "rebellions": [
+            {
+              "vote_id": "2024-11-21_019",
+              "session": "2024-11-21",
+              "topic": "wniosek formalny o zamknięcie dyskusji",
+              "their_vote": "przeciw",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2025-06-26_066",
+              "session": "2025-06-26",
+              "topic": "Głosowanie 66",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2025-11-27_021",
+              "session": "2025-11-27",
+              "topic": "zerwania umowy o współpracy z miastem Aszkelon w Izraelu (Druk Nr 235)",
+              "their_vote": "przeciw",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2026-01-15_004",
+              "session": "2026-01-15",
+              "topic": "wniosek formalny Pani Przewodniczącej Aleksandry Gosk dot. przeniesienia pkt. dot. protestu do pkt. \"Wolne wnioski\"",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
+            }
+          ],
+          "has_activity_data": false,
+          "activity": null
+        }
+      }
+    },
+    {
+      "name": "Paweł Petkowski",
+      "slug": "pawel-petkowski",
+      "kadencje": {
+        "2024-2029": {
+          "club": "Prawo i Sprawiedliwość",
+          "okręg": "I",
+          "rola": "Wiceprzewodniczący Rady Miasta",
+          "has_voting_data": true,
+          "frekwencja": 100.0,
+          "aktywnosc": 98.7,
+          "zgodnosc_z_klubem": 89.3,
+          "votes_total": 529,
+          "votes_za": 326,
+          "votes_przeciw": 98,
+          "votes_wstrzymal": 91,
+          "votes_brak": 7,
+          "votes_nieobecny": 1,
+          "rebellion_count": 55,
+          "rebellions": [
+            {
+              "vote_id": "2024-05-16_009",
+              "session": "2024-05-16",
+              "topic": "wybor przewodniczacej/ego komisji Strategii i Budzetu — ~ far Martin Stefan nck,",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2024-05-16_011",
+              "session": "2024-05-16",
+              "topic": "Temat gfosowania: wybdr przewodniczacej/ego Komisji Architektury i tadu Przestrzennego ~ —~ Paw Nalalia PobTetea",
+              "their_vote": "przeciw",
+              "club_majority": "wstrzymal_sie"
+            },
+            {
+              "vote_id": "2024-05-16_014",
+              "session": "2024-05-16",
+              "topic": "_ wybor przewodniczacej/ego Komisji Edukacji ~ - fan Piotr Oaginck",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2024-05-16_016",
+              "session": "2024-05-16",
+              "topic": "wybor przewodniczacej/ego Komisji Polityki Spotecznej = ~Pan Piotr ne",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2024-05-16_018",
+              "session": "2024-05-16",
+              "topic": "wybor przewodniczaca/ego komisji Komisji Turystyki, Uzdrowiska i Ochrony Srodowiska ~ ~ Pan Jareslac Jawada",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2024-05-16_020",
+              "session": "2024-05-16",
+              "topic": "wybor ee komisji Sportu ~ = Pan Adam ‘",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2024-05-16_022",
+              "session": "2024-05-16",
+              "topic": "wybdr przewodniczacej/ego Komisji Kultury ~ —~ Pan lea yvoliaa em vy k = o aktbouska",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2024-05-16_024",
+              "session": "2024-05-16",
+              "topic": "= wybor przewodniczacej/ego Komisji Bezpieczenstwa i Dialogu z Mieszkancami ~ - Pan Jeny Smela yee",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "przeciw"
+            },
+            {
+              "vote_id": "2024-05-16_027",
+              "session": "2024-05-16",
+              "topic": "wybdr przewodniczacej/ego Komisji Gospodarki Komunainej Pole fai Mewbea mong ~ —fan Barbara Breericka |",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2024-05-16_036",
+              "session": "2024-05-16",
+              "topic": "wybor przewodniczacej/ego Komisji Skarg, Wnioskow i Petycji — — Pan Piok-r Kurd a",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2024-05-16_038",
+              "session": "2024-05-16",
+              "topic": "Data giosowania: — Projekt uchwaly w sprawie delegowania przedstawiciela do reprezentowania Miasta Sopotu w Zgromadzeniu",
+              "their_vote": "za",
+              "club_majority": "przeciw"
+            },
+            {
+              "vote_id": "2024-05-16_039",
+              "session": "2024-05-16",
+              "topic": "Projekt uchwaly w sprawie ustalenia wynagrodzenia miesiecznego Prezydenta Miasta Sopotu (Druk Nr 2 II wersja)",
+              "their_vote": "za",
+              "club_majority": "wstrzymal_sie"
+            },
+            {
+              "vote_id": "2024-06-27_002",
+              "session": "2024-06-27",
+              "topic": "Głosowanie 2",
+              "their_vote": "za",
+              "club_majority": "wstrzymal_sie"
+            },
+            {
+              "vote_id": "2024-06-27_003",
+              "session": "2024-06-27",
+              "topic": "dodanie do porzadku obrad sesji projektu uchwaly w sprawie rozpatrzenia skargi na dziatalnos¢ Prezydenta Miasta Sopotu z",
+              "their_vote": "za",
+              "club_majority": "wstrzymal_sie"
+            },
+            {
+              "vote_id": "2024-06-27_035",
+              "session": "2024-06-27",
+              "topic": "Głosowanie 35",
+              "their_vote": "za",
+              "club_majority": "wstrzymal_sie"
+            },
+            {
+              "vote_id": "2024-09-05_002",
+              "session": "2024-09-05",
+              "topic": "dodanie do porządku obrad projektu uchwały w sprawie ustalenia wysokości opłaty za pobyt i maksymalnej opłaty za wyżywie",
+              "their_vote": "za",
+              "club_majority": "wstrzymal_sie"
+            },
+            {
+              "vote_id": "2024-09-05_018",
+              "session": "2024-09-05",
+              "topic": "1 wyhzenie - za rozstrzygnięciem o sposobie rozpatrzenia Uwagi nr 4, zgodnie z treścią załącznika nr 2 do projektu uchwa",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2024-09-05_019",
+              "session": "2024-09-05",
+              "topic": "2 wyłożenie - za rozstrzygnięciem o sposobie rozpatrzenia Uwagi nr 1, zgodnie z treścią załącznika nr 2 do projektu uchw",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2024-09-05_020",
+              "session": "2024-09-05",
+              "topic": "2 wyłożenie - za rozstrzygnięciem o sposobie rozpatrzenia Uwagi nr 2, zgodnie z treścią załącznika nr 2 do projektu uchw",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2024-09-05_021",
+              "session": "2024-09-05",
+              "topic": "2 wyłożenie - za rozstrzygnięciem o sposobie rozpatrzenia Uwagi nr 3, zgodnie z treścią załącznika nr 2 do projektu uchw",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "przeciw"
+            }
+          ],
+          "has_activity_data": false,
+          "activity": null
+        }
+      }
+    },
+    {
+      "name": "Natalia Pobłocka",
+      "slug": "natalia-poblocka",
+      "kadencje": {
+        "2024-2029": {
+          "club": "Koalicja Dla Sopotu",
+          "okręg": "II",
+          "has_voting_data": true,
+          "frekwencja": 100.0,
+          "aktywnosc": 98.7,
+          "zgodnosc_z_klubem": 99.0,
+          "votes_total": 529,
+          "votes_za": 422,
+          "votes_przeciw": 87,
+          "votes_wstrzymal": 3,
+          "votes_brak": 10,
+          "votes_nieobecny": 1,
+          "rebellion_count": 5,
+          "rebellions": [
+            {
+              "vote_id": "2024-11-21_019",
+              "session": "2024-11-21",
+              "topic": "wniosek formalny o zamknięcie dyskusji",
+              "their_vote": "przeciw",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2025-04-10_021",
+              "session": "2025-04-10",
+              "topic": "Głosowanie 21",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2025-09-04_006",
+              "session": "2025-09-04",
+              "topic": "wniosek formalny Pana Radnego Jakuba Świderskiego o zakończenie dyskusji po wyczerpaniu listy mówców",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2025-11-27_010",
+              "session": "2025-11-27",
+              "topic": "wniosek formalny Pana Radnego Jakuba Świderskiego o zakończenie dyskusji",
+              "their_vote": "przeciw",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2026-02-19_017",
+              "session": "2026-02-19",
+              "topic": "wniosek formalny Pana Radnego Jakuba Świderskiego, aby osobie referującej projekt nie ograniczać czasu wypowiedzi",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
+            }
+          ],
+          "has_activity_data": false,
+          "activity": null
+        }
+      }
+    },
+    {
+      "name": "Jerzy Smolarek",
+      "slug": "jerzy-smolarek",
+      "kadencje": {
+        "2024-2029": {
+          "club": "Koalicja Dla Sopotu",
+          "okręg": "II",
+          "has_voting_data": true,
+          "frekwencja": 90.0,
+          "aktywnosc": 87.9,
+          "zgodnosc_z_klubem": 98.5,
+          "votes_total": 529,
+          "votes_za": 374,
+          "votes_przeciw": 77,
+          "votes_wstrzymal": 2,
+          "votes_brak": 12,
+          "votes_nieobecny": 59,
+          "rebellion_count": 7,
+          "rebellions": [
+            {
+              "vote_id": "2024-06-27_028",
+              "session": "2024-06-27",
+              "topic": "_wniosek o skrdcenie czasu dzierzawy",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "przeciw"
+            },
+            {
+              "vote_id": "2024-12-19_009",
+              "session": "2024-12-19",
+              "topic": "poprawka Mieszkańców do uchwały Druk 86",
+              "their_vote": "za",
+              "club_majority": "przeciw"
+            },
+            {
+              "vote_id": "2025-05-20_026",
+              "session": "2025-05-20",
+              "topic": "rezolucji Rady Miasta Sopotu w sprawie zdecydowanego sprzeciwu wobec przyjmowania migrantów z Azji, Afryki i Bliskiego W",
+              "their_vote": "za",
+              "club_majority": "przeciw"
+            },
+            {
+              "vote_id": "2025-05-20_031",
+              "session": "2025-05-20",
+              "topic": "Przewodnicząca Rady Miasta Pani Aleksandra Gosk z Klubu Radnych Koalicja dla Sopotu Magdaleny Czarzyńskiej-Jachim - Popr",
+              "their_vote": "przeciw",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2025-11-27_021",
+              "session": "2025-11-27",
+              "topic": "zerwania umowy o współpracy z miastem Aszkelon w Izraelu (Druk Nr 235)",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2025-12-18_012",
+              "session": "2025-12-18",
+              "topic": "uchwalenia budżetu miasta Sopotu na rok 2026 (Druk Nr 230 z autopoprawką)",
+              "their_vote": "przeciw",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2026-02-19_017",
+              "session": "2026-02-19",
+              "topic": "wniosek formalny Pana Radnego Jakuba Świderskiego, aby osobie referującej projekt nie ograniczać czasu wypowiedzi",
+              "their_vote": "przeciw",
+              "club_majority": "za"
+            }
+          ],
+          "has_activity_data": false,
+          "activity": null
+        }
+      }
+    },
+    {
+      "name": "Marcin Stefański",
+      "slug": "marcin-stefanski",
+      "kadencje": {
+        "2024-2029": {
+          "club": "Koalicja Dla Sopotu",
+          "okręg": "I",
+          "has_voting_data": true,
+          "frekwencja": 100.0,
+          "aktywnosc": 97.9,
+          "zgodnosc_z_klubem": 99.6,
+          "votes_total": 529,
+          "votes_za": 416,
+          "votes_przeciw": 84,
+          "votes_wstrzymal": 1,
+          "votes_brak": 17,
+          "votes_nieobecny": 1,
+          "rebellion_count": 2,
+          "rebellions": [
+            {
+              "vote_id": "2026-02-19_017",
+              "session": "2026-02-19",
+              "topic": "wniosek formalny Pana Radnego Jakuba Świderskiego, aby osobie referującej projekt nie ograniczać czasu wypowiedzi",
+              "their_vote": "przeciw",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2026-02-19_024",
+              "session": "2026-02-19",
+              "topic": "powołania komisji skrutacyjnej",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
+            }
+          ],
+          "has_activity_data": false,
+          "activity": null
+        }
+      }
+    },
+    {
+      "name": "Jakub Świderski",
+      "slug": "jakub-swiderski",
+      "kadencje": {
+        "2024-2029": {
+          "club": "Prawo i Sprawiedliwość",
+          "okręg": "II",
+          "has_voting_data": true,
+          "frekwencja": 100.0,
+          "aktywnosc": 98.1,
+          "zgodnosc_z_klubem": 77.6,
+          "votes_total": 529,
+          "votes_za": 239,
+          "votes_przeciw": 128,
+          "votes_wstrzymal": 110,
+          "votes_brak": 42,
+          "votes_nieobecny": 1,
+          "rebellion_count": 107,
+          "rebellions": [
+            {
+              "vote_id": "2024-05-16_001",
+              "session": "2024-05-16",
+              "topic": "dodanie do porzadku obrad sesji projektu uchwaty w sprawie delegowania przedstawiciela do reprezentowania Miasta Sopotu ",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2024-05-16_002",
+              "session": "2024-05-16",
+              "topic": "dodanie do porzadku obrad sesji projektu uchwaty w sprawie ustalenia wynagrodzenia miesiecznego Prezydenta Miasta Sopotu",
+              "their_vote": "przeciw",
+              "club_majority": "wstrzymal_sie"
+            },
+            {
+              "vote_id": "2024-05-16_004",
+              "session": "2024-05-16",
+              "topic": "zatwierdzenie protokolu obrad | sesji Rady Miasta Sopotu z dnia 7 maja 2024 r.",
+              "their_vote": "przeciw",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2024-05-16_015",
+              "session": "2024-05-16",
+              "topic": "zatwierdzenie sktadu Komisji Polityki Spotecznej",
+              "their_vote": "przeciw",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2024-05-16_016",
+              "session": "2024-05-16",
+              "topic": "wybor przewodniczacej/ego Komisji Polityki Spotecznej = ~Pan Piotr ne",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2024-05-16_029",
+              "session": "2024-05-16",
+              "topic": "Data giosowania: Temat giosowania: przerwa",
+              "their_vote": "przeciw",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2024-05-16_039",
+              "session": "2024-05-16",
+              "topic": "Projekt uchwaly w sprawie ustalenia wynagrodzenia miesiecznego Prezydenta Miasta Sopotu (Druk Nr 2 II wersja)",
+              "their_vote": "przeciw",
+              "club_majority": "wstrzymal_sie"
+            },
+            {
+              "vote_id": "2024-06-27_001",
+              "session": "2024-06-27",
+              "topic": "dodanie do porzadku obrad projektu uchwaly w sprawie emisji obligacji komunalnych Miasta Sopotu oraz okreslenia zasad ic",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2024-06-27_002",
+              "session": "2024-06-27",
+              "topic": "Głosowanie 2",
+              "their_vote": "przeciw",
+              "club_majority": "wstrzymal_sie"
+            },
+            {
+              "vote_id": "2024-06-27_016",
+              "session": "2024-06-27",
+              "topic": "Przerwa",
+              "their_vote": "przeciw",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2024-06-27_018",
+              "session": "2024-06-27",
+              "topic": "podjecie uchwaly w sprawie zatwierdzenia sprawozdania finansowego wraz ze sprawozdaniem z wykonania budzetu Gminy Miasta",
+              "their_vote": "przeciw",
+              "club_majority": "wstrzymal_sie"
+            },
+            {
+              "vote_id": "2024-06-27_019",
+              "session": "2024-06-27",
+              "topic": "podjecie uchwaly w sprawie udzielenia absolutorium Prezydentowi Miasta Sopotu za rok 2023 (Druk Nr 16)",
+              "their_vote": "przeciw",
+              "club_majority": "wstrzymal_sie"
+            },
+            {
+              "vote_id": "2024-06-27_021",
+              "session": "2024-06-27",
+              "topic": "Data giosowania: — emisji obligacji komunalnych Miasta Sopotu oraz okreslenia zasad ich zbywania, nabywania i wykupu (Dr",
+              "their_vote": "przeciw",
+              "club_majority": "wstrzymal_sie"
+            },
+            {
+              "vote_id": "2024-06-27_022",
+              "session": "2024-06-27",
+              "topic": "okreSlenia szczegdlowych zasad, sposobu i trybu umarzania, odraczania i rozktadania na raty naleznosci pienieznych majac",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2024-06-27_024",
+              "session": "2024-06-27",
+              "topic": "zatwierdzenia sprawozdania finansowego za 2023 rok Samodzielnego Publicznego Zespotu Zakiadéw Opieki Zdrowotnej Miejskie",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2024-06-27_027",
+              "session": "2024-06-27",
+              "topic": "uchwalenia ,,Programu Zapobiegania Przestepczosci oraz Ochrony Bezpieczenstwa Obywateli i Porzadku Publicznego na lata 2",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2024-06-27_041",
+              "session": "2024-06-27",
+              "topic": "Data giosowania: —ogtoszenia tekstu jednolitego Statutu Miasta Sopotu (Druk Nr 24)",
+              "their_vote": "przeciw",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2024-06-27_042",
+              "session": "2024-06-27",
+              "topic": "Temat giosowania: —_przyjecia Raportu z wykonania Gminnego Programu profilaktyki i rozwiazywania problemow alkoholowych ",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2024-09-05_004",
+              "session": "2024-09-05",
+              "topic": "zatwierdzenie zmienionego porządku obrad",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2024-09-05_005",
+              "session": "2024-09-05",
+              "topic": "zatwierdzenie protokołu obrad IV sesji Rady Miasta Sopotu z dnia 27 czerwca 2024 r",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
+            }
+          ],
+          "has_activity_data": false,
+          "activity": null
+        }
+      }
+    },
+    {
+      "name": "Grzegorz Wendykowski",
+      "slug": "grzegorz-wendykowski",
+      "kadencje": {
+        "2024-2029": {
+          "club": "Koalicja Dla Sopotu",
+          "okręg": "IV",
+          "rola": "Wiceprzewodniczący Rady Miasta",
+          "has_voting_data": true,
+          "frekwencja": 100.0,
+          "aktywnosc": 98.7,
+          "zgodnosc_z_klubem": 97.9,
+          "votes_total": 529,
+          "votes_za": 424,
+          "votes_przeciw": 87,
+          "votes_wstrzymal": 4,
+          "votes_brak": 7,
+          "votes_nieobecny": 1,
+          "rebellion_count": 11,
+          "rebellions": [
+            {
+              "vote_id": "2024-10-29_017",
+              "session": "2024-10-29",
+              "topic": "zmieniającej Uchwałę Nr LII/897/2024 z dnia 27 lutego 2024 r. w sprawie ustalenia zryczałtowanych diet dla Radnych Miast",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2025-05-20_031",
+              "session": "2025-05-20",
+              "topic": "Przewodnicząca Rady Miasta Pani Aleksandra Gosk z Klubu Radnych Koalicja dla Sopotu Magdaleny Czarzyńskiej-Jachim - Popr",
+              "their_vote": "przeciw",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2025-05-20_032",
+              "session": "2025-05-20",
+              "topic": "Wiceprzewodnicząca Rady Miasta Pani Grażyna Czajkowska z Klubu Radnych Kocham Sopot - Poprawka do projektu Statutu Miast",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2025-06-26_008",
+              "session": "2025-06-26",
+              "topic": "Głosowanie 8",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2025-06-26_058",
+              "session": "2025-06-26",
+              "topic": "Głosowanie 58",
+              "their_vote": "za",
+              "club_majority": "przeciw"
+            },
+            {
+              "vote_id": "2025-06-26_066",
+              "session": "2025-06-26",
+              "topic": "Głosowanie 66",
+              "their_vote": "przeciw",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2025-09-04_025",
+              "session": "2025-09-04",
+              "topic": "zmiany uchwały w sprawie zatwierdzenia rocznego planu kontroli Komisji Rewizyjnej na 2025 rok (Druk Nr 196)",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2025-10-23_033",
+              "session": "2025-10-23",
+              "topic": "wniosek formalny Pana Radnego Zbigniewa Duzinkiewicza o zakończenie dyskusji po wyczerpaniu listy mówców",
+              "their_vote": "przeciw",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2025-11-27_021",
+              "session": "2025-11-27",
+              "topic": "zerwania umowy o współpracy z miastem Aszkelon w Izraelu (Druk Nr 235)",
+              "their_vote": "przeciw",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2026-01-15_020",
+              "session": "2026-01-15",
+              "topic": "zatwierdzenia rocznego planu kontroli Komisji Rewizyjnej na 2026 rok (Druk Nr 250)",
+              "their_vote": "przeciw",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2026-02-19_017",
+              "session": "2026-02-19",
+              "topic": "wniosek formalny Pana Radnego Jakuba Świderskiego, aby osobie referującej projekt nie ograniczać czasu wypowiedzi",
+              "their_vote": "przeciw",
+              "club_majority": "za"
+            }
+          ],
+          "has_activity_data": false,
+          "activity": null
+        }
+      }
+    },
+    {
+      "name": "Jarosław Zawada",
+      "slug": "jaroslaw-zawada",
+      "kadencje": {
+        "2024-2029": {
+          "club": "Koalicja Dla Sopotu",
+          "okręg": "II",
+          "has_voting_data": true,
+          "frekwencja": 100.0,
+          "aktywnosc": 98.1,
+          "zgodnosc_z_klubem": 98.0,
+          "votes_total": 529,
+          "votes_za": 419,
+          "votes_przeciw": 85,
+          "votes_wstrzymal": 6,
+          "votes_brak": 9,
+          "votes_nieobecny": 1,
+          "rebellion_count": 10,
+          "rebellions": [
+            {
+              "vote_id": "2025-10-23_032",
+              "session": "2025-10-23",
+              "topic": "wniosek o zmianę porządku obrad poprzez przeniesienie pkt. 3 po pkt. 2.22)",
+              "their_vote": "przeciw",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2025-11-27_010",
+              "session": "2025-11-27",
+              "topic": "wniosek formalny Pana Radnego Jakuba Świderskiego o zakończenie dyskusji",
+              "their_vote": "przeciw",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2025-11-27_021",
+              "session": "2025-11-27",
+              "topic": "zerwania umowy o współpracy z miastem Aszkelon w Izraelu (Druk Nr 235)",
+              "their_vote": "przeciw",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2025-12-18_006",
+              "session": "2025-12-18",
+              "topic": "wniosek formalny Pana Radnego Jarosława Kempy o zakończenie dyskusji po wyczerpaniu listy mówców",
+              "their_vote": "przeciw",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2026-01-15_002",
+              "session": "2026-01-15",
+              "topic": "wniosek Pana Radnego Jakuba Świderskiego o dodanie w 1 pkt porządku obrad sesji odczytania protestu",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "przeciw"
+            },
+            {
+              "vote_id": "2026-01-15_003",
+              "session": "2026-01-15",
+              "topic": "wniosek formalny Pana Radnego Jakuba Świderskiego w sprawie odczytania protestu w pkt 2 porządku sesji",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "przeciw"
+            },
+            {
+              "vote_id": "2026-01-15_014",
+              "session": "2026-01-15",
+              "topic": "wniosek formalny Pana Radnego Zbigniewa Duzinkiewicza o zakończenie dyskusji po wyczerpaniu listy mówców",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2026-01-15_017",
+              "session": "2026-01-15",
+              "topic": "wniosek formalny Pana Radnego Zbigniewa Duzinkiewicza o zakończenie dyskusji po wyczerpaniu listy mówców",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2026-01-15_022",
+              "session": "2026-01-15",
+              "topic": "wniosek formalny Pani Radnej Barbary Brzezickiej o zakończenie dyskusji po wyczerpaniu listy mówców",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2026-02-19_020",
+              "session": "2026-02-19",
+              "topic": "wniosek formalny Pana Radnego Jakuba Świderskiego w sprawie zgłaszania wniosków formalnych",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "przeciw"
+            }
+          ],
+          "has_activity_data": false,
+          "activity": null
+        }
+      }
+    }
+  ]
+}

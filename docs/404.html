@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Radoskop Sopot</title>
+<script>
+  // Single Page Application (SPA) redirect
+  // GitHub Pages will serve 404.html for any non-existent path
+  // We use this to handle client-side routing
+  const path = window.location.pathname;
+  const search = '?p=' + encodeURIComponent(path);
+  window.location.replace('/index.html' + search);
+</script>
+</head>
+<body>
+Redirecting...
+</body>
+</html>
