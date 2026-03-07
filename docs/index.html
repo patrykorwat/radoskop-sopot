@@ -400,6 +400,31 @@ async function init() {
     RAW = await dataResp.json();
     PROFILES = await profResp.json();
     try { const br = await fetch('/budget.json'); if (br.ok) window.BUDGET = await br.json(); } catch(e) { window.BUDGET = null; }
+
+    // Enrich councilors with computed fields from profiles
+    for (const kad of RAW.kadencje) {
+      for (const c of kad.councilors) {
+        // Flatten nested stats if present
+        if (c.stats && !c.frekwencja) {
+          c.frekwencja = c.stats.frekwencja ?? 0;
+          c.votes_za = c.stats.za ?? 0;
+          c.votes_przeciw = c.stats.przeciw ?? 0;
+          c.votes_wstrzymal = c.stats.wstrzymal_sie ?? 0;
+          c.votes_brak = c.stats.brak_glosu ?? 0;
+          c.votes_nieobecny = c.stats.nieobecni ?? 0;
+          c.votes_total = c.stats.total_votes ?? 0;
+        }
+        // Merge computed fields from profiles (aktywnosc, zgodnosc, rebellion)
+        const prof = PROFILES && PROFILES.profiles.find(p => p.name === c.name);
+        if (prof && prof.kadencje[kad.id]) {
+          const pk = prof.kadencje[kad.id];
+          if (c.aktywnosc === undefined) c.aktywnosc = pk.aktywnosc ?? 0;
+          if (c.zgodnosc_z_klubem === undefined) c.zgodnosc_z_klubem = pk.zgodnosc_z_klubem ?? 0;
+          if (c.rebellion_count === undefined) c.rebellion_count = pk.rebellion_count ?? 0;
+        }
+      }
+    }
+
     document.getElementById('loading').style.display = 'none';
     document.getElementById('app').style.display = 'block';
     renderKadencjaBar();
