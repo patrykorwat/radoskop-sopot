@@ -587,6 +587,170 @@ def _fuzzy_match_councilor(name: str) -> str | None:
     return None
 
 
+def _strip_diacritics(text: str) -> str:
+    """Remove Polish diacritics for OCR comparison."""
+    table = str.maketrans('ąćęłńóśżźĄĆĘŁŃÓŚŻŹ', 'acelnoszzACELNOSZZ')
+    return text.translate(table)
+
+
+def _fuzzy_match_councilor_generous(name: str) -> str | None:
+    """Like _fuzzy_match_councilor but more generous for OCR-garbled handwritten text.
+
+    Handwritten names in topics are much more garbled than printed names in
+    individual vote rows, so we allow up to 45% edit distance.
+    Also strips diacritics before comparing (OCR never produces Polish diacritics).
+    Also tries partial matching (first name or last name only).
+    """
+    if not KNOWN_COUNCILORS:
+        return None
+
+    norm = _strip_diacritics(_normalize_name(name))
+    if not norm or len(norm) < 3:
+        return None
+
+    # Exact match first (with diacritics stripped)
+    for known_norm, canonical in COUNCILOR_CANONICAL.items():
+        if _strip_diacritics(known_norm) == norm:
+            return canonical
+
+    # Fuzzy match using Levenshtein distance — generous threshold, no diacritics
+    best_match = None
+    best_distance = 999
+
+    for known_norm, canonical in COUNCILOR_CANONICAL.items():
+        known_stripped = _strip_diacritics(known_norm)
+        if abs(len(norm) - len(known_stripped)) > 8:
+            continue
+        dist = _levenshtein_distance(norm, known_stripped)
+        if dist < best_distance:
+            best_distance = dist
+            best_match = canonical
+
+    # Allow up to 45% edit distance for handwritten OCR
+    max_dist = max(len(norm), 1) * 0.45
+    if best_distance <= max(max_dist, 4):
+        return best_match
+
+    # Try matching just the last word (surname) against councilor surnames
+    words = norm.split()
+    if len(words) >= 1:
+        surname = words[-1]
+        if len(surname) >= 4:
+            best_match = None
+            best_distance = 999
+            for known_norm, canonical in COUNCILOR_CANONICAL.items():
+                known_surname = _strip_diacritics(known_norm.split()[-1])
+                dist = _levenshtein_distance(surname, known_surname)
+                if dist < best_distance:
+                    best_distance = dist
+                    best_match = canonical
+            # 50% tolerance on surname alone (handwritten OCR is very noisy)
+            if best_distance <= max(len(surname) * 0.50, 3):
+                return best_match
+
+    return None
+
+
+def _clean_ocr_topic(topic: str) -> str:
+    """Clean up OCR-garbled vote topics.
+
+    Fixes:
+    - OCR artifacts (¢, |, stray punctuation)
+    - "fan"/"far" → "Pan" (common OCR misread of handwritten "Pan")
+    - Garbled handwritten candidate names → fuzzy match against known councilors
+    - Trailing junk after candidate names
+    """
+    if not topic:
+        return topic
+
+    # Strip leaked OCR labels that weren't removed by the header parser (may appear multiple times)
+    for _ in range(3):  # max 3 iterations
+        new = re.sub(r'^(?:Temat|Data)\s+g\S*osowania\s*:\s*', '', topic, flags=re.IGNORECASE).strip()
+        new = re.sub(r'^[—–\-_=\s.]+', '', new).strip()
+        if new == topic:
+            break
+        topic = new
+
+    # Remove OCR artifacts
+    topic = topic.replace('¢', 'ć')
+    # Replace pipe (|) only when it looks like OCR artifact (surrounded by letters), not in "Druk Nr"
+    topic = re.sub(r'(?<=[a-ząęóśżźćńł])\|(?=[a-ząęóśżźćńł])', 'l', topic, flags=re.IGNORECASE)
+    # Strip leading/trailing stray chars
+    topic = re.sub(r'^[—–\-_=\s.]+', '', topic).strip()
+    topic = re.sub(r'[|]+\s*$', '', topic).strip()
+
+    # Fix "fan"/"far" → "Pan" (OCR misread of handwritten "Pan/Pani")
+    topic = re.sub(r'\bfan\b', 'Pan', topic, flags=re.IGNORECASE)
+    topic = re.sub(r'\bfar\b', 'Pan', topic, flags=re.IGNORECASE)
+    topic = re.sub(r'\bPaw\b', 'Pan', topic)  # "Paw" → "Pan"
+
+    # For "wybór/wybor" votes with candidate names, try to reconstruct
+    # garbled handwritten names using fuzzy matching against councilors
+    if KNOWN_COUNCILORS and re.search(r'wyb[oó]r\b', topic, re.IGNORECASE):
+        topic = _fix_candidate_in_topic(topic)
+    elif KNOWN_COUNCILORS and re.match(r'^(?:Pan[i]?\s+)?(\S+\s+\S+)', topic):
+        # Topic looks like just a garbled name (OCR lost the actual topic text)
+        # Try matching against councilors — if it matches, it's likely a candidate name
+        # from a "wybór" vote where the printed part was lost
+        name_match = re.match(r'^(?:Pan[i]?\s+)?(.+?)[:;,.\s]*$', topic)
+        if name_match:
+            candidate = name_match.group(1).strip()
+            matched = _fuzzy_match_councilor_generous(candidate)
+            if matched:
+                topic = f"wybór — kandydat(ka): {matched}"
+
+    # Clean up stray trailing punctuation/whitespace
+    topic = re.sub(r'[\s,;:]+$', '', topic).strip()
+
+    return topic
+
+
+def _fix_candidate_in_topic(topic: str) -> str:
+    """For 'wybór' vote topics, try to fix garbled candidate names.
+
+    Handwritten candidate names (e.g. '— Pan Marcin Stefański') are often
+    garbled by OCR (e.g. '~ far Martin Stefan nck,'). This function tries
+    to identify and fix them using fuzzy matching against known councilors.
+    """
+    # Pattern: after a dash/tilde, there may be "Pan/Pani" and a garbled name
+    # Try to find the candidate section (after —, ~, -, or =)
+    sep_match = re.search(r'[—–\-~=]\s*(?:Pan[i]?\s+)?(.+)$', topic)
+    if not sep_match:
+        return topic
+
+    candidate_text = sep_match.group(1).strip()
+    # Remove trailing junk (random chars from OCR)
+    candidate_text = re.sub(r'[,;:|~=\-—–\s]+$', '', candidate_text).strip()
+
+    if not candidate_text or len(candidate_text) < 3:
+        # Candidate text too short, can't match — remove garbled part
+        topic = topic[:sep_match.start()].strip()
+        topic = re.sub(r'[—–\-~=\s]+$', '', topic).strip()
+        return topic
+
+    # Try fuzzy matching (generous for handwritten OCR)
+    matched = _fuzzy_match_councilor_generous(candidate_text)
+    if matched:
+        prefix = topic[:sep_match.start()].strip()
+        prefix = re.sub(r'[—–\-~=\s]+$', '', prefix).strip()
+        return f"{prefix} — kandydat(ka): {matched}"
+
+    # If fuzzy match fails, try matching individual words as first/last name
+    words = candidate_text.split()
+    if len(words) >= 2:
+        test_name = words[0] + ' ' + words[1]
+        matched = _fuzzy_match_councilor_generous(test_name)
+        if matched:
+            prefix = topic[:sep_match.start()].strip()
+            prefix = re.sub(r'[—–\-~=\s]+$', '', prefix).strip()
+            return f"{prefix} — kandydat(ka): {matched}"
+
+    # Can't fix candidate name — strip garbled trailing part
+    topic = topic[:sep_match.start()].strip()
+    topic = re.sub(r'[—–\-~=\s]+$', '', topic).strip()
+    return topic
+
+
 def _parse_pdf_report_page(text: str, att: dict, page_idx: int) -> dict | None:
     """Parse a single page from a PDF voting report.
 
@@ -619,15 +783,17 @@ def _parse_pdf_report_page(text: str, att: dict, page_idx: int) -> dict | None:
     )
     if header_block:
         raw = header_block.group(1)
-        # Remove known labels (OCR: głosowania→gtosowania, sesji→sesji)
-        raw = re.sub(r'(?:Temat|Nazwa|Data)\s+(?:g[łlt]osowania|sesji)[;:]?\s*', '', raw, flags=re.IGNORECASE)
+        # Remove known labels (OCR: głosowania→gtosowania/giosowania/gfosowania, sesji→sesji)
+        raw = re.sub(r'(?:Temat|Nazwa|Data)\s+(?:g\S*osowania|sesji)[;:]?\s*', '', raw, flags=re.IGNORECASE)
         # Remove session name pattern: "V sesja rady miasta 5-09-2024" or "| sesja Rady Miasta 7-05-2024"
         raw = re.sub(r'[IVXLCDM|]+\s+sesja\s+rady\s+miasta\s+\S+', '', raw, flags=re.IGNORECASE)
         # Remove dates: "05.09.2024" or "05 09 2024" or "05.09 2024" or "7-05-2024"
         raw = re.sub(r'\d{1,2}[.\s-]+\d{2}[.\s-]*\d{4}', '', raw)
         topic = re.sub(r'\s+', ' ', raw).strip()
-        # Strip leading dashes/hyphens
-        topic = topic.lstrip('—- ').strip()
+        # Strip leading dashes/hyphens/underscores/equals
+        topic = re.sub(r'^[—–\-_=\s.]+', '', topic).strip()
+        # Clean OCR artifacts from topic
+        topic = _clean_ocr_topic(topic)
 
     # --- Counts ---
     counts = {"za": 0, "przeciw": 0, "wstrzymal_sie": 0, "brak_glosu": 0, "nieobecni": 0}
@@ -674,15 +840,17 @@ def _parse_pdf_report_page(text: str, att: dict, page_idx: int) -> dict | None:
     # Parse numbered rows: "1  Piotr Bagiński  ZA"
     # OCR can produce various artifacts: "ZA"→"Zk"/"Za", "WSTRZYMAŁ"→"WSTRZYMAE",
     # "GŁOSOWAŁ"→"GLOSOWAL", "NIEOBECNY"→"NIEOBECNY"
+    # Line numbers may be garbled by OCR: "7"→"t", "1"→"l", etc.
+    # Use [\dA-Za-z] for line numbers (OCR can turn digits into letters)
     vote_pattern = re.compile(
-        r'^\s*(\d{1,2})\s+(.+?)\s+'
-        r'(Z[AaKk]|PRZECIW|WSTRZYMA[ŁŁLEF]\s*(?:SI[ĘEÉE])?|NI?E\s+G[ŁL]?OSOWA[ŁL]|NIEOBECN[YA])\s*$',
+        r'^\s*[\dA-Za-z]{1,2}\s+(\S+[ \t]+\S[^\n]+?)[ \t]+'
+        r'(Z[AaKk]|PRZECIW|WSTRZYMA[ŁŁLEF][ \t]*(?:SI[ĘEÉE])?|NI?E[ \t]+G[ŁL]?OSOWA[ŁL]|NIEOBECN[YA])\s*$',
         re.MULTILINE | re.IGNORECASE
     )
 
     for m in vote_pattern.finditer(votes_section):
-        raw_name = m.group(2).strip()
-        vote_type = m.group(3).strip().upper()
+        raw_name = m.group(1).strip()
+        vote_type = m.group(2).strip().upper()
 
         # Clean up OCR artifacts from name
         raw_name = re.sub(r'\s+', ' ', raw_name)
@@ -709,6 +877,46 @@ def _parse_pdf_report_page(text: str, att: dict, page_idx: int) -> dict | None:
             named_votes["nieobecni"].append(matched_name)
 
     total_named = sum(len(v) for v in named_votes.values())
+
+    # Fallback: multi-line format (PyMuPDF extracts some PDFs with each field on its own line)
+    # Format: "1\nName\nVOTE_TYPE\n2\nName\nVOTE_TYPE\n..."
+    if total_named == 0:
+        vote_type_re = re.compile(
+            r'^(Z[AaKk]|PRZECIW|WSTRZYMA[ŁŁL]\w*|NI?E\s+G[ŁL]?OSOWA[ŁL]\w*|NIEOBECN[YA]\w*)$',
+            re.IGNORECASE
+        )
+        lines = votes_section.split('\n')
+        i = 0
+        while i < len(lines):
+            line = lines[i].strip()
+            # Look for pattern: number_line, name_line, vote_type_line
+            if re.match(r'^\d{1,2}$', line):
+                if i + 2 < len(lines):
+                    name_line = lines[i + 1].strip()
+                    type_line = lines[i + 2].strip()
+                    if name_line and vote_type_re.match(type_line):
+                        raw_name = re.sub(r'\s+', ' ', name_line)
+                        matched_name = _fuzzy_match_councilor(raw_name)
+                        if not matched_name:
+                            if KNOWN_COUNCILORS:
+                                print(f"      UWAGA: Nie rozpoznano '{raw_name}' (OCR?)")
+                            matched_name = raw_name
+                        vote_upper = type_line.strip().upper().replace("K", "A")
+                        if vote_upper.startswith("ZA") or vote_upper == "ZA":
+                            named_votes["za"].append(matched_name)
+                        elif "PRZECIW" in vote_upper:
+                            named_votes["przeciw"].append(matched_name)
+                        elif "WSTRZYMA" in vote_upper:
+                            named_votes["wstrzymal_sie"].append(matched_name)
+                        elif "OSOWA" in vote_upper:
+                            named_votes["brak_glosu"].append(matched_name)
+                        elif "NIEOBECN" in vote_upper:
+                            named_votes["nieobecni"].append(matched_name)
+                        i += 3
+                        continue
+            i += 1
+        total_named = sum(len(v) for v in named_votes.values())
+
     if total_named == 0:
         return None
 
