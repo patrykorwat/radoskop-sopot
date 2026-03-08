@@ -51,9 +51,9 @@
   --text: #1a1d27;
   --muted: #6b7280;
   --accent: #4f46e5;
-  --green: #16a34a;
+  --green: #15803d;
   --red: #dc2626;
-  --yellow: #ca8a04;
+  --yellow: #a16207;
   --blue: #2563eb;
 }
 * { margin:0; padding:0; box-sizing:border-box; }
@@ -196,12 +196,18 @@ footer a { color:var(--accent); text-decoration:none; }
 .seo-intro p { color: var(--muted); font-size: 0.88rem; line-height: 1.7; margin-bottom: 10px; }
 .seo-intro strong { color: var(--text); font-weight: 600; }
 .seo-tab-desc { color: var(--muted); font-size: 0.82rem; line-height: 1.6; margin-bottom: 14px; padding: 0; }
+a.name-link { text-decoration:underline; text-decoration-color:rgba(79,70,229,0.3); text-underline-offset:2px; }
+a.name-link:hover { text-decoration-color:var(--accent); }
+footer a { text-decoration:underline; text-decoration-color:rgba(79,70,229,0.3); }
+.stats-grid { min-height:90px; }
+header { min-height:80px; }
 </style>
 </head>
 <body>
+<main>
 <noscript>
 <div class="container">
-<h1>Radoskop Sopot</h1>
+<h2>Radoskop Sopot</h2>
 <p>Otwarte narzędzie monitoringu Rady Miasta Sopotu. Dane z protokołów Biuletynu Informacji Publicznej (BIP).</p>
 <h2>Dane</h2>
 <ul>
@@ -1833,5 +1839,6 @@ window.addEventListener('popstate', () => {
 
 init();
 </script>
+</main>
 </body>
 </html>
