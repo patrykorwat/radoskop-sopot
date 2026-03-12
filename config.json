@@ -1,0 +1,17 @@
+{
+  "city_name": "Sopot",
+  "city_genitive": "Sopotu",
+  "site_title": "Radoskop Sopot — Jak głosują radni? Monitoring Rady Miasta Sopotu",
+  "site_url": "https://sopot.radoskop.pl",
+  "site_description": "Radoskop Sopot — monitoring Rady Miasta Sopotu. Sprawdź frekwencję, głosowania, aktywność i profile 21 radnych. Budżet Sopotu, sesje i analiza głosowań kadencji 2024–2029. Dane z BIP.",
+  "site_description_short": "Monitoring Rady Miasta Sopotu. Frekwencja, głosowania, aktywność radnych.",
+  "bip_url": "https://bip.sopot.pl",
+  "bip_name": "BIP Sopot",
+  "github_url": "https://github.com/patrykorwat/radoskop-sopot",
+  "ga_id": "",
+  "author": "Patryk Orwat",
+  "cname": "sopot.radoskop.pl",
+  "clubs": {},
+  "has_budget": true,
+  "budget_note": ""
+}

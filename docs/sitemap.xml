@@ -6,12 +6,7 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://sopot.radoskop.pl/profil/adam-gil/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://sopot.radoskop.pl/profil/aleksandra-gosk/</loc>
+    <loc>https://sopot.radoskop.pl/profil/piotr-baginski/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -26,12 +21,27 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sopot.radoskop.pl/profil/grzegorz-wendykowski/</loc>
+    <loc>https://sopot.radoskop.pl/profil/zbigniew-duzinkiewicz/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sopot.radoskop.pl/profil/jakub-swiderski/</loc>
+    <loc>https://sopot.radoskop.pl/profil/wojciech-fulek/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sopot.radoskop.pl/profil/adam-gil/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sopot.radoskop.pl/profil/aleksandra-gosk/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sopot.radoskop.pl/profil/piotr-harhaj/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -46,12 +56,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sopot.radoskop.pl/profil/jaroslaw-zawada/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://sopot.radoskop.pl/profil/jerzy-smolarek/</loc>
+    <loc>https://sopot.radoskop.pl/profil/piotr-kurdziel/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -61,17 +66,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://sopot.radoskop.pl/profil/piotr-meler/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://sopot.radoskop.pl/profil/karolina-niemczyk-baltowska/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://sopot.radoskop.pl/profil/marcin-stefanski/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://sopot.radoskop.pl/profil/natalia-poblocka/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -81,83 +81,108 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sopot.radoskop.pl/profil/piotr-baginski/</loc>
+    <loc>https://sopot.radoskop.pl/profil/natalia-poblocka/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sopot.radoskop.pl/profil/piotr-harhaj/</loc>
+    <loc>https://sopot.radoskop.pl/profil/jerzy-smolarek/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sopot.radoskop.pl/profil/piotr-kurdziel/</loc>
+    <loc>https://sopot.radoskop.pl/profil/marcin-stefanski/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sopot.radoskop.pl/profil/piotr-meler/</loc>
+    <loc>https://sopot.radoskop.pl/profil/jakub-swiderski/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sopot.radoskop.pl/profil/wojciech-fulek/</loc>
+    <loc>https://sopot.radoskop.pl/profil/grzegorz-wendykowski/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sopot.radoskop.pl/profil/zbigniew-duzinkiewicz/</loc>
+    <loc>https://sopot.radoskop.pl/profil/jaroslaw-zawada/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sopot.radoskop.pl/budzet/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://sopot.radoskop.pl/kadencja/viii/ranking/</loc>
-    <changefreq>weekly</changefreq>
+    <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://sopot.radoskop.pl/kadencja/viii/radni/</loc>
-    <changefreq>weekly</changefreq>
+    <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://sopot.radoskop.pl/kadencja/viii/sesje/</loc>
-    <changefreq>weekly</changefreq>
+    <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://sopot.radoskop.pl/kadencja/viii/glosowania/</loc>
-    <changefreq>weekly</changefreq>
+    <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://sopot.radoskop.pl/kadencja/viii/podobienstwo/</loc>
-    <changefreq>weekly</changefreq>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sopot.radoskop.pl/kadencja/viii/uchwaly/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sopot.radoskop.pl/kadencja/viii/interpelacje/</loc>
+    <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://sopot.radoskop.pl/kadencja/ix/ranking/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://sopot.radoskop.pl/kadencja/ix/radni/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://sopot.radoskop.pl/kadencja/ix/sesje/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://sopot.radoskop.pl/kadencja/ix/glosowania/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://sopot.radoskop.pl/kadencja/ix/podobienstwo/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://sopot.radoskop.pl/kadencja/ix/uchwaly/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://sopot.radoskop.pl/kadencja/ix/interpelacje/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
 </urlset>
