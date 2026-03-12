@@ -9,10 +9,10 @@
           "okręg": "III",
           "has_voting_data": true,
           "frekwencja": 100.0,
-          "aktywnosc": 97.2,
+          "aktywnosc": 96.8,
           "zgodnosc_z_klubem": 95.1,
           "votes_total": 529,
-          "votes_za": 400,
+          "votes_za": 398,
           "votes_przeciw": 91,
           "votes_wstrzymal": 17,
           "votes_brak": 6,
@@ -174,64 +174,22 @@
           "okręg": "III",
           "has_voting_data": true,
           "frekwencja": 100.0,
-          "aktywnosc": 99.1,
-          "zgodnosc_z_klubem": 92.8,
+          "aktywnosc": 97.9,
+          "zgodnosc_z_klubem": 93.9,
           "votes_total": 529,
           "votes_za": 405,
           "votes_przeciw": 75,
-          "votes_wstrzymal": 31,
+          "votes_wstrzymal": 25,
           "votes_brak": 13,
           "votes_nieobecny": 1,
-          "rebellion_count": 37,
+          "rebellion_count": 31,
           "rebellions": [
             {
               "vote_id": "2024-06-27_028",
               "session": "2024-06-27",
-              "topic": "_wniosek o skrdcenie czasu dzierzawy",
+              "topic": "wniosek o skrdcenie czasu dzierzawy",
               "their_vote": "wstrzymal_sie",
               "club_majority": "przeciw"
-            },
-            {
-              "vote_id": "2024-09-05_015",
-              "session": "2024-09-05",
-              "topic": "uchwalenia miejscowego planu zagospodarowania przestrzennego obszaru ograniczonego ulicami Wimeckiego, Haffnera, Kubacza",
-              "their_vote": "wstrzymal_sie",
-              "club_majority": "za"
-            },
-            {
-              "vote_id": "2024-09-05_019",
-              "session": "2024-09-05",
-              "topic": "2 wyłożenie - za rozstrzygnięciem o sposobie rozpatrzenia Uwagi nr 1, zgodnie z treścią załącznika nr 2 do projektu uchw",
-              "their_vote": "wstrzymal_sie",
-              "club_majority": "za"
-            },
-            {
-              "vote_id": "2024-09-05_021",
-              "session": "2024-09-05",
-              "topic": "2 wyłożenie - za rozstrzygnięciem o sposobie rozpatrzenia Uwagi nr 3, zgodnie z treścią załącznika nr 2 do projektu uchw",
-              "their_vote": "wstrzymal_sie",
-              "club_majority": "za"
-            },
-            {
-              "vote_id": "2024-09-05_022",
-              "session": "2024-09-05",
-              "topic": "3 wyłożenie - za rozstrzygnięciem o sposobie rozpatrzenia Uwagi, zgodnie z treścią załącznika nr 2 do projektu uchwały (",
-              "their_vote": "wstrzymal_sie",
-              "club_majority": "za"
-            },
-            {
-              "vote_id": "2024-09-05_023",
-              "session": "2024-09-05",
-              "topic": "4 wyłożenie - za rozstrzygnięciem o sposobie rozpatrzenia Uwagi, zgodnie z treścią załącznika nr 2 do projektu uchwały (",
-              "their_vote": "wstrzymal_sie",
-              "club_majority": "za"
-            },
-            {
-              "vote_id": "2024-09-05_024",
-              "session": "2024-09-05",
-              "topic": "za podjęciem uchwały w sprawie uchwalenia miejscowego planu zagospodarowania przestrzennego dla obszaru ograniczonego ul",
-              "their_vote": "wstrzymal_sie",
-              "club_majority": "za"
             },
             {
               "vote_id": "2024-11-21_011",
@@ -323,6 +281,48 @@
               "topic": "Głosowanie 41",
               "their_vote": "wstrzymal_sie",
               "club_majority": "za"
+            },
+            {
+              "vote_id": "2025-06-26_042",
+              "session": "2025-06-26",
+              "topic": "Głosowanie 42",
+              "their_vote": "przeciw",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2025-06-26_045",
+              "session": "2025-06-26",
+              "topic": "Głosowanie 45",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2025-06-26_050",
+              "session": "2025-06-26",
+              "topic": "Głosowanie 50",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2025-06-26_053",
+              "session": "2025-06-26",
+              "topic": "Głosowanie 53",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2025-06-26_067",
+              "session": "2025-06-26",
+              "topic": "Głosowanie 67",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "przeciw"
+            },
+            {
+              "vote_id": "2025-10-23_002",
+              "session": "2025-10-23",
+              "topic": "wniosek Pana Radnego Jakuba Świderskiego o przesunięcie w porządku obrad projektu uchwały Druk Nr 223 w pkt 2.1)",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "przeciw"
             }
           ],
           "has_activity_data": false,
@@ -340,34 +340,27 @@
           "rola": "Wiceprzewodnicząca Rady Miasta",
           "has_voting_data": true,
           "frekwencja": 95.0,
-          "aktywnosc": 98.3,
-          "zgodnosc_z_klubem": 87.8,
+          "aktywnosc": 97.4,
+          "zgodnosc_z_klubem": 88.1,
           "votes_total": 529,
-          "votes_za": 378,
+          "votes_za": 377,
           "votes_przeciw": 62,
-          "votes_wstrzymal": 44,
+          "votes_wstrzymal": 40,
           "votes_brak": 36,
           "votes_nieobecny": 9,
-          "rebellion_count": 59,
+          "rebellion_count": 57,
           "rebellions": [
             {
               "vote_id": "2024-05-16_009",
               "session": "2024-05-16",
-              "topic": "wybor przewodniczacej/ego komisji Strategii i Budzetu — ~ far Martin Stefan nck,",
+              "topic": "wybdr przewodniczacej/ego komisji Strategii i Budzetu = ~ Pan Martin Stefan nck",
               "their_vote": "wstrzymal_sie",
               "club_majority": "za"
             },
             {
-              "vote_id": "2024-05-16_011",
-              "session": "2024-05-16",
-              "topic": "Temat gfosowania: wybdr przewodniczacej/ego Komisji Architektury i tadu Przestrzennego ~ —~ Paw Nalalia PobTetea",
-              "their_vote": "za",
-              "club_majority": "wstrzymal_sie"
-            },
-            {
               "vote_id": "2024-05-16_025",
               "session": "2024-05-16",
-              "topic": "fan Jak Swidewk:",
+              "topic": "Głosowanie 25",
               "their_vote": "przeciw",
               "club_majority": "za"
             },
@@ -381,7 +374,7 @@
             {
               "vote_id": "2024-06-27_029",
               "session": "2024-06-27",
-              "topic": "Data giosowania: wyrazenia zgody na wydzierzawienie i na oddanie w najem nieruchomosci bedacej wiasnosciq Gminy Miasta S",
+              "topic": "wyrazenia zgody na wydzierzawienie i na oddanie w najem nieruchomosci bedacej wiasnosciq Gminy Miasta Sopotu, w trybie b",
               "their_vote": "wstrzymal_sie",
               "club_majority": "za"
             },
@@ -395,14 +388,7 @@
             {
               "vote_id": "2024-06-27_041",
               "session": "2024-06-27",
-              "topic": "Data giosowania: —ogtoszenia tekstu jednolitego Statutu Miasta Sopotu (Druk Nr 24)",
-              "their_vote": "wstrzymal_sie",
-              "club_majority": "za"
-            },
-            {
-              "vote_id": "2024-09-05_015",
-              "session": "2024-09-05",
-              "topic": "uchwalenia miejscowego planu zagospodarowania przestrzennego obszaru ograniczonego ulicami Wimeckiego, Haffnera, Kubacza",
+              "topic": "ogtoszenia tekstu jednolitego Statutu Miasta Sopotu (Druk Nr 24)",
               "their_vote": "wstrzymal_sie",
               "club_majority": "za"
             },
@@ -489,6 +475,20 @@
               "topic": "poprawka 5 Klubu Radnych PiS do projektu uchwały Druk Nr 84",
               "their_vote": "wstrzymal_sie",
               "club_majority": "za"
+            },
+            {
+              "vote_id": "2024-11-21_025",
+              "session": "2024-11-21",
+              "topic": "poprawka do projektu uchwały Druk Nr 77",
+              "their_vote": "przeciw",
+              "club_majority": "wstrzymal_sie"
+            },
+            {
+              "vote_id": "2024-11-21_029",
+              "session": "2024-11-21",
+              "topic": "Głosowanie 29",
+              "their_vote": "przeciw",
+              "club_majority": "za"
             }
           ],
           "has_activity_data": false,
@@ -525,7 +525,7 @@
             {
               "vote_id": "2024-06-27_037",
               "session": "2024-06-27",
-              "topic": "_rozpatrzenia skargi na dziatalnos¢ Prezydenta Miasta Sopotu z 23 stycznia 2024r. (Druk Nr 28)",
+              "topic": "rozpatrzenia skargi na dziatainosć Prezydenta Miasta Sopotu z 23 stycznia 2024r. (Druk Nr 28)",
               "their_vote": "wstrzymal_sie",
               "club_majority": "za"
             },
@@ -565,41 +565,41 @@
           "okręg": "III",
           "has_voting_data": true,
           "frekwencja": 100.0,
-          "aktywnosc": 98.5,
-          "zgodnosc_z_klubem": 83.1,
+          "aktywnosc": 96.6,
+          "zgodnosc_z_klubem": 84.0,
           "votes_total": 529,
-          "votes_za": 347,
+          "votes_za": 346,
           "votes_przeciw": 41,
-          "votes_wstrzymal": 90,
+          "votes_wstrzymal": 81,
           "votes_brak": 43,
           "votes_nieobecny": 1,
-          "rebellion_count": 81,
+          "rebellion_count": 75,
           "rebellions": [
             {
               "vote_id": "2024-05-07_003",
               "session": "2024-05-07",
-              "topic": "wniosek o zmiane porzadku obrad dot. pkt 5: »Wybér Zastepcy/Zastepcow Przewodniczacego” - zdjecie z porzadku obrad pkt 5",
+              "topic": "wniosek o zmiane porzadku obrad dot. pkt 5: »Wybér Zastepcy/Zastepcow Przewodniczacego”",
               "their_vote": "wstrzymal_sie",
               "club_majority": "za"
             },
             {
               "vote_id": "2024-05-16_018",
               "session": "2024-05-16",
-              "topic": "wybor przewodniczaca/ego komisji Komisji Turystyki, Uzdrowiska i Ochrony Srodowiska ~ ~ Pan Jareslac Jawada",
+              "topic": "wybor przewodniczaca/ego komisji Komisji Turystyki, Uzdrowiska i Ochrony Srodowiska — kandydat(ka): Jarosław Zawada",
               "their_vote": "wstrzymal_sie",
               "club_majority": "za"
             },
             {
               "vote_id": "2024-05-16_020",
               "session": "2024-05-16",
-              "topic": "wybor ee komisji Sportu ~ = Pan Adam ‘",
+              "topic": "wybor ee komisji Sportu",
               "their_vote": "wstrzymal_sie",
               "club_majority": "za"
             },
             {
               "vote_id": "2024-06-27_015",
               "session": "2024-06-27",
-              "topic": "Temat giosowania: _podjecie uchwaty w sprawie udzielenia Prezydentowi Miasta Sopotu wotum zaufania (Druk Nr 15)",
+              "topic": "podjecie uchwaty w sprawie udzielenia Prezydentowi Miasta Sopotu wotum zaufania (Druk Nr 15)",
               "their_vote": "przeciw",
               "club_majority": "za"
             },
@@ -613,50 +613,8 @@
             {
               "vote_id": "2024-06-27_028",
               "session": "2024-06-27",
-              "topic": "_wniosek o skrdcenie czasu dzierzawy",
+              "topic": "wniosek o skrdcenie czasu dzierzawy",
               "their_vote": "przeciw",
-              "club_majority": "za"
-            },
-            {
-              "vote_id": "2024-09-05_014",
-              "session": "2024-09-05",
-              "topic": "udzielenia dotacji na prace konserwatorskie, restauratorskie lub roboty budowlane przy zabytkach wpisanych do rejestru z",
-              "their_vote": "wstrzymal_sie",
-              "club_majority": "za"
-            },
-            {
-              "vote_id": "2024-09-05_020",
-              "session": "2024-09-05",
-              "topic": "2 wyłożenie - za rozstrzygnięciem o sposobie rozpatrzenia Uwagi nr 2, zgodnie z treścią załącznika nr 2 do projektu uchw",
-              "their_vote": "wstrzymal_sie",
-              "club_majority": "za"
-            },
-            {
-              "vote_id": "2024-09-05_021",
-              "session": "2024-09-05",
-              "topic": "2 wyłożenie - za rozstrzygnięciem o sposobie rozpatrzenia Uwagi nr 3, zgodnie z treścią załącznika nr 2 do projektu uchw",
-              "their_vote": "wstrzymal_sie",
-              "club_majority": "za"
-            },
-            {
-              "vote_id": "2024-09-05_022",
-              "session": "2024-09-05",
-              "topic": "3 wyłożenie - za rozstrzygnięciem o sposobie rozpatrzenia Uwagi, zgodnie z treścią załącznika nr 2 do projektu uchwały (",
-              "their_vote": "wstrzymal_sie",
-              "club_majority": "za"
-            },
-            {
-              "vote_id": "2024-09-05_023",
-              "session": "2024-09-05",
-              "topic": "4 wyłożenie - za rozstrzygnięciem o sposobie rozpatrzenia Uwagi, zgodnie z treścią załącznika nr 2 do projektu uchwały (",
-              "their_vote": "wstrzymal_sie",
-              "club_majority": "za"
-            },
-            {
-              "vote_id": "2024-09-05_024",
-              "session": "2024-09-05",
-              "topic": "za podjęciem uchwały w sprawie uchwalenia miejscowego planu zagospodarowania przestrzennego dla obszaru ograniczonego ul",
-              "their_vote": "wstrzymal_sie",
               "club_majority": "za"
             },
             {
@@ -714,6 +672,48 @@
               "topic": "Głosowanie 29",
               "their_vote": "wstrzymal_sie",
               "club_majority": "za"
+            },
+            {
+              "vote_id": "2024-12-19_002",
+              "session": "2024-12-19",
+              "topic": "Zatwierdzenie porządku obrad sesji.",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2024-12-19_003",
+              "session": "2024-12-19",
+              "topic": "wniosek formalny o ograniczenie czasu wypowiedzi do 3 minut",
+              "their_vote": "przeciw",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2024-12-19_010",
+              "session": "2024-12-19",
+              "topic": "poprawka Pana Radnego Pawła Petkowskiego do projektu uchwały Druk Nr 86",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "przeciw"
+            },
+            {
+              "vote_id": "2025-01-30_007",
+              "session": "2025-01-30",
+              "topic": "Zatwierdzenie protokołu obrad IX sesji, uzupełnionego pismem Pani Prezydent",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2025-01-30_014",
+              "session": "2025-01-30",
+              "topic": "wyrażenia zgody na zawarcie porozumienia z Wojewodą Pomorskim w sprawie prowadzenia spraw z zakresu właściwości Pomorski",
+              "their_vote": "wstrzymal_sie",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2025-01-30_019",
+              "session": "2025-01-30",
+              "topic": "rozpatrzenia skargi na działalność Prezydenta Miasta Sopotu (Druk Nr 112)",
+              "their_vote": "przeciw",
+              "club_majority": "wstrzymal_sie"
             }
           ],
           "has_activity_data": false,
@@ -730,10 +730,10 @@
           "okręg": "IV",
           "has_voting_data": true,
           "frekwencja": 100.0,
-          "aktywnosc": 98.9,
+          "aktywnosc": 98.5,
           "zgodnosc_z_klubem": 99.2,
           "votes_total": 529,
-          "votes_za": 405,
+          "votes_za": 403,
           "votes_przeciw": 83,
           "votes_wstrzymal": 3,
           "votes_brak": 32,
@@ -784,10 +784,10 @@
           "rola": "Przewodnicząca Rady Miasta",
           "has_voting_data": true,
           "frekwencja": 100.0,
-          "aktywnosc": 97.0,
+          "aktywnosc": 97.7,
           "zgodnosc_z_klubem": 98.6,
           "votes_total": 529,
-          "votes_za": 427,
+          "votes_za": 431,
           "votes_przeciw": 82,
           "votes_wstrzymal": 2,
           "votes_brak": 2,
@@ -797,7 +797,7 @@
             {
               "vote_id": "2024-06-27_008",
               "session": "2024-06-27",
-              "topic": "_przerwa",
+              "topic": "przerwa",
               "their_vote": "za",
               "club_majority": "przeciw"
             },
@@ -858,10 +858,10 @@
           "okręg": "IV",
           "has_voting_data": true,
           "frekwencja": 100.0,
-          "aktywnosc": 98.9,
+          "aktywnosc": 99.1,
           "zgodnosc_z_klubem": 99.0,
           "votes_total": 529,
-          "votes_za": 417,
+          "votes_za": 418,
           "votes_przeciw": 78,
           "votes_wstrzymal": 2,
           "votes_brak": 26,
@@ -871,7 +871,7 @@
             {
               "vote_id": "2024-06-27_040",
               "session": "2024-06-27",
-              "topic": "_rozpatrzenia skargi na dzialalnos¢ Prezydenta Miasta Sopotu z 5 lutego uzupeinionej pismami z 16 i 20 lutego 2024 r. (D",
+              "topic": "rozpatrzenia skargi na dzialalnosć Prezydenta Miasta Sopotu z 5 lutego uzupeinionej pismami z 16 i 20 lutego 2024 r. (Dr",
               "their_vote": "wstrzymal_sie",
               "club_majority": "za"
             },
@@ -918,12 +918,12 @@
           "okręg": "IV",
           "has_voting_data": true,
           "frekwencja": 95.0,
-          "aktywnosc": 92.1,
-          "zgodnosc_z_klubem": 93.5,
+          "aktywnosc": 91.1,
+          "zgodnosc_z_klubem": 93.4,
           "votes_total": 529,
-          "votes_za": 292,
+          "votes_za": 290,
           "votes_przeciw": 90,
-          "votes_wstrzymal": 95,
+          "votes_wstrzymal": 92,
           "votes_brak": 10,
           "votes_nieobecny": 28,
           "rebellion_count": 31,
@@ -938,14 +938,14 @@
             {
               "vote_id": "2024-05-16_024",
               "session": "2024-05-16",
-              "topic": "= wybor przewodniczacej/ego Komisji Bezpieczenstwa i Dialogu z Mieszkancami ~ - Pan Jeny Smela yee",
+              "topic": "wybor przewodniczacej/ego Komisji Bezpieczenstwa i Dialogu z Mieszkancami",
               "their_vote": "wstrzymal_sie",
               "club_majority": "przeciw"
             },
             {
               "vote_id": "2024-05-16_038",
               "session": "2024-05-16",
-              "topic": "Data giosowania: — Projekt uchwaly w sprawie delegowania przedstawiciela do reprezentowania Miasta Sopotu w Zgromadzeniu",
+              "topic": "Projekt uchwaly w sprawie delegowania przedstawiciela do reprezentowania Miasta Sopotu w Zgromadzeniu OgéInym Zwiazku Mi",
               "their_vote": "wstrzymal_sie",
               "club_majority": "przeciw"
             },
@@ -959,7 +959,7 @@
             {
               "vote_id": "2024-06-27_017",
               "session": "2024-06-27",
-              "topic": "Data giosowania: wniosek o ograniczenie czasu wypowiedzi do 3 minut",
+              "topic": "wniosek o ograniczenie czasu wypowiedzi do 3 minut",
               "their_vote": "wstrzymal_sie",
               "club_majority": "przeciw"
             },
@@ -1083,12 +1083,12 @@
           "okręg": "IV",
           "has_voting_data": true,
           "frekwencja": 100.0,
-          "aktywnosc": 92.1,
+          "aktywnosc": 91.7,
           "zgodnosc_z_klubem": 93.2,
           "votes_total": 529,
-          "votes_za": 349,
+          "votes_za": 350,
           "votes_przeciw": 43,
-          "votes_wstrzymal": 51,
+          "votes_wstrzymal": 48,
           "votes_brak": 44,
           "votes_nieobecny": 37,
           "rebellion_count": 30,
@@ -1096,7 +1096,7 @@
             {
               "vote_id": "2024-05-16_036",
               "session": "2024-05-16",
-              "topic": "wybor przewodniczacej/ego Komisji Skarg, Wnioskow i Petycji — — Pan Piok-r Kurd a",
+              "topic": "wybor przewodniczacej/ego Komisji Skarg, Wnioskow i Petycji",
               "their_vote": "przeciw",
               "club_majority": "za"
             },
@@ -1110,14 +1110,14 @@
             {
               "vote_id": "2024-06-27_017",
               "session": "2024-06-27",
-              "topic": "Data giosowania: wniosek o ograniczenie czasu wypowiedzi do 3 minut",
+              "topic": "wniosek o ograniczenie czasu wypowiedzi do 3 minut",
               "their_vote": "za",
               "club_majority": "przeciw"
             },
             {
               "vote_id": "2024-06-27_028",
               "session": "2024-06-27",
-              "topic": "_wniosek o skrdcenie czasu dzierzawy",
+              "topic": "wniosek o skrdcenie czasu dzierzawy",
               "their_vote": "wstrzymal_sie",
               "club_majority": "za"
             },
@@ -1248,10 +1248,10 @@
           "okręg": "III",
           "has_voting_data": true,
           "frekwencja": 95.0,
-          "aktywnosc": 75.4,
+          "aktywnosc": 75.6,
           "zgodnosc_z_klubem": 99.7,
           "votes_total": 529,
-          "votes_za": 319,
+          "votes_za": 320,
           "votes_przeciw": 63,
           "votes_wstrzymal": 1,
           "votes_brak": 16,
@@ -1326,12 +1326,12 @@
           "okręg": "III",
           "has_voting_data": true,
           "frekwencja": 100.0,
-          "aktywnosc": 99.2,
+          "aktywnosc": 98.7,
           "zgodnosc_z_klubem": 97.0,
           "votes_total": 529,
           "votes_za": 323,
           "votes_przeciw": 88,
-          "votes_wstrzymal": 87,
+          "votes_wstrzymal": 84,
           "votes_brak": 27,
           "votes_nieobecny": 0,
           "rebellion_count": 15,
@@ -1510,90 +1510,90 @@
           "rola": "Wiceprzewodniczący Rady Miasta",
           "has_voting_data": true,
           "frekwencja": 100.0,
-          "aktywnosc": 98.7,
-          "zgodnosc_z_klubem": 89.3,
+          "aktywnosc": 97.4,
+          "zgodnosc_z_klubem": 90.4,
           "votes_total": 529,
           "votes_za": 326,
           "votes_przeciw": 98,
-          "votes_wstrzymal": 91,
+          "votes_wstrzymal": 84,
           "votes_brak": 7,
           "votes_nieobecny": 1,
-          "rebellion_count": 55,
+          "rebellion_count": 49,
           "rebellions": [
             {
               "vote_id": "2024-05-16_009",
               "session": "2024-05-16",
-              "topic": "wybor przewodniczacej/ego komisji Strategii i Budzetu — ~ far Martin Stefan nck,",
+              "topic": "wybdr przewodniczacej/ego komisji Strategii i Budzetu = ~ Pan Martin Stefan nck",
               "their_vote": "wstrzymal_sie",
               "club_majority": "za"
             },
             {
               "vote_id": "2024-05-16_011",
               "session": "2024-05-16",
-              "topic": "Temat gfosowania: wybdr przewodniczacej/ego Komisji Architektury i tadu Przestrzennego ~ —~ Paw Nalalia PobTetea",
+              "topic": "wybór — kandydat(ka): Natalia Pobłocka",
               "their_vote": "przeciw",
               "club_majority": "wstrzymal_sie"
             },
             {
               "vote_id": "2024-05-16_014",
               "session": "2024-05-16",
-              "topic": "_ wybor przewodniczacej/ego Komisji Edukacji ~ - fan Piotr Oaginck",
+              "topic": "wybor przewodniczacej/ego Komisji Edukacji — kandydat(ka): Piotr Bagiński",
               "their_vote": "wstrzymal_sie",
               "club_majority": "za"
             },
             {
               "vote_id": "2024-05-16_016",
               "session": "2024-05-16",
-              "topic": "wybor przewodniczacej/ego Komisji Polityki Spotecznej = ~Pan Piotr ne",
+              "topic": "wybor przewodniczacej/ego Komisji Polityki Spotecznej",
               "their_vote": "wstrzymal_sie",
               "club_majority": "za"
             },
             {
               "vote_id": "2024-05-16_018",
               "session": "2024-05-16",
-              "topic": "wybor przewodniczaca/ego komisji Komisji Turystyki, Uzdrowiska i Ochrony Srodowiska ~ ~ Pan Jareslac Jawada",
+              "topic": "wybor przewodniczaca/ego komisji Komisji Turystyki, Uzdrowiska i Ochrony Srodowiska — kandydat(ka): Jarosław Zawada",
               "their_vote": "wstrzymal_sie",
               "club_majority": "za"
             },
             {
               "vote_id": "2024-05-16_020",
               "session": "2024-05-16",
-              "topic": "wybor ee komisji Sportu ~ = Pan Adam ‘",
+              "topic": "wybor ee komisji Sportu",
               "their_vote": "wstrzymal_sie",
               "club_majority": "za"
             },
             {
               "vote_id": "2024-05-16_022",
               "session": "2024-05-16",
-              "topic": "wybdr przewodniczacej/ego Komisji Kultury ~ —~ Pan lea yvoliaa em vy k = o aktbouska",
+              "topic": "wybdr przewodniczacej/ego Komisji Kultury ~ —~ Pan lea yvoliaa em vy k = fe) akbouska",
               "their_vote": "wstrzymal_sie",
               "club_majority": "za"
             },
             {
               "vote_id": "2024-05-16_024",
               "session": "2024-05-16",
-              "topic": "= wybor przewodniczacej/ego Komisji Bezpieczenstwa i Dialogu z Mieszkancami ~ - Pan Jeny Smela yee",
+              "topic": "wybor przewodniczacej/ego Komisji Bezpieczenstwa i Dialogu z Mieszkancami",
               "their_vote": "wstrzymal_sie",
               "club_majority": "przeciw"
             },
             {
               "vote_id": "2024-05-16_027",
               "session": "2024-05-16",
-              "topic": "wybdr przewodniczacej/ego Komisji Gospodarki Komunainej Pole fai Mewbea mong ~ —fan Barbara Breericka |",
+              "topic": "wybór — kandydat(ka): Barbara Brzezicka",
               "their_vote": "wstrzymal_sie",
               "club_majority": "za"
             },
             {
               "vote_id": "2024-05-16_036",
               "session": "2024-05-16",
-              "topic": "wybor przewodniczacej/ego Komisji Skarg, Wnioskow i Petycji — — Pan Piok-r Kurd a",
+              "topic": "wybor przewodniczacej/ego Komisji Skarg, Wnioskow i Petycji",
               "their_vote": "wstrzymal_sie",
               "club_majority": "za"
             },
             {
               "vote_id": "2024-05-16_038",
               "session": "2024-05-16",
-              "topic": "Data giosowania: — Projekt uchwaly w sprawie delegowania przedstawiciela do reprezentowania Miasta Sopotu w Zgromadzeniu",
+              "topic": "Projekt uchwaly w sprawie delegowania przedstawiciela do reprezentowania Miasta Sopotu w Zgromadzeniu OgéInym Zwiazku Mi",
               "their_vote": "za",
               "club_majority": "przeciw"
             },
@@ -1614,7 +1614,7 @@
             {
               "vote_id": "2024-06-27_003",
               "session": "2024-06-27",
-              "topic": "dodanie do porzadku obrad sesji projektu uchwaly w sprawie rozpatrzenia skargi na dziatalnos¢ Prezydenta Miasta Sopotu z",
+              "topic": "dodanie do porzadku obrad sesji projektu uchwaly w sprawie rozpatrzenia skargi na dziatalnosć Prezydenta Miasta Sopotu z",
               "their_vote": "za",
               "club_majority": "wstrzymal_sie"
             },
@@ -1626,39 +1626,39 @@
               "club_majority": "wstrzymal_sie"
             },
             {
-              "vote_id": "2024-09-05_002",
-              "session": "2024-09-05",
-              "topic": "dodanie do porządku obrad projektu uchwały w sprawie ustalenia wysokości opłaty za pobyt i maksymalnej opłaty za wyżywie",
+              "vote_id": "2024-09-26_003",
+              "session": "2024-09-26",
+              "topic": "dodanie do porządku obrad projektu uchwały w sprawie: zmian w budżecie miasta Sopotu na 2024 (Druk Nr 60)",
               "their_vote": "za",
               "club_majority": "wstrzymal_sie"
             },
             {
-              "vote_id": "2024-09-05_018",
-              "session": "2024-09-05",
-              "topic": "1 wyhzenie - za rozstrzygnięciem o sposobie rozpatrzenia Uwagi nr 4, zgodnie z treścią załącznika nr 2 do projektu uchwa",
-              "their_vote": "wstrzymal_sie",
-              "club_majority": "za"
+              "vote_id": "2024-09-26_014",
+              "session": "2024-09-26",
+              "topic": "zaciągnięcia długoterminowego zobowiązania, które będzie wynikać z pożyczki udzielanej przez Bank Gospodarstwa Krajowego",
+              "their_vote": "za",
+              "club_majority": "wstrzymal_sie"
             },
             {
-              "vote_id": "2024-09-05_019",
-              "session": "2024-09-05",
-              "topic": "2 wyłożenie - za rozstrzygnięciem o sposobie rozpatrzenia Uwagi nr 1, zgodnie z treścią załącznika nr 2 do projektu uchw",
-              "their_vote": "wstrzymal_sie",
-              "club_majority": "za"
-            },
-            {
-              "vote_id": "2024-09-05_020",
-              "session": "2024-09-05",
-              "topic": "2 wyłożenie - za rozstrzygnięciem o sposobie rozpatrzenia Uwagi nr 2, zgodnie z treścią załącznika nr 2 do projektu uchw",
-              "their_vote": "wstrzymal_sie",
-              "club_majority": "za"
-            },
-            {
-              "vote_id": "2024-09-05_021",
-              "session": "2024-09-05",
-              "topic": "2 wyłożenie - za rozstrzygnięciem o sposobie rozpatrzenia Uwagi nr 3, zgodnie z treścią załącznika nr 2 do projektu uchw",
+              "vote_id": "2024-11-21_008",
+              "session": "2024-11-21",
+              "topic": "Głosowanie 8",
               "their_vote": "wstrzymal_sie",
               "club_majority": "przeciw"
+            },
+            {
+              "vote_id": "2024-11-21_019",
+              "session": "2024-11-21",
+              "topic": "wniosek formalny o zamknięcie dyskusji",
+              "their_vote": "przeciw",
+              "club_majority": "za"
+            },
+            {
+              "vote_id": "2025-03-06_009",
+              "session": "2025-03-06",
+              "topic": "przyjęcia programu opieki nad zwierzętami bezdomnymi oraz zapobiegania bezdomności zwierząt na terenie Sopotu w 2025 rok",
+              "their_vote": "za",
+              "club_majority": "wstrzymal_sie"
             }
           ],
           "has_activity_data": false,
@@ -1675,10 +1675,10 @@
           "okręg": "II",
           "has_voting_data": true,
           "frekwencja": 100.0,
-          "aktywnosc": 98.7,
+          "aktywnosc": 98.9,
           "zgodnosc_z_klubem": 99.0,
           "votes_total": 529,
-          "votes_za": 422,
+          "votes_za": 423,
           "votes_przeciw": 87,
           "votes_wstrzymal": 3,
           "votes_brak": 10,
@@ -1748,7 +1748,7 @@
             {
               "vote_id": "2024-06-27_028",
               "session": "2024-06-27",
-              "topic": "_wniosek o skrdcenie czasu dzierzawy",
+              "topic": "wniosek o skrdcenie czasu dzierzawy",
               "their_vote": "wstrzymal_sie",
               "club_majority": "przeciw"
             },
@@ -1809,10 +1809,10 @@
           "okręg": "I",
           "has_voting_data": true,
           "frekwencja": 100.0,
-          "aktywnosc": 97.9,
+          "aktywnosc": 98.9,
           "zgodnosc_z_klubem": 99.6,
           "votes_total": 529,
-          "votes_za": 416,
+          "votes_za": 421,
           "votes_przeciw": 84,
           "votes_wstrzymal": 1,
           "votes_brak": 17,
@@ -1848,15 +1848,15 @@
           "okręg": "II",
           "has_voting_data": true,
           "frekwencja": 100.0,
-          "aktywnosc": 98.1,
-          "zgodnosc_z_klubem": 77.6,
+          "aktywnosc": 97.0,
+          "zgodnosc_z_klubem": 78.1,
           "votes_total": 529,
-          "votes_za": 239,
+          "votes_za": 240,
           "votes_przeciw": 128,
-          "votes_wstrzymal": 110,
+          "votes_wstrzymal": 103,
           "votes_brak": 42,
           "votes_nieobecny": 1,
-          "rebellion_count": 107,
+          "rebellion_count": 103,
           "rebellions": [
             {
               "vote_id": "2024-05-16_001",
@@ -1889,14 +1889,14 @@
             {
               "vote_id": "2024-05-16_016",
               "session": "2024-05-16",
-              "topic": "wybor przewodniczacej/ego Komisji Polityki Spotecznej = ~Pan Piotr ne",
+              "topic": "wybor przewodniczacej/ego Komisji Polityki Spotecznej",
               "their_vote": "wstrzymal_sie",
               "club_majority": "za"
             },
             {
               "vote_id": "2024-05-16_029",
               "session": "2024-05-16",
-              "topic": "Data giosowania: Temat giosowania: przerwa",
+              "topic": "przerwa",
               "their_vote": "przeciw",
               "club_majority": "za"
             },
@@ -1945,7 +1945,7 @@
             {
               "vote_id": "2024-06-27_021",
               "session": "2024-06-27",
-              "topic": "Data giosowania: — emisji obligacji komunalnych Miasta Sopotu oraz okreslenia zasad ich zbywania, nabywania i wykupu (Dr",
+              "topic": "emisji obligacji komunalnych Miasta Sopotu oraz okreslenia zasad ich zbywania, nabywania i wykupu (Druk Nr 32)",
               "their_vote": "przeciw",
               "club_majority": "wstrzymal_sie"
             },
@@ -1973,14 +1973,14 @@
             {
               "vote_id": "2024-06-27_041",
               "session": "2024-06-27",
-              "topic": "Data giosowania: —ogtoszenia tekstu jednolitego Statutu Miasta Sopotu (Druk Nr 24)",
+              "topic": "ogtoszenia tekstu jednolitego Statutu Miasta Sopotu (Druk Nr 24)",
               "their_vote": "przeciw",
               "club_majority": "za"
             },
             {
               "vote_id": "2024-06-27_042",
               "session": "2024-06-27",
-              "topic": "Temat giosowania: —_przyjecia Raportu z wykonania Gminnego Programu profilaktyki i rozwiazywania problemow alkoholowych ",
+              "topic": "przyjecia Raportu z wykonania Gminnego Programu profilaktyki i rozwiazywania problemow alkoholowych oraz przeciwdziatani",
               "their_vote": "wstrzymal_sie",
               "club_majority": "za"
             },
@@ -2014,16 +2014,23 @@
           "rola": "Wiceprzewodniczący Rady Miasta",
           "has_voting_data": true,
           "frekwencja": 100.0,
-          "aktywnosc": 98.7,
-          "zgodnosc_z_klubem": 97.9,
+          "aktywnosc": 99.2,
+          "zgodnosc_z_klubem": 97.7,
           "votes_total": 529,
-          "votes_za": 424,
-          "votes_przeciw": 87,
+          "votes_za": 426,
+          "votes_przeciw": 88,
           "votes_wstrzymal": 4,
           "votes_brak": 7,
           "votes_nieobecny": 1,
-          "rebellion_count": 11,
+          "rebellion_count": 12,
           "rebellions": [
+            {
+              "vote_id": "2024-05-16_025",
+              "session": "2024-05-16",
+              "topic": "Głosowanie 25",
+              "their_vote": "za",
+              "club_majority": "przeciw"
+            },
             {
               "vote_id": "2024-10-29_017",
               "session": "2024-10-29",
