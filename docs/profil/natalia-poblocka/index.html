@@ -7,7 +7,6 @@
 <meta name="description" content="Profil: Natalia Pobłocka. Sprawdz glosowania, frekwencje i aktywnosc w Radzie Miasta Sopotu.">
 <meta name="keywords" content="Sopot, rada miasta, radni, głosowania, frekwencja, samorząd, monitoring, transparentność">
 <meta name="author" content="Patryk Orwat">
-<link rel="icon" type="image/svg+xml" href="/favicon.svg">
 <link rel="canonical" href="https://sopot.radoskop.pl/profil/natalia-poblocka/">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Natalia Pobłocka - Radoskop Sopot">
@@ -15,13 +14,9 @@
 <meta property="og:url" content="https://sopot.radoskop.pl/profil/natalia-poblocka/">
 <meta property="og:locale" content="pl_PL">
 <meta property="og:site_name" content="Radoskop Sopot">
-<meta property="og:image" content="https://sopot.radoskop.pl/og-image.png">
-<meta property="og:image:width" content="1200">
-<meta property="og:image:height" content="630">
-<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Natalia Pobłocka - Radoskop Sopot">
 <meta name="twitter:description" content="Profil: Natalia Pobłocka. Sprawdz glosowania, frekwencje i aktywnosc w Radzie Miasta Sopotu.">
-<meta name="twitter:image" content="https://sopot.radoskop.pl/og-image.png">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -38,7 +33,7 @@
   "about": {
     "@type": "GovernmentOrganization",
     "name": "Rada Miasta Sopotu",
-    "url": "https://bip.sopot.pl/rada-miasta,1690"
+    "url": "https://bip.sopot.pl"
   },
   "license": "https://www.gnu.org/licenses/agpl-3.0.html",
   "isAccessibleForFree": true,
@@ -46,8 +41,6 @@
 }
 </script>
 <!-- No analytics configured -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-1SH24XVXR3"></script>
-<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-1SH24XVXR3');</script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
 <style>
 :root {
@@ -57,9 +50,9 @@
   --text: #1a1d27;
   --muted: #6b7280;
   --accent: #4f46e5;
-  --green: #15803d;
+  --green: #16a34a;
   --red: #dc2626;
-  --yellow: #a16207;
+  --yellow: #ca8a04;
   --blue: #2563eb;
 }
 * { margin:0; padding:0; box-sizing:border-box; }
@@ -88,9 +81,7 @@ th.sorted { color:var(--text); }
 td { padding:10px 12px; border-bottom:1px solid var(--border); }
 tr:hover td { background:rgba(99,102,241,0.05); }
 .club { display:inline-block; padding:2px 8px; border-radius:4px; font-size:0.75rem; font-weight:600; }
-.club-KdS { background:rgba(14,165,233,0.12); color:#0284c7; }
-.club-PiS { background:rgba(168,85,247,0.12); color:#7c3aed; }
-.club-KS { background:rgba(239,68,68,0.12); color:#dc2626; }
+
 .club-unknown { background:rgba(139,141,151,0.15); color:var(--muted); }
 .bar { height:6px; border-radius:3px; background:var(--border); position:relative; min-width:60px; }
 .bar-fill { height:100%; border-radius:3px; position:absolute; left:0; top:0; }
@@ -197,105 +188,9 @@ footer a { color:var(--accent); text-decoration:none; }
 .cat-group-header .cat-pill { font-size:0.8rem; padding:3px 10px; }
 .cat-group-count { color:var(--muted); font-size:0.8rem; }
 .cat-summary { display:flex; flex-wrap:wrap; gap:4px; margin-bottom:12px; }
-
-.seo-intro { margin: 0 0 8px; padding: 0; }
-.seo-intro p { color: var(--muted); font-size: 0.88rem; line-height: 1.7; margin-bottom: 10px; }
-.seo-intro strong { color: var(--text); font-weight: 600; }
-.seo-tab-desc { color: var(--muted); font-size: 0.82rem; line-height: 1.6; margin-bottom: 14px; padding: 0; }
-a.name-link { text-decoration:underline; text-decoration-color:rgba(79,70,229,0.3); text-underline-offset:2px; }
-a.name-link:hover { text-decoration-color:var(--accent); }
-footer a { text-decoration:underline; text-decoration-color:rgba(79,70,229,0.3); }
-.stats-grid { min-height:90px; }
-header { min-height:80px; }
-
-/* ── Mobile ── */
-@media (max-width: 600px) {
-  .container { padding:12px; }
-  header { padding:20px 0 12px; margin-bottom:16px; }
-  header h1 { font-size:1.5rem; }
-  header div { min-width:0; }
-  .tab-bar { flex-wrap:nowrap; overflow-x:auto; -webkit-overflow-scrolling:touch; scrollbar-width:none; gap:4px; padding-bottom:4px; }
-  .tab-bar::-webkit-scrollbar { display:none; }
-  .tab { white-space:nowrap; flex-shrink:0; padding:6px 12px; font-size:0.8rem; }
-  .kadencja-bar { flex-wrap:nowrap; overflow-x:auto; -webkit-overflow-scrolling:touch; }
-  .kadencja-btn { flex-shrink:0; padding:6px 12px; font-size:0.8rem; }
-  .stats-grid { grid-template-columns:repeat(auto-fit,minmax(140px,1fr)); gap:8px; }
-  .stat-card { padding:12px; }
-  .stat-card .value { font-size:1.5rem; }
-  .profile-metrics { grid-template-columns:repeat(3, 1fr); gap:8px; }
-  .metric-card { padding:10px 6px; }
-  .metric-card .metric-value { font-size:1.2rem; word-break:break-word; }
-  .metric-card .metric-label { font-size:0.65rem; }
-  .profile-meta { grid-template-columns:1fr; gap:10px; }
-  .filter-bar { flex-wrap:nowrap; overflow-x:auto; -webkit-overflow-scrolling:touch; scrollbar-width:none; padding-bottom:4px; }
-  .filter-bar::-webkit-scrollbar { display:none; }
-  .session-pill { flex-shrink:0; }
-  table { display:block; overflow-x:auto; -webkit-overflow-scrolling:touch; }
-  th, td { padding:8px 8px; font-size:0.8rem; white-space:nowrap; }
-  th:first-child, td:first-child { position:sticky; left:0; background:var(--bg); z-index:1; }
-  .vote-names-grid { grid-template-columns:1fr 1fr; }
-  .session-attendees { grid-template-columns:1fr; }
-  .speaker-name { min-width:100px; font-size:0.8rem; }
-  .profiles-grid { grid-template-columns:1fr; }
-  .similarity-pair { font-size:0.8rem; gap:8px; }
-  .section h2 { font-size:1.1rem; }
-  .chart-wrap { padding:12px; }
-  .pager-btn { padding:4px 8px; font-size:0.8rem; }
-  .uchwala-meta { font-size:0.8rem; }
-  .votes-sess-header { padding:8px 10px; flex-wrap:wrap; }
-  .votes-sess-title { font-size:0.85rem; }
-  .votes-sess-stats { font-size:0.75rem; gap:6px; }
-  .profile-header { gap:12px; }
-  .profile-avatar { width:56px; height:56px; font-size:1.4rem; }
-  .profile-info h2 { font-size:1.3rem; }
-}
-
 </style>
 </head>
 <body>
-<main>
-<noscript>
-<div class="container">
-<h2>Radoskop Sopot</h2>
-<p>Otwarte narzędzie monitoringu Rady Miasta Sopotu. Dane z protokołów Biuletynu Informacji Publicznej (BIP).</p>
-<h2>Dane</h2>
-<ul>
-<li>Kadencja IX kadencja (2024–2029): 20 sesji, 529 głosowań, 21 radnych</li>
-</ul>
-<h2>Radni — IX kadencja (2024–2029)</h2>
-<ul>
-<li>Adam Gil (Koalicja Dla Sopotu)</li>
-<li>Aleksandra Gosk (Koalicja Dla Sopotu)</li>
-<li>Barbara Brzezicka (Koalicja Dla Sopotu)</li>
-<li>Grażyna Czajkowska (Kocham Sopot)</li>
-<li>Grzegorz Wendykowski (Koalicja Dla Sopotu)</li>
-<li>Jakub Świderski (Prawo i Sprawiedliwość)</li>
-<li>Jan Karasowski (Prawo i Sprawiedliwość)</li>
-<li>Jarosław Kempa (Kocham Sopot)</li>
-<li>Jarosław Zawada (Koalicja Dla Sopotu)</li>
-<li>Jerzy Smolarek (Koalicja Dla Sopotu)</li>
-<li>Justyna Lewandowska (Koalicja Dla Sopotu)</li>
-<li>Karolina Niemczyk-Bałtowska (Koalicja Dla Sopotu)</li>
-<li>Marcin Stefański (Koalicja Dla Sopotu)</li>
-<li>Natalia Pobłocka (Koalicja Dla Sopotu)</li>
-<li>Paweł Petkowski (Prawo i Sprawiedliwość)</li>
-<li>Piotr Bagiński (Koalicja Dla Sopotu)</li>
-<li>Piotr Harhaj (Koalicja Dla Sopotu)</li>
-<li>Piotr Kurdziel (Koalicja Dla Sopotu)</li>
-<li>Piotr Meler (Prawo i Sprawiedliwość)</li>
-<li>Wojciech Fułek (Kocham Sopot)</li>
-<li>Zbigniew Duzinkiewicz (Koalicja Dla Sopotu)</li>
-</ul>
-<h2>Funkcje</h2>
-<ul>
-<li>Ranking radnych wg frekwencji, aktywności i zgodności z klubem</li>
-<li>Profile radnych z historią głosowań na sesjach Rady Miasta Sopotu</li>
-<li>Analiza podobieństwa głosowań między radnymi</li>
-<li>Przegląd sesji i szczegóły poszczególnych głosowań</li>
-</ul>
-<p>Aby korzystać z interaktywnych funkcji, włącz JavaScript w przeglądarce.</p>
-</div>
-</noscript>
 <div class="container">
   <header>
     <div onclick="showMain()" style="cursor:pointer">
@@ -322,7 +217,6 @@ header { min-height:80px; }
     </div>
 
     <div id="tab-ranking" class="section">
-      <p class="seo-tab-desc">Ranking wszystkich 21 radnych Miasta Sopotu w kadencji 2024–2029. Sortuj według frekwencji, aktywności głosowania, zgodności z klubem lub liczby głosów wbrew linii klubowej. Kliknij nazwisko radnego, aby zobaczyć pełny profil.</p>
       <div class="filter-bar" id="club-filter"></div>
       <div style="overflow-x:auto">
         <table id="councilor-table">
@@ -346,13 +240,11 @@ header { min-height:80px; }
     </div>
 
     <div id="tab-profiles" class="section" style="display:none">
-      <p class="seo-tab-desc">Profile 21 radnych Miasta Sopotu — zdjęcia, przynależność klubowa, statystyki obecności i głosowań. Każdy profil zawiera szczegółową historię głosowań radnego na wszystkich sesjach rady.</p>
       <div class="filter-bar" id="profiles-club-filter"></div>
       <div class="profiles-grid" id="profiles-grid"></div>
     </div>
 
     <div id="tab-sessions" class="section" style="display:none">
-      <p class="seo-tab-desc">Lista wszystkich sesji Rady Miasta Sopotu w kadencji 2024–2029. Dla każdej sesji: data, liczba głosowań, przyjętych i odrzuconych uchwał, frekwencja radnych. Kliknij sesję, aby zobaczyć szczegóły głosowań.</p>
       <div style="overflow-x:auto">
         <table id="sessions-table">
           <thead>
@@ -372,13 +264,11 @@ header { min-height:80px; }
     </div>
 
     <div id="tab-votes" class="section" style="display:none">
-      <p class="seo-tab-desc">Wszystkie głosowania Rady Miasta Sopotu pogrupowane tematycznie: budżet, inwestycje, transport, strefa czystego transportu, nieruchomości, oświata i inne. Filtruj po kategorii, aby szybko znaleźć interesujące Cię uchwały.</p>
       <div class="filter-bar" id="cat-filter" style="margin-bottom:12px;flex-wrap:wrap"></div>
       <div id="votes-grouped"></div>
     </div>
 
     <div id="tab-similarity" class="section" style="display:none">
-      <p class="seo-tab-desc">Analiza podobieństwa głosowań radnych Sopotu — kto z kim najczęściej głosuje tak samo, a między którymi radnymi największe różnice. Wizualizacja koalicji i podziałów w Radzie Miasta.</p>
       <h2>Najczęściej głosują tak samo</h2>
       <div id="sim-top"></div>
       <h2 style="margin-top:30px">Najrzadziej głosują tak samo</h2>
@@ -386,7 +276,6 @@ header { min-height:80px; }
     </div>
 
     <div id="tab-budget" class="section" style="display:none">
-      <p class="seo-tab-desc">Analiza budżetu Sopotu — dochody, wydatki i deficyt w latach 2020–2026. Struktura wydatków według kategorii: edukacja, transport, gospodarka komunalna, kultura, sport. Głosowania budżetowe rady miasta.</p>
       <div id="budget-content"></div>
     </div>
 
@@ -403,9 +292,8 @@ header { min-height:80px; }
 
   <footer>
     Radoskop — otwarte narzędzie monitoringu samorządu.
-    Dane źródłowe: <a href="https://bip.sopot.pl/rada-miasta,1690" target="_blank">BIP Sopot</a>.
+    Dane źródłowe: <a href="https://bip.sopot.pl" target="_blank">BIP Sopot</a>.
     Kod: <a href="https://github.com/patrykorwat/radoskop-sopot" target="_blank">GitHub</a> (AGPL-3.0).
-    <br>Zobacz też: <a href="https://radoskop.pl/">Strona główna</a> · <a href="https://gdansk.radoskop.pl/">Gdańsk</a> · <a href="https://gdynia.radoskop.pl/">Gdynia</a> · <a href="https://warszawa.radoskop.pl/">Warszawa</a> · <a href="https://krakow.radoskop.pl/">Kraków</a> · <a href="https://poznan.radoskop.pl/">Poznań</a> · <a href="https://wroclaw.radoskop.pl/">Wrocław</a>
   </footer>
 </div>
 
@@ -491,38 +379,14 @@ async function init() {
     history.replaceState(null, '', decodeURIComponent(sp.get('p')));
   }
   try {
-    const [dataResp, profResp] = await Promise.all([
+    const [dataResp, profResp, budgetResp] = await Promise.all([
       fetch('/data.json'),
-      fetch('/profiles.json')
+      fetch('/profiles.json'),
+      fetch('/budget.json')
     ]);
     RAW = await dataResp.json();
     PROFILES = await profResp.json();
-    try { const br = await fetch('/budget.json'); if (br.ok) window.BUDGET = await br.json(); } catch(e) { window.BUDGET = null; }
-
-    // Enrich councilors with computed fields from profiles
-    for (const kad of RAW.kadencje) {
-      for (const c of kad.councilors) {
-        // Flatten nested stats if present
-        if (c.stats && !c.frekwencja) {
-          c.frekwencja = c.stats.frekwencja ?? 0;
-          c.votes_za = c.stats.za ?? 0;
-          c.votes_przeciw = c.stats.przeciw ?? 0;
-          c.votes_wstrzymal = c.stats.wstrzymal_sie ?? 0;
-          c.votes_brak = c.stats.brak_glosu ?? 0;
-          c.votes_nieobecny = c.stats.nieobecni ?? 0;
-          c.votes_total = c.stats.total_votes ?? 0;
-        }
-        // Merge computed fields from profiles (aktywnosc, zgodnosc, rebellion)
-        const prof = PROFILES && PROFILES.profiles.find(p => p.name === c.name);
-        if (prof && prof.kadencje[kad.id]) {
-          const pk = prof.kadencje[kad.id];
-          if (c.aktywnosc === undefined) c.aktywnosc = pk.aktywnosc ?? 0;
-          if (c.zgodnosc_z_klubem === undefined) c.zgodnosc_z_klubem = pk.zgodnosc_z_klubem ?? 0;
-          if (c.rebellion_count === undefined) c.rebellion_count = pk.rebellion_count ?? 0;
-        }
-      }
-    }
-
+    window.BUDGET = await budgetResp.json();
     document.getElementById('loading').style.display = 'none';
     document.getElementById('app').style.display = 'block';
     renderKadencjaBar();
@@ -554,7 +418,7 @@ async function init() {
       navigateTo(path, true);
       return;
     }
-    if (path === '/budzet') {
+    if (path === '/budzet' || path === '/budzet/') {
       selectKadencjaQuiet(defaultKid);
       activateTab('budget');
       navigateTo(path, true);
@@ -630,10 +494,10 @@ function hideAllViews() {
 let currentTab = 'ranking';
 const TAB_SLUGS = {ranking:'ranking',profiles:'radni',sessions:'sesje',votes:'glosowania',similarity:'podobienstwo',budget:'budzet'};
 const SLUG_TABS = Object.fromEntries(Object.entries(TAB_SLUGS).map(([k,v])=>[v,k]));
-const KAD_SLUGS = {'2018-2024':'viii','2024-2029':'ix'};
+const KAD_SLUGS = {'2018-2023':'viii','2024-2029':'ix'};
 const SLUG_KADS = Object.fromEntries(Object.entries(KAD_SLUGS).map(([k,v])=>[v,k]));
 
-const BASE_TITLE = 'Radoskop Sopot — Jak głosują radni?';
+const BASE_TITLE = 'Radoskop Sopot — Jak głosują radni? Monitoring Rady Miasta Sopotu';
 const TAB_TITLES = {ranking:'Ranking radnych',profiles:'Profile radnych',sessions:'Sesje',votes:'Głosowania',similarity:'Podobieństwo',budget:'Budżet'};
 function setTitle(subtitle) {
   document.title = subtitle ? subtitle + ' — ' + BASE_TITLE : BASE_TITLE;
@@ -642,15 +506,17 @@ function setTitle(subtitle) {
 function mainPath(tab, kid) {
   tab = tab || currentTab;
   kid = kid || currentKid;
-  if (tab === 'budget') return '/budzet';
+  if (tab === 'budget') return '/budzet/';
   const kadSlug = KAD_SLUGS[kid] || kid;
   const tabSlug = TAB_SLUGS[tab] || tab;
   if (tab === 'ranking' && kid === (RAW.default_kadencja || '2024-2029')) return '/';
-  return '/kadencja/' + kadSlug + '/' + tabSlug;
+  return '/kadencja/' + kadSlug + '/' + tabSlug + '/';
 }
 
 function navigateTo(path, replace) {
   if (typeof _popstateActive !== 'undefined' && _popstateActive) return;
+  // Ensure trailing slash for all paths except root
+  if (path !== '/' && !path.endsWith('/')) path += '/';
   if (replace) history.replaceState(null, '', path);
   else history.pushState(null, '', path);
 }
@@ -717,13 +583,13 @@ function renderClubFilter() {
 }
 
 function clubColor(club) {
-  return club === 'KdS' ? '#0284c7' : club === 'PiS' ? '#7c3aed' : club === 'KS' ? '#dc2626' : 'var(--muted)';
+  return  : 'var(--muted)';
 }
 function clubBg(club) {
-  return club === 'KdS' ? '#0369a1' : club === 'PiS' ? '#6d28d9' : club === 'KS' ? '#b91c1c' : '#374151';
+  return  : '#374151';
 }
 function clubClass(club) {
-  return ['KdS','PiS','KS'].includes(club) ? `club-${club}` : 'club-unknown';
+  return [].includes(club) ? `club-${club}` : 'club-unknown';
 }
 function initials(name) {
   return name.split(' ').map(w => w[0]).join('').substring(0,2);
@@ -747,7 +613,7 @@ function renderCouncilorTable() {
 
   tbody.innerHTML = data.map(c => {
     return `<tr>
-      <td><a class="name-link" href="/profil/${profileSlug(c.name)}" onclick="event.preventDefault();showProfile('${c.name.replace(/'/g, "\\'")}')">${c.name}</a></td>
+      <td><a class="name-link" href="/profil/${profileSlug(c.name)}/" onclick="event.preventDefault();showProfile('${c.name.replace(/'/g, "\\'")}')">${c.name}</a></td>
       <td><span class="club ${clubClass(c.club)}">${c.club}</span></td>
       <td>${pctBar(c.frekwencja)}</td>
       <td>${pctBar(c.aktywnosc)}</td>
@@ -828,7 +694,7 @@ function showProfile(name) {
   hideAllViews();
   const view = document.getElementById('profile-view');
   view.style.display = 'block';
-  navigateTo('/profil/' + profile.slug);
+  navigateTo('/profil/' + profile.slug + '/');
   setTitle(profile.name);
 
   // Find which kadencje this person has data for
@@ -998,7 +864,7 @@ function showProfile(name) {
         // Find matching vote ID by date + topic prefix (use kadencja matching kid, not global K)
         const kadVotes = (RAW.kadencje.find(k => k.id === kid) || {}).votes || [];
         const matchVote = kadVotes.find(v => v.session_date === r.session && r.topic && v.topic && v.topic.substring(0,80) === r.topic.substring(0,80));
-        const topicHtml = matchVote ? `<a class="name-link" href="/glosowanie/${matchVote.id}" onclick="event.preventDefault();showVote('${matchVote.id}')">${r.topic}</a>` : r.topic;
+        const topicHtml = matchVote ? `<a class="name-link" href="/glosowanie/${matchVote.id}/" onclick="event.preventDefault();showVote('${matchVote.id}')">${r.topic}</a>` : r.topic;
         return `<div class="rebellion-item">
           <div class="reb-date">${r.session} · głos: <span class="pill pill-${r.their_vote === 'przeciw' ? 'przeciw' : 'wstrzymal'}">${({za:'za',przeciw:'przeciw',wstrzymal_sie:isFemale(profile.name)?'wstrzymała się':'wstrzymał się'})[r.their_vote]||r.their_vote}</span> (klub: ${({za:'za',przeciw:'przeciw',wstrzymal_sie:'wstrzymał się'})[r.club_majority]||r.club_majority})</div>
           <div>${catPill(categorizeVote(r.topic))} ${topicHtml}</div>
@@ -1057,7 +923,7 @@ function showProfile(name) {
           const { sess, votes: pvs } = sessGroups[sk];
           html += `<div class="profile-sess-group" data-sessdate="${sess.date}" style="margin-bottom:16px">
             <div style="font-weight:600;margin-bottom:6px;font-size:0.9rem">
-              <a class="name-link" href="/sesja/${encodeURIComponent(sess.number)}" onclick="event.preventDefault();showSession('${sess.number}')">Sesja ${sess.number} · ${sess.date}</a>
+              <a class="name-link" href="/sesja/${encodeURIComponent(sess.number)}/" onclick="event.preventDefault();showSession('${sess.number}')">Sesja ${sess.number} · ${sess.date}</a>
               <span class="sess-vote-count" style="color:var(--muted);font-weight:400;margin-left:8px">(${pvs.length} głosowań)</span>
             </div>
             <table><tbody>`;
@@ -1274,7 +1140,7 @@ function renderVotesTable() {
       <div class="votes-sess-header" onclick="this.parentElement.classList.toggle('collapsed')">
         <div class="votes-sess-title">
           <span class="votes-sess-toggle">▼</span>
-          <a href="/sesja/${encodeURIComponent(s.number)}" onclick="event.preventDefault();event.stopPropagation();showSession('${s.number}')">Sesja ${s.number} · ${s.date}</a>
+          <a href="/sesja/${encodeURIComponent(s.number)}/" onclick="event.preventDefault();event.stopPropagation();showSession('${s.number}')">Sesja ${s.number} · ${s.date}</a>
         </div>
         <div class="votes-sess-stats">
           <span>${sessVotes.length} głos.</span>
@@ -1295,7 +1161,7 @@ function renderVotesTable() {
         <td><span class="pill pill-za">${c.za||0}</span></td>
         <td>${c.przeciw ? `<span class="pill pill-przeciw">${c.przeciw}</span>` : '0'}</td>
         <td>${c.wstrzymal_sie ? `<span class="pill pill-wstrzymal">${c.wstrzymal_sie}</span>` : '0'}</td>
-        <td><span style="color:${passed?'var(--green)':'var(--red)'}; font-weight:600;font-size:0.8rem">${passed?'Przyjęte':'Odrzucone'}</span></td>
+        <td><span style="color:${passed?'var(--green)':'var(--red)'};font-weight:600;font-size:0.8rem">${passed?'Przyjęte':'Odrzucone'}</span></td>
       </tr>`;
     });
 
@@ -1317,7 +1183,7 @@ function showVote(voteId) {
   hideAllViews();
   const view = document.getElementById('vote-view');
   view.style.display = 'block';
-  navigateTo('/glosowanie/' + voteId);
+  navigateTo('/glosowanie/' + voteId + '/');
   setTitle('Głosowanie: ' + (vote.topic || voteId).substring(0, 60));
 
   const c = vote.counts || {};
@@ -1339,7 +1205,7 @@ function showVote(voteId) {
       const cl = clubMap[n] || '?';
       return `<div class="vote-name-item" style="background:${bgColor}">
         <span class="club ${clubClass(cl)}">${cl}</span>
-        <a class="name-link" href="/profil/${profileSlug(n)}" onclick="event.preventDefault();showProfile('${n.replace(/'/g, "\\'")}')">${n}</a>
+        <a class="name-link" href="/profil/${profileSlug(n)}/" onclick="event.preventDefault();showProfile('${n.replace(/'/g, "\\'")}')">${n}</a>
       </div>`;
     }).join('')}</div>`;
   }
@@ -1347,7 +1213,7 @@ function showVote(voteId) {
   let html = `
     <button class="profile-back" onclick="showSession('${vote.session_number}')">← Sesja ${vote.session_number}</button>
     <div style="margin-bottom:24px">
-      <div style="color:var(--muted);font-size:0.85rem;margin-bottom:4px"><a class="name-link" href="/sesja/${encodeURIComponent(vote.session_number)}" onclick="event.preventDefault();showSession('${vote.session_number}')" style="color:var(--muted)">Sesja ${vote.session_number} · ${vote.session_date}</a></div>
+      <div style="color:var(--muted);font-size:0.85rem;margin-bottom:4px"><a class="name-link" href="/sesja/${encodeURIComponent(vote.session_number)}/" onclick="event.preventDefault();showSession('${vote.session_number}')" style="color:var(--muted)">Sesja ${vote.session_number} · ${vote.session_date}</a></div>
       <h2 style="font-size:1.3rem;font-weight:600;border:none;padding:0">${vote.topic || '?'}</h2>
       ${vote.druk ? `<div style="color:var(--muted);margin-top:4px">Druk: ${vote.druk}</div>` : ''}
       ${vote.resolution ? `<div style="color:var(--muted)">Uchwała: ${vote.resolution}</div>` : ''}
@@ -1446,7 +1312,7 @@ function showSession(sessionNumber) {
   hideAllViews();
   const view = document.getElementById('session-view');
   view.style.display = 'block';
-  navigateTo('/sesja/' + encodeURIComponent(sessionNumber));
+  navigateTo('/sesja/' + encodeURIComponent(sessionNumber) + '/');
   setTitle('Sesja ' + sessionNumber + (sess.date ? ' (' + sess.date + ')' : ''));
 
   // Club lookup
@@ -1508,7 +1374,7 @@ function showSession(sessionNumber) {
       const cl = clubMap[sp.name] || '?';
       const barPct = Math.max((sp.words / maxWords) * 100, 2);
       return `<div class="speaker-bar">
-        <span class="speaker-name"><span class="club ${clubClass(cl)}">${cl}</span> <a class="name-link" href="/profil/${profileSlug(sp.name)}" onclick="event.preventDefault();showProfile('${sp.name.replace(/'/g, "\\'")}')">${sp.name}</a></span>
+        <span class="speaker-name"><span class="club ${clubClass(cl)}">${cl}</span> <a class="name-link" href="/profil/${profileSlug(sp.name)}/" onclick="event.preventDefault();showProfile('${sp.name.replace(/'/g, "\\'")}')">${sp.name}</a></span>
         <div class="speaker-bar-fill" style="width:${barPct}%"></div>
         <span style="color:var(--muted);font-size:0.8rem;white-space:nowrap">${sp.statements} wyp. · ${sp.words.toLocaleString('pl')} słów</span>
       </div>`;
@@ -1555,7 +1421,7 @@ function showSession(sessionNumber) {
         <td><span class="pill pill-za">${c.za||0}</span></td>
         <td>${c.przeciw ? `<span class="pill pill-przeciw">${c.przeciw}</span>` : '0'}</td>
         <td>${c.wstrzymal_sie ? `<span class="pill pill-wstrzymal">${c.wstrzymal_sie}</span>` : '0'}</td>
-        <td style="color:${ok?'var(--green)':'var(--red)'}; font-weight:600">${ok?'✓':'✗'}</td>
+        <td style="color:${ok?'var(--green)':'var(--red)'};font-weight:600">${ok?'✓':'✗'}</td>
       </tr>`;
     });
     html += `</tbody></table></div>`;
@@ -1568,7 +1434,7 @@ function showSession(sessionNumber) {
     <div class="session-attendees">`;
   sortByLastName([...present]).forEach(n => {
     const cl = clubMap[n] || '?';
-    html += `<div class="session-attendee"><span class="club ${clubClass(cl)}">${cl}</span> <a class="name-link" href="/profil/${profileSlug(n)}" onclick="event.preventDefault();showProfile('${n.replace(/'/g, "\\'")}')">${n}</a></div>`;
+    html += `<div class="session-attendee"><span class="club ${clubClass(cl)}">${cl}</span> <a class="name-link" href="/profil/${profileSlug(n)}/" onclick="event.preventDefault();showProfile('${n.replace(/'/g, "\\'")}')">${n}</a></div>`;
   });
   html += `</div></div>`;
 
@@ -1578,7 +1444,7 @@ function showSession(sessionNumber) {
       <div class="session-attendees">`;
     absent.forEach(n => {
       const cl = clubMap[n] || '?';
-      html += `<div class="session-attendee session-absent"><span class="club ${clubClass(cl)}">${cl}</span> <a class="name-link" href="/profil/${profileSlug(n)}" onclick="event.preventDefault();showProfile('${n.replace(/'/g, "\\'")}')">${n}</a></div>`;
+      html += `<div class="session-attendee session-absent"><span class="club ${clubClass(cl)}">${cl}</span> <a class="name-link" href="/profil/${profileSlug(n)}/" onclick="event.preventDefault();showProfile('${n.replace(/'/g, "\\'")}')">${n}</a></div>`;
     });
     html += `</div></div>`;
   }
@@ -1606,7 +1472,7 @@ function renderSimilarity() {
     el.innerHTML = pairs.map(p => `
       <div class="similarity-pair">
         <span class="similarity-score" style="color:${p.score>=90?'var(--green)':p.score>=70?'var(--yellow)':'var(--red)'}">${p.score}%</span>
-        <span><a class="name-link" href="/profil/${profileSlug(p.a)}" onclick="event.preventDefault();showProfile('${p.a.replace(/'/g, "\\'")}')">${p.a}</a> <span style="color:var(--muted)">↔</span> <a class="name-link" href="/profil/${profileSlug(p.b)}" onclick="event.preventDefault();showProfile('${p.b.replace(/'/g, "\\'")}')">${p.b}</a></span>
+        <span><a class="name-link" href="/profil/${profileSlug(p.a)}/" onclick="event.preventDefault();showProfile('${p.a.replace(/'/g, "\\'")}')">${p.a}</a> <span style="color:var(--muted)">↔</span> <a class="name-link" href="/profil/${profileSlug(p.b)}/" onclick="event.preventDefault();showProfile('${p.b.replace(/'/g, "\\'")}')">${p.b}</a></span>
       </div>
     `).join('');
   };
@@ -1618,7 +1484,7 @@ let budgetChartTrend = null, budgetChartCat = null;
 
 function renderBudget() {
   const B = window.BUDGET;
-  if (!B || !B.totals) return;
+  if (!B) return;
   const container = document.getElementById('budget-content');
   const fmt = (n) => (n/1e9).toFixed(2).replace('.', ',') + ' mld';
   const fmtM = (n) => n >= 1e9 ? fmt(n) : (n/1e6).toFixed(0) + ' mln';
@@ -1708,7 +1574,6 @@ function renderBudget() {
           </div>
         </div>`;
     }
-
 
     // Budget votes for this year
     if (votes.length > 0) {
@@ -1868,7 +1733,7 @@ window.addEventListener('popstate', () => {
   // Main page tab/kadencja paths
   hideAllViews();
   document.getElementById('app').style.display = 'block';
-  if (path === '/budzet') {
+  if (path === '/budzet' || path === '/budzet/') {
     activateTab('budget');
   } else if (path.startsWith('/kadencja/')) {
     const parts = path.replace('/kadencja/', '').split('/');
@@ -1889,6 +1754,5 @@ window.addEventListener('popstate', () => {
 
 init();
 </script>
-</main>
 </body>
 </html>
