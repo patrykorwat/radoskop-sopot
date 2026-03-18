@@ -1,14 +1,74 @@
 [
   {
+    "cri": "Z238/2026",
+    "typ": "zapytanie",
+    "rok": 2026,
+    "kadencja": "2024-2029",
+    "radny": "Barbara Brzezicka",
+    "przedmiot": "dot. zasobu komunalnego - rok 2025 i 2026",
+    "data_wplywu": "2026-03-17",
+    "tresc_url": "https://bip.sopot.pl/api/files/58043",
+    "odpowiedz_url": "",
+    "data_odpowiedzi": ""
+  },
+  {
+    "cri": "237/2026",
+    "typ": "interpelacja",
+    "rok": 2026,
+    "kadencja": "2024-2029",
+    "radny": "Barbara Brzezicka",
+    "przedmiot": "dot. utrzymania czystości na tzw. \"Małym Monciaku\"",
+    "data_wplywu": "2026-03-17",
+    "tresc_url": "https://bip.sopot.pl/api/files/58042",
+    "odpowiedz_url": "",
+    "data_odpowiedzi": ""
+  },
+  {
     "cri": "236/2026",
     "typ": "interpelacja",
     "rok": 2026,
     "kadencja": "2024-2029",
-    "radny": "",
-    "przedmiot": "",
-    "data_wplywu": "2026-03-10",
+    "radny": "Piotr Meler",
+    "przedmiot": "dot. spotkania w  sprawie planów utworzenia rezerwatu w lasach sopockich",
+    "data_wplywu": "2026-03-16",
     "tresc_url": "https://bip.sopot.pl/api/files/57949",
     "odpowiedz_url": "",
+    "data_odpowiedzi": ""
+  },
+  {
+    "cri": "Z235/2026",
+    "typ": "zapytanie",
+    "rok": 2026,
+    "kadencja": "2024-2029",
+    "radny": "",
+    "przedmiot": "dot. pasa zieleni przy ul. Jana Kochanowskiego oraz ul. 3 Maja i ul. Parkowej",
+    "data_wplywu": "2026-03-16",
+    "tresc_url": "https://bip.sopot.pl/api/files/57872",
+    "odpowiedz_url": "https://bip.sopot.pl/api/files/58010",
+    "data_odpowiedzi": ""
+  },
+  {
+    "cri": "Z233/2026",
+    "typ": "zapytanie",
+    "rok": 2026,
+    "kadencja": "2024-2029",
+    "radny": "Jarosław Zawada",
+    "przedmiot": "dot. oświetlenia pomnika Martyrologii Polskich Mieszkańców Sopotu",
+    "data_wplywu": "2026-03-16",
+    "tresc_url": "https://bip.sopot.pl/api/files/57870",
+    "odpowiedz_url": "https://bip.sopot.pl/api/files/58009",
+    "data_odpowiedzi": ""
+  },
+  {
+    "cri": "Z234/2026",
+    "typ": "zapytanie",
+    "rok": 2026,
+    "kadencja": "2024-2029",
+    "radny": "Jarosław Zawada",
+    "przedmiot": "dot. drewnianych pomostów w okolicy wejścia Nr 1 na sopocką plażę",
+    "data_wplywu": "2026-03-13",
+    "tresc_url": "https://bip.sopot.pl/api/files/57871",
+    "odpowiedz_url": "https://bip.sopot.pl/api/files/57994",
     "data_odpowiedzi": ""
   },
   {
@@ -57,42 +117,6 @@
     "data_wplywu": "2026-03-04",
     "tresc_url": "https://bip.sopot.pl/api/files/57792",
     "odpowiedz_url": "https://bip.sopot.pl/api/files/57894",
-    "data_odpowiedzi": ""
-  },
-  {
-    "cri": "Z235/2026",
-    "typ": "zapytanie",
-    "rok": 2026,
-    "kadencja": "2024-2029",
-    "radny": "",
-    "przedmiot": "dot. pasa zieleni przy ul. Jana Kochanowskiego oraz ul. 3 Maja i ul. Parkowej",
-    "data_wplywu": "2026-03-02",
-    "tresc_url": "https://bip.sopot.pl/api/files/57872",
-    "odpowiedz_url": "",
-    "data_odpowiedzi": ""
-  },
-  {
-    "cri": "Z234/2026",
-    "typ": "zapytanie",
-    "rok": 2026,
-    "kadencja": "2024-2029",
-    "radny": "Jarosław Zawada",
-    "przedmiot": "dot. drewnianych pomostów w okolicy wejścia Nr 1 na sopocką plażę",
-    "data_wplywu": "2026-02-27",
-    "tresc_url": "https://bip.sopot.pl/api/files/57871",
-    "odpowiedz_url": "",
-    "data_odpowiedzi": ""
-  },
-  {
-    "cri": "Z233/2026",
-    "typ": "zapytanie",
-    "rok": 2026,
-    "kadencja": "2024-2029",
-    "radny": "Jarosław Zawada",
-    "przedmiot": "dot. oświetlenia pomnika Martyrologii Polskich Mieszkańców Sopotu",
-    "data_wplywu": "2026-02-27",
-    "tresc_url": "https://bip.sopot.pl/api/files/57870",
-    "odpowiedz_url": "",
     "data_odpowiedzi": ""
   },
   {
