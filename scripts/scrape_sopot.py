@@ -481,6 +481,30 @@ def compact_named_votes(output):
         return ""
 
 
+
+def save_split_output(output, out_path):
+    """Save output as split files: data.json (index) + kadencja-{id}.json per kadencja."""
+    import json as _json
+    from pathlib import Path as _Path
+    compact_named_votes(output)
+    out_path = _Path(out_path)
+    out_path.parent.mkdir(parents=True, exist_ok=True)
+    stubs = []
+    for kad in output.get("kadencje", []):
+        kid = kad["id"]
+        stubs.append({"id": kid, "label": kad.get("label", f"Kadencja {kid}")})
+        kad_path = out_path.parent / f"kadencja-{kid}.json"
+        with open(kad_path, "w", encoding="utf-8") as f:
+            _json.dump(kad, f, ensure_ascii=False, separators=(",", ":"))
+    index = {
+        "generated": output.get("generated", ""),
+        "default_kadencja": output.get("default_kadencja", ""),
+        "kadencje": stubs,
+    }
+    with open(out_path, "w", encoding="utf-8") as f:
+        _json.dump(index, f, ensure_ascii=False, separators=(",", ":"))
+
+
 def _parse_votes_pdf(filepath: Path, att: dict) -> list[dict]:
     """Parse votes from a PDF file (sessions I–XVI).
 
@@ -1609,11 +1633,7 @@ def main():
     }
 
     out_path = Path(args.output)
-    out_path.parent.mkdir(parents=True, exist_ok=True)
-    with open(out_path, "w", encoding="utf-8") as f:
-        compact_named_votes(output)
-
-        json.dump(output, f, ensure_ascii=False, separators=(',', ':'))
+    save_split_output(output, out_path)
 
     print(f"\nZapisano dane: {out_path}")
     named_v = sum(1 for v in all_votes if sum(len(nv) for nv in v["named_votes"].values()) > 0)
