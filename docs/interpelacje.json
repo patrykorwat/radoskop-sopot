@@ -1,5 +1,29 @@
 [
   {
+    "cri": "240/2026",
+    "typ": "interpelacja",
+    "rok": 2026,
+    "kadencja": "2024-2029",
+    "radny": "Jakub Świderski",
+    "przedmiot": "dot. nowego logo miasta Sopotu",
+    "data_wplywu": "2026-03-18",
+    "tresc_url": "https://bip.sopot.pl/api/files/58049",
+    "odpowiedz_url": "",
+    "data_odpowiedzi": ""
+  },
+  {
+    "cri": "239/2026",
+    "typ": "interpelacja",
+    "rok": 2026,
+    "kadencja": "2024-2029",
+    "radny": "Jakub Świderski",
+    "przedmiot": "dot. rozbudowy sali sportowej przy Szkole Podstawowej nr 8",
+    "data_wplywu": "2026-03-18",
+    "tresc_url": "https://bip.sopot.pl/api/files/58048",
+    "odpowiedz_url": "",
+    "data_odpowiedzi": ""
+  },
+  {
     "cri": "Z238/2026",
     "typ": "zapytanie",
     "rok": 2026,
