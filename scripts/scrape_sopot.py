@@ -430,8 +430,33 @@ def _parse_votes_docx(filepath: Path, att: dict) -> list[dict]:
 
 
 def _ocr_page(page) -> str:
-    """OCR a single PDF page using Tesseract."""
-    import subprocess, tempfile
+    """OCR a single PDF page using Tesseract via pixmap rendering."""
+    import subprocess
+    import tempfile
+    import os
+
+    pix = page.get_pixmap(dpi=300)
+    with tempfile.NamedTemporaryFile(suffix=".png", delete=False) as tmp:
+        tmp_path = tmp.name
+        pix.save(tmp_path)
+
+    try:
+        result = subprocess.run(
+            ["tesseract", tmp_path, "stdout", "-l", "pol", "--psm", "6"],
+            capture_output=True,
+            text=True,
+            timeout=60,
+        )
+        return result.stdout
+    except FileNotFoundError:
+        print("    UWAGA: tesseract nie jest zainstalowany, pomijam OCR")
+        return ""
+    except subprocess.TimeoutExpired:
+        print("    UWAGA: timeout OCR")
+        return ""
+    finally:
+        os.unlink(tmp_path)
+
 
 def compact_named_votes(output):
     """Convert named_votes from string arrays to indexed format for smaller JSON."""
