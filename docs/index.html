@@ -82,7 +82,9 @@ th.sorted { color:var(--text); }
 td { padding:10px 12px; border-bottom:1px solid var(--border); }
 tr:hover td { background:rgba(99,102,241,0.05); }
 .club { display:inline-block; padding:2px 8px; border-radius:4px; font-size:0.75rem; font-weight:600; }
-
+.club-Koalicja Dla Sopotu { background:rgba(99,102,241,0.12); color:#4f46e5; }
+.club-Kocham Sopot { background:rgba(14,165,233,0.12); color:#0284c7; }
+.club-Prawo i Sprawiedliwość { background:rgba(168,85,247,0.12); color:#7c3aed; }
 .club-unknown { background:rgba(139,141,151,0.15); color:var(--muted); }
 .bar { height:6px; border-radius:3px; background:var(--border); position:relative; min-width:60px; }
 .bar-fill { height:100%; border-radius:3px; position:absolute; left:0; top:0; }
@@ -687,13 +689,13 @@ function renderClubFilter() {
 }
 
 function clubColor(club) {
-  return  : 'var(--muted)';
+  return club === 'Koalicja Dla Sopotu' ? 'var(--green)' : club === 'Kocham Sopot' ? 'var(--blue)' : club === 'Prawo i Sprawiedliwość' ? 'var(--red)' : 'var(--muted)';
 }
 function clubBg(club) {
-  return  : '#374151';
+  return club === 'Koalicja Dla Sopotu' ? '#4338ca' : club === 'Kocham Sopot' ? '#0369a1' : club === 'Prawo i Sprawiedliwość' ? '#6d28d9' : '#374151';
 }
 function clubClass(club) {
-  return [].includes(club) ? `club-${club}` : 'club-unknown';
+  return ['Koalicja Dla Sopotu','Kocham Sopot','Prawo i Sprawiedliwość'].includes(club) ? `club-${club}` : 'club-unknown';
 }
 function initials(name) {
   return name.split(' ').map(w => w[0]).join('').substring(0,2);
