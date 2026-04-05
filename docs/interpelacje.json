@@ -6,21 +6,9 @@
     "kadencja": "2024-2029",
     "radny": "Jakub Świderski",
     "przedmiot": "dot. nowego logo miasta Sopotu",
-    "data_wplywu": "2026-03-18",
+    "data_wplywu": "2026-04-01",
     "tresc_url": "https://bip.sopot.pl/api/files/58049",
-    "odpowiedz_url": "",
-    "data_odpowiedzi": ""
-  },
-  {
-    "cri": "239/2026",
-    "typ": "interpelacja",
-    "rok": 2026,
-    "kadencja": "2024-2029",
-    "radny": "Jakub Świderski",
-    "przedmiot": "dot. rozbudowy sali sportowej przy Szkole Podstawowej nr 8",
-    "data_wplywu": "2026-03-18",
-    "tresc_url": "https://bip.sopot.pl/api/files/58048",
-    "odpowiedz_url": "",
+    "odpowiedz_url": "https://bip.sopot.pl/api/files/58175",
     "data_odpowiedzi": ""
   },
   {
@@ -30,9 +18,21 @@
     "kadencja": "2024-2029",
     "radny": "Barbara Brzezicka",
     "przedmiot": "dot. zasobu komunalnego - rok 2025 i 2026",
-    "data_wplywu": "2026-03-17",
+    "data_wplywu": "2026-04-01",
     "tresc_url": "https://bip.sopot.pl/api/files/58043",
-    "odpowiedz_url": "",
+    "odpowiedz_url": "https://bip.sopot.pl/api/files/58173",
+    "data_odpowiedzi": ""
+  },
+  {
+    "cri": "239/2026",
+    "typ": "interpelacja",
+    "rok": 2026,
+    "kadencja": "2024-2029",
+    "radny": "Jakub Świderski",
+    "przedmiot": "dot. rozbudowy sali sportowej przy Szkole Podstawowej nr 8",
+    "data_wplywu": "2026-03-30",
+    "tresc_url": "https://bip.sopot.pl/api/files/58048",
+    "odpowiedz_url": "https://bip.sopot.pl/api/files/58162",
     "data_odpowiedzi": ""
   },
   {
@@ -42,9 +42,9 @@
     "kadencja": "2024-2029",
     "radny": "Barbara Brzezicka",
     "przedmiot": "dot. utrzymania czystości na tzw. \"Małym Monciaku\"",
-    "data_wplywu": "2026-03-17",
+    "data_wplywu": "2026-03-25",
     "tresc_url": "https://bip.sopot.pl/api/files/58042",
-    "odpowiedz_url": "",
+    "odpowiedz_url": "https://bip.sopot.pl/api/files/58120",
     "data_odpowiedzi": ""
   },
   {
@@ -54,7 +54,7 @@
     "kadencja": "2024-2029",
     "radny": "Piotr Meler",
     "przedmiot": "dot. spotkania w  sprawie planów utworzenia rezerwatu w lasach sopockich",
-    "data_wplywu": "2026-03-16",
+    "data_wplywu": "2026-03-23",
     "tresc_url": "https://bip.sopot.pl/api/files/57949",
     "odpowiedz_url": "",
     "data_odpowiedzi": ""
